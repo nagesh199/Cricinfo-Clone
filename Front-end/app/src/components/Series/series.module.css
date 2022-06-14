@@ -1,0 +1,34 @@
+.head {
+    width: 70%;
+    height: 50px;
+    display: flex;
+    margin: 30px;
+}
+.headh4:hover {
+    color:#4a9ec9;
+    cursor: pointer;
+}
+.currentMain {
+    width:70%;
+    display: flex;
+    background-color: #ffffff;
+    margin-left: 10px;
+    position:relative;
+}
+.right {
+    width:30%
+}
+.h3 {
+    font-size:15px;
+    color: #0c0400;
+}
+.International {
+    color:#4a9ec9;
+    margin-bottom: 50px;
+}
+.International>p:hover {
+    cursor: pointer;
+}
+.left {
+    margin-left: -250px;
+}
