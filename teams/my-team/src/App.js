@@ -1,11 +1,11 @@
 import logo from './logo.svg';
 import './App.css';
-import { Teams } from './pages/teams';
+import { MainRoutes } from './routes/MainRoutes';
 
 function App() {
   return (
     <div className="App">
-    <Teams/>
+    <MainRoutes/>
     </div>
   );
 }
