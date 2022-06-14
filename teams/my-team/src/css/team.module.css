@@ -1,0 +1,34 @@
+.navbar{
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px; 
+}
+.navbar>div{
+    width: 60%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.navbar>div>div{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.navbar>div span {
+    padding-left: 3%;
+    font-weight: bold;
+  }
+.navbar > div img {
+    width: 50px;
+  }
+  .mainBox{
+    border: 1px solid red;
+    width: 90%;
+    margin: auto;
+    margin-top: 2%;
+    display: flex;
+    justify-content: space-between;
+    height: 100px;
+  }
+  .mainBox>div{
+    width: 30%;
+    border: 1px solid ;
+  }
