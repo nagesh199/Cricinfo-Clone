@@ -2,6 +2,7 @@
     box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px; 
 }
 .navbar>div{
+  margin-left:5%;
     width: 60%;
     display: flex;
     justify-content: space-between;
@@ -20,15 +21,39 @@
     width: 50px;
   }
   .mainBox{
-    border: 1px solid red;
     width: 90%;
     margin: auto;
-    margin-top: 2%;
+    margin-top:2%;
     display: flex;
     justify-content: space-between;
     height: 100px;
+
   }
-  .mainBox>div{
+  .matches{
     width: 30%;
-    border: 1px solid ;
+    box-sizing: border-box;
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+    border-radius: 5%;
+    padding: 5%;
+
   }
+  .matches>div:first-child{
+   display: flex;
+   align-items: center;
+   font-weight: bold;
+   border: 1px solid;
+   border-radius:10%;
+   font-size: large;
+   justify-content: space-between;
+  }
+  .matches>div:first-child>div{
+    width: 50%;
+    padding: 5%;
+    border-radius:10%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   }
+   .matches>div:first-child>div:hover{
+ background-color: #03a9f4;
+   }

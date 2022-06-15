@@ -1,0 +1,939 @@
+{
+    "teamMatchesData": [
+      {
+        "matchDetailsMap": {
+          "key": "South Africa tour of India, 2022",
+          "match": [
+            {
+              "matchInfo": {
+                "matchId": 38662,
+                "seriesId": 3697,
+                "seriesName": "South Africa tour of India, 2022",
+                "matchDesc": "4th T20I",
+                "matchFormat": "T20",
+                "startDate": "1655472600000",
+                "endDate": "1655485200000",
+                "state": "Upcoming",
+                "team1": {
+                  "teamId": 2,
+                  "teamName": "India",
+                  "teamSName": "IND",
+                  "imageId": 172115
+                },
+                "team2": {
+                  "teamId": 11,
+                  "teamName": "South Africa",
+                  "teamSName": "RSA",
+                  "imageId": 172126
+                },
+                "venueInfo": {
+                  "id": 290,
+                  "ground": "Saurashtra Cricket Association Stadium",
+                  "city": "Rajkot",
+                  "timezone": "+05:30"
+                },
+                "seriesStartDt": "1654732800000",
+                "seriesEndDt": "1655769600000",
+                "isTimeAnnounced": true
+              }
+            },
+            {
+              "matchInfo": {
+                "matchId": 38667,
+                "seriesId": 3697,
+                "seriesName": "South Africa tour of India, 2022",
+                "matchDesc": "5th T20I",
+                "matchFormat": "T20",
+                "startDate": "1655645400000",
+                "endDate": "1655658000000",
+                "state": "Upcoming",
+                "team1": {
+                  "teamId": 2,
+                  "teamName": "India",
+                  "teamSName": "IND",
+                  "imageId": 172115
+                },
+                "team2": {
+                  "teamId": 11,
+                  "teamName": "South Africa",
+                  "teamSName": "RSA",
+                  "imageId": 172126
+                },
+                "venueInfo": {
+                  "id": 27,
+                  "ground": "M.Chinnaswamy Stadium",
+                  "city": "Bengaluru",
+                  "timezone": "+05:30"
+                },
+                "seriesStartDt": "1654732800000",
+                "seriesEndDt": "1655769600000",
+                "isTimeAnnounced": true
+              }
+            }
+          ],
+          "seriesId": 3697
+        }
+      },
+      {
+        "matchDetailsMap": {
+          "key": "India tour of England, 2022",
+          "match": [
+            {
+              "matchInfo": {
+                "matchId": 48016,
+                "seriesId": 3636,
+                "seriesName": "India tour of England, 2022",
+                "matchDesc": "4-day Warm-up Match",
+                "matchFormat": "TEST",
+                "startDate": "1656064800000",
+                "endDate": "1656349200000",
+                "state": "Upcoming",
+                "team1": {
+                  "teamId": 145,
+                  "teamName": "Leicestershire",
+                  "teamSName": "LEIC",
+                  "imageId": 172212
+                },
+                "team2": {
+                  "teamId": 2,
+                  "teamName": "India",
+                  "teamSName": "IND",
+                  "imageId": 172115
+                },
+                "venueInfo": {
+                  "id": 222,
+                  "ground": "Grace Road",
+                  "city": "Leicester",
+                  "timezone": "+01:00"
+                },
+                "seriesStartDt": "1656028800000",
+                "seriesEndDt": "1658188800000",
+                "isTimeAnnounced": true
+              }
+            },
+            {
+              "matchInfo": {
+                "matchId": 41846,
+                "seriesId": 3636,
+                "seriesName": "India tour of England, 2022",
+                "matchDesc": "5th Test (Rescheduled match)",
+                "matchFormat": "TEST",
+                "startDate": "1656669600000",
+                "endDate": "1657040400000",
+                "state": "Upcoming",
+                "team1": {
+                  "teamId": 9,
+                  "teamName": "England",
+                  "teamSName": "ENG",
+                  "imageId": 172123
+                },
+                "team2": {
+                  "teamId": 2,
+                  "teamName": "India",
+                  "teamSName": "IND",
+                  "imageId": 172115
+                },
+                "venueInfo": {
+                  "id": 20,
+                  "ground": "Edgbaston",
+                  "city": "Birmingham",
+                  "timezone": "+01:00"
+                },
+                "seriesStartDt": "1656028800000",
+                "seriesEndDt": "1658188800000",
+                "isTimeAnnounced": true
+              }
+            },
+            {
+              "matchInfo": {
+                "matchId": 48023,
+                "seriesId": 3636,
+                "seriesName": "India tour of England, 2022",
+                "matchDesc": "1st T20 Warm-up Match",
+                "matchFormat": "T20",
+                "startDate": "1656696600000",
+                "endDate": "1656709200000",
+                "state": "Upcoming",
+                "team1": {
+                  "teamId": 144,
+                  "teamName": "Derbyshire",
+                  "teamSName": "DERBY",
+                  "imageId": 172211
+                },
+                "team2": {
+                  "teamId": 2,
+                  "teamName": "India",
+                  "teamSName": "IND",
+                  "imageId": 172115
+                },
+                "venueInfo": {
+                  "id": 226,
+                  "ground": "County Ground",
+                  "city": "Derby",
+                  "timezone": "+01:00"
+                },
+                "seriesStartDt": "1656028800000",
+                "seriesEndDt": "1658188800000",
+                "isTimeAnnounced": true
+              }
+            },
+            {
+              "matchInfo": {
+                "matchId": 48025,
+                "seriesId": 3636,
+                "seriesName": "India tour of England, 2022",
+                "matchDesc": "2nd T20 Warm-up Match",
+                "matchFormat": "T20",
+                "startDate": "1656855000000",
+                "endDate": "1656867600000",
+                "state": "Upcoming",
+                "team1": {
+                  "teamId": 142,
+                  "teamName": "Northamptonshire",
+                  "teamSName": "NHNTS",
+                  "imageId": 172209
+                },
+                "team2": {
+                  "teamId": 2,
+                  "teamName": "India",
+                  "teamSName": "IND",
+                  "imageId": 172115
+                },
+                "venueInfo": {
+                  "id": 119,
+                  "ground": "County Ground",
+                  "city": "Northampton",
+                  "timezone": "+01:00"
+                },
+                "seriesStartDt": "1656028800000",
+                "seriesEndDt": "1658188800000",
+                "isTimeAnnounced": true
+              }
+            },
+            {
+              "matchInfo": {
+                "matchId": 38301,
+                "seriesId": 3636,
+                "seriesName": "India tour of England, 2022",
+                "matchDesc": "1st T20I",
+                "matchFormat": "T20",
+                "startDate": "1657215000000",
+                "endDate": "1657227600000",
+                "state": "Upcoming",
+                "team1": {
+                  "teamId": 9,
+                  "teamName": "England",
+                  "teamSName": "ENG",
+                  "imageId": 172123
+                },
+                "team2": {
+                  "teamId": 2,
+                  "teamName": "India",
+                  "teamSName": "IND",
+                  "imageId": 172115
+                },
+                "venueInfo": {
+                  "id": 21,
+                  "ground": "The Rose Bowl",
+                  "city": "Southampton",
+                  "timezone": "+01:00"
+                },
+                "seriesStartDt": "1656028800000",
+                "seriesEndDt": "1658188800000",
+                "isTimeAnnounced": true
+              }
+            },
+            {
+              "matchInfo": {
+                "matchId": 38306,
+                "seriesId": 3636,
+                "seriesName": "India tour of England, 2022",
+                "matchDesc": "2nd T20I",
+                "matchFormat": "T20",
+                "startDate": "1657373400000",
+                "endDate": "1657386000000",
+                "state": "Upcoming",
+                "team1": {
+                  "teamId": 9,
+                  "teamName": "England",
+                  "teamSName": "ENG",
+                  "imageId": 172123
+                },
+                "team2": {
+                  "teamId": 2,
+                  "teamName": "India",
+                  "teamSName": "IND",
+                  "imageId": 172115
+                },
+                "venueInfo": {
+                  "id": 20,
+                  "ground": "Edgbaston",
+                  "city": "Birmingham",
+                  "timezone": "+01:00"
+                },
+                "seriesStartDt": "1656028800000",
+                "seriesEndDt": "1658188800000",
+                "isTimeAnnounced": true
+              }
+            },
+            {
+              "matchInfo": {
+                "matchId": 38311,
+                "seriesId": 3636,
+                "seriesName": "India tour of England, 2022",
+                "matchDesc": "3rd T20I",
+                "matchFormat": "T20",
+                "startDate": "1657474200000",
+                "endDate": "1657486800000",
+                "state": "Upcoming",
+                "team1": {
+                  "teamId": 9,
+                  "teamName": "England",
+                  "teamSName": "ENG",
+                  "imageId": 172123
+                },
+                "team2": {
+                  "teamId": 2,
+                  "teamName": "India",
+                  "teamSName": "IND",
+                  "imageId": 172115
+                },
+                "venueInfo": {
+                  "id": 18,
+                  "ground": "Trent Bridge",
+                  "city": "Nottingham",
+                  "timezone": "+01:00"
+                },
+                "seriesStartDt": "1656028800000",
+                "seriesEndDt": "1658188800000",
+                "isTimeAnnounced": true
+              }
+            },
+            {
+              "matchInfo": {
+                "matchId": 38312,
+                "seriesId": 3636,
+                "seriesName": "India tour of England, 2022",
+                "matchDesc": "1st ODI",
+                "matchFormat": "ODI",
+                "startDate": "1657620000000",
+                "endDate": "1657648800000",
+                "state": "Upcoming",
+                "team1": {
+                  "teamId": 9,
+                  "teamName": "England",
+                  "teamSName": "ENG",
+                  "imageId": 172123
+                },
+                "team2": {
+                  "teamId": 2,
+                  "teamName": "India",
+                  "teamSName": "IND",
+                  "imageId": 172115
+                },
+                "venueInfo": {
+                  "id": 12,
+                  "ground": "Kennington Oval",
+                  "city": "London",
+                  "timezone": "+01:00"
+                },
+                "seriesStartDt": "1656028800000",
+                "seriesEndDt": "1658188800000",
+                "isTimeAnnounced": true
+              }
+            },
+            {
+              "matchInfo": {
+                "matchId": 38317,
+                "seriesId": 3636,
+                "seriesName": "India tour of England, 2022",
+                "matchDesc": "2nd ODI",
+                "matchFormat": "ODI",
+                "startDate": "1657800000000",
+                "endDate": "1657828800000",
+                "state": "Upcoming",
+                "team1": {
+                  "teamId": 9,
+                  "teamName": "England",
+                  "teamSName": "ENG",
+                  "imageId": 172123
+                },
+                "team2": {
+                  "teamId": 2,
+                  "teamName": "India",
+                  "teamSName": "IND",
+                  "imageId": 172115
+                },
+                "venueInfo": {
+                  "id": 19,
+                  "ground": "Lord's",
+                  "city": "London",
+                  "timezone": "+01:00"
+                },
+                "seriesStartDt": "1656028800000",
+                "seriesEndDt": "1658188800000",
+                "isTimeAnnounced": true
+              }
+            },
+            {
+              "matchInfo": {
+                "matchId": 38321,
+                "seriesId": 3636,
+                "seriesName": "India tour of England, 2022",
+                "matchDesc": "3rd ODI",
+                "matchFormat": "ODI",
+                "startDate": "1658059200000",
+                "endDate": "1658088000000",
+                "state": "Upcoming",
+                "team1": {
+                  "teamId": 9,
+                  "teamName": "England",
+                  "teamSName": "ENG",
+                  "imageId": 172123
+                },
+                "team2": {
+                  "teamId": 2,
+                  "teamName": "India",
+                  "teamSName": "IND",
+                  "imageId": 172115
+                },
+                "venueInfo": {
+                  "id": 65,
+                  "ground": "Emirates Old Trafford",
+                  "city": "Manchester",
+                  "timezone": "+01:00"
+                },
+                "seriesStartDt": "1656028800000",
+                "seriesEndDt": "1658188800000",
+                "isTimeAnnounced": true
+              }
+            }
+          ],
+          "seriesId": 3636
+        }
+      },
+      {
+        "matchDetailsMap": {
+          "key": "India tour of Ireland, 2022",
+          "match": [
+            {
+              "matchInfo": {
+                "matchId": 45726,
+                "seriesId": 4041,
+                "seriesName": "India tour of Ireland, 2022",
+                "matchDesc": "1st T20I",
+                "matchFormat": "T20",
+                "startDate": "1656257400000",
+                "endDate": "1656270000000",
+                "state": "Upcoming",
+                "team1": {
+                  "teamId": 27,
+                  "teamName": "Ireland",
+                  "teamSName": "IRE",
+                  "imageId": 172141
+                },
+                "team2": {
+                  "teamId": 2,
+                  "teamName": "India",
+                  "teamSName": "IND",
+                  "imageId": 172115
+                },
+                "venueInfo": {
+                  "id": 370,
+                  "ground": "The Village",
+                  "city": "Dublin",
+                  "timezone": "+01:00"
+                },
+                "seriesStartDt": "1656201600000",
+                "seriesEndDt": "1656547200000",
+                "isTimeAnnounced": true
+              }
+            },
+            {
+              "matchInfo": {
+                "matchId": 45731,
+                "seriesId": 4041,
+                "seriesName": "India tour of Ireland, 2022",
+                "matchDesc": "2nd T20I",
+                "matchFormat": "T20",
+                "startDate": "1656430200000",
+                "endDate": "1656442800000",
+                "state": "Upcoming",
+                "team1": {
+                  "teamId": 27,
+                  "teamName": "Ireland",
+                  "teamSName": "IRE",
+                  "imageId": 172141
+                },
+                "team2": {
+                  "teamId": 2,
+                  "teamName": "India",
+                  "teamSName": "IND",
+                  "imageId": 172115
+                },
+                "venueInfo": {
+                  "id": 370,
+                  "ground": "The Village",
+                  "city": "Dublin",
+                  "timezone": "+01:00"
+                },
+                "seriesStartDt": "1656201600000",
+                "seriesEndDt": "1656547200000",
+                "isTimeAnnounced": true
+              }
+            }
+          ],
+          "seriesId": 4041
+        }
+      },
+      {
+        "matchDetailsMap": {
+          "key": "India tour of West Indies, 2022",
+          "match": [
+            {
+              "matchInfo": {
+                "matchId": 48396,
+                "seriesId": 4261,
+                "seriesName": "India tour of West Indies, 2022",
+                "matchDesc": "1st ODI",
+                "matchFormat": "ODI",
+                "startDate": "1658496600000",
+                "endDate": "1658525400000",
+                "state": "Upcoming",
+                "team1": {
+                  "teamId": 10,
+                  "teamName": "West Indies",
+                  "teamSName": "WI",
+                  "imageId": 172124
+                },
+                "team2": {
+                  "teamId": 2,
+                  "teamName": "India",
+                  "teamSName": "IND",
+                  "imageId": 172115
+                },
+                "venueInfo": {
+                  "id": 54,
+                  "ground": "Queen's Park Oval",
+                  "city": "Port of Spain, Trinidad",
+                  "timezone": "-04:00"
+                },
+                "seriesStartDt": "1658448000000",
+                "seriesEndDt": "1660003200000",
+                "isTimeAnnounced": true
+              }
+            },
+            {
+              "matchInfo": {
+                "matchId": 48401,
+                "seriesId": 4261,
+                "seriesName": "India tour of West Indies, 2022",
+                "matchDesc": "2nd ODI",
+                "matchFormat": "ODI",
+                "startDate": "1658669400000",
+                "endDate": "1658698200000",
+                "state": "Upcoming",
+                "team1": {
+                  "teamId": 10,
+                  "teamName": "West Indies",
+                  "teamSName": "WI",
+                  "imageId": 172124
+                },
+                "team2": {
+                  "teamId": 2,
+                  "teamName": "India",
+                  "teamSName": "IND",
+                  "imageId": 172115
+                },
+                "venueInfo": {
+                  "id": 54,
+                  "ground": "Queen's Park Oval",
+                  "city": "Port of Spain, Trinidad",
+                  "timezone": "-04:00"
+                },
+                "seriesStartDt": "1658448000000",
+                "seriesEndDt": "1660003200000",
+                "isTimeAnnounced": true
+              }
+            },
+            {
+              "matchInfo": {
+                "matchId": 48408,
+                "seriesId": 4261,
+                "seriesName": "India tour of West Indies, 2022",
+                "matchDesc": "3rd ODI",
+                "matchFormat": "ODI",
+                "startDate": "1658928600000",
+                "endDate": "1658957400000",
+                "state": "Upcoming",
+                "team1": {
+                  "teamId": 10,
+                  "teamName": "West Indies",
+                  "teamSName": "WI",
+                  "imageId": 172124
+                },
+                "team2": {
+                  "teamId": 2,
+                  "teamName": "India",
+                  "teamSName": "IND",
+                  "imageId": 172115
+                },
+                "venueInfo": {
+                  "id": 54,
+                  "ground": "Queen's Park Oval",
+                  "city": "Port of Spain, Trinidad",
+                  "timezone": "-04:00"
+                },
+                "seriesStartDt": "1658448000000",
+                "seriesEndDt": "1660003200000",
+                "isTimeAnnounced": true
+              }
+            },
+            {
+              "matchInfo": {
+                "matchId": 48415,
+                "seriesId": 4261,
+                "seriesName": "India tour of West Indies, 2022",
+                "matchDesc": "1st T20I",
+                "matchFormat": "T20",
+                "startDate": "1659105000000",
+                "endDate": "1659117600000",
+                "state": "Upcoming",
+                "team1": {
+                  "teamId": 10,
+                  "teamName": "West Indies",
+                  "teamSName": "WI",
+                  "imageId": 172124
+                },
+                "team2": {
+                  "teamId": 2,
+                  "teamName": "India",
+                  "teamSName": "IND",
+                  "imageId": 172115
+                },
+                "venueInfo": {
+                  "id": 500,
+                  "ground": "Brian Lara Stadium",
+                  "city": "Tarouba, Trinidad",
+                  "timezone": "-04:00"
+                },
+                "seriesStartDt": "1658448000000",
+                "seriesEndDt": "1660003200000",
+                "isTimeAnnounced": true
+              }
+            },
+            {
+              "matchInfo": {
+                "matchId": 48424,
+                "seriesId": 4261,
+                "seriesName": "India tour of West Indies, 2022",
+                "matchDesc": "2nd T20I",
+                "matchFormat": "T20",
+                "startDate": "1659364200000",
+                "endDate": "1659376800000",
+                "state": "Upcoming",
+                "team1": {
+                  "teamId": 10,
+                  "teamName": "West Indies",
+                  "teamSName": "WI",
+                  "imageId": 172124
+                },
+                "team2": {
+                  "teamId": 2,
+                  "teamName": "India",
+                  "teamSName": "IND",
+                  "imageId": 172115
+                },
+                "venueInfo": {
+                  "id": 96,
+                  "ground": "Warner Park",
+                  "city": "Basseterre, St Kitts",
+                  "timezone": "-04:00"
+                },
+                "seriesStartDt": "1658448000000",
+                "seriesEndDt": "1660003200000",
+                "isTimeAnnounced": true
+              }
+            },
+            {
+              "matchInfo": {
+                "matchId": 48431,
+                "seriesId": 4261,
+                "seriesName": "India tour of West Indies, 2022",
+                "matchDesc": "3rd T20I",
+                "matchFormat": "T20",
+                "startDate": "1659450600000",
+                "endDate": "1659463200000",
+                "state": "Upcoming",
+                "team1": {
+                  "teamId": 10,
+                  "teamName": "West Indies",
+                  "teamSName": "WI",
+                  "imageId": 172124
+                },
+                "team2": {
+                  "teamId": 2,
+                  "teamName": "India",
+                  "teamSName": "IND",
+                  "imageId": 172115
+                },
+                "venueInfo": {
+                  "id": 96,
+                  "ground": "Warner Park",
+                  "city": "Basseterre, St Kitts",
+                  "timezone": "-04:00"
+                },
+                "seriesStartDt": "1658448000000",
+                "seriesEndDt": "1660003200000",
+                "isTimeAnnounced": true
+              }
+            },
+            {
+              "matchInfo": {
+                "matchId": 48450,
+                "seriesId": 4261,
+                "seriesName": "India tour of West Indies, 2022",
+                "matchDesc": "4th T20I",
+                "matchFormat": "T20",
+                "startDate": "1659796200000",
+                "endDate": "1659808800000",
+                "state": "Upcoming",
+                "team1": {
+                  "teamId": 10,
+                  "teamName": "West Indies",
+                  "teamSName": "WI",
+                  "imageId": 172124
+                },
+                "team2": {
+                  "teamId": 2,
+                  "teamName": "India",
+                  "teamSName": "IND",
+                  "imageId": 172115
+                },
+                "venueInfo": {
+                  "id": 270,
+                  "ground": "Central Broward Regional Park Stadium Turf Ground",
+                  "city": "Lauderhill, Florida",
+                  "timezone": "-04:00"
+                },
+                "seriesStartDt": "1658448000000",
+                "seriesEndDt": "1660003200000",
+                "isTimeAnnounced": true
+              }
+            },
+            {
+              "matchInfo": {
+                "matchId": 48457,
+                "seriesId": 4261,
+                "seriesName": "India tour of West Indies, 2022",
+                "matchDesc": "5th T20I",
+                "matchFormat": "T20",
+                "startDate": "1659882600000",
+                "endDate": "1659895200000",
+                "state": "Upcoming",
+                "team1": {
+                  "teamId": 10,
+                  "teamName": "West Indies",
+                  "teamSName": "WI",
+                  "imageId": 172124
+                },
+                "team2": {
+                  "teamId": 2,
+                  "teamName": "India",
+                  "teamSName": "IND",
+                  "imageId": 172115
+                },
+                "venueInfo": {
+                  "id": 270,
+                  "ground": "Central Broward Regional Park Stadium Turf Ground",
+                  "city": "Lauderhill, Florida",
+                  "timezone": "-04:00"
+                },
+                "seriesStartDt": "1658448000000",
+                "seriesEndDt": "1660003200000",
+                "isTimeAnnounced": true
+              }
+            }
+          ],
+          "seriesId": 4261
+        }
+      },
+      {
+        "matchDetailsMap": {
+          "key": "ICC Mens T20 World Cup 2022",
+          "match": [
+            {
+              "matchInfo": {
+                "matchId": 43061,
+                "seriesId": 3961,
+                "seriesName": "ICC Mens T20 World Cup 2022",
+                "matchDesc": "16th Match, Super 12 Group 2",
+                "matchFormat": "T20",
+                "startDate": "1666512000000",
+                "endDate": "1666524600000",
+                "state": "Upcoming",
+                "team1": {
+                  "teamId": 2,
+                  "teamName": "India",
+                  "teamSName": "IND",
+                  "imageId": 172115
+                },
+                "team2": {
+                  "teamId": 3,
+                  "teamName": "Pakistan",
+                  "teamSName": "PAK",
+                  "imageId": 172116
+                },
+                "venueInfo": {
+                  "id": 87,
+                  "ground": "Melbourne Cricket Ground",
+                  "city": "Melbourne",
+                  "timezone": "+11:00"
+                },
+                "seriesStartDt": "1665878400000",
+                "seriesEndDt": "1668470400000",
+                "isTimeAnnounced": true
+              }
+            },
+            {
+              "matchInfo": {
+                "matchId": 43096,
+                "seriesId": 3961,
+                "seriesName": "ICC Mens T20 World Cup 2022",
+                "matchDesc": "23rd Match, Super 12 Group 2",
+                "matchFormat": "T20",
+                "startDate": "1666854000000",
+                "endDate": "1666866600000",
+                "state": "Upcoming",
+                "team1": {
+                  "teamId": 2,
+                  "teamName": "India",
+                  "teamSName": "IND",
+                  "imageId": 172115
+                },
+                "team2": {
+                  "teamId": 892,
+                  "teamName": "A2",
+                  "teamSName": "A2",
+                  "imageId": 174284
+                },
+                "venueInfo": {
+                  "id": 34,
+                  "ground": "Sydney Cricket Ground",
+                  "city": "Sydney",
+                  "timezone": "+11:00"
+                },
+                "seriesStartDt": "1665878400000",
+                "seriesEndDt": "1668470400000",
+                "isTimeAnnounced": true
+              }
+            },
+            {
+              "matchInfo": {
+                "matchId": 43131,
+                "seriesId": 3961,
+                "seriesName": "ICC Mens T20 World Cup 2022",
+                "matchDesc": "30th Match, Super 12 Group 2",
+                "matchFormat": "T20",
+                "startDate": "1667127600000",
+                "endDate": "1667140200000",
+                "state": "Upcoming",
+                "team1": {
+                  "teamId": 2,
+                  "teamName": "India",
+                  "teamSName": "IND",
+                  "imageId": 172115
+                },
+                "team2": {
+                  "teamId": 11,
+                  "teamName": "South Africa",
+                  "teamSName": "RSA",
+                  "imageId": 172126
+                },
+                "venueInfo": {
+                  "id": 512,
+                  "ground": "Perth Stadium",
+                  "city": "Perth",
+                  "timezone": "+08:00"
+                },
+                "seriesStartDt": "1665878400000",
+                "seriesEndDt": "1668470400000",
+                "isTimeAnnounced": true
+              }
+            },
+            {
+              "matchInfo": {
+                "matchId": 43156,
+                "seriesId": 3961,
+                "seriesName": "ICC Mens T20 World Cup 2022",
+                "matchDesc": "35th Match, Super 12 Group 2",
+                "matchFormat": "T20",
+                "startDate": "1667376000000",
+                "endDate": "1667388600000",
+                "state": "Upcoming",
+                "team1": {
+                  "teamId": 2,
+                  "teamName": "India",
+                  "teamSName": "IND",
+                  "imageId": 172115
+                },
+                "team2": {
+                  "teamId": 6,
+                  "teamName": "Bangladesh",
+                  "teamSName": "BAN",
+                  "imageId": 172120
+                },
+                "venueInfo": {
+                  "id": 40,
+                  "ground": "Adelaide Oval",
+                  "city": "Adelaide",
+                  "timezone": "+10:30"
+                },
+                "seriesStartDt": "1665878400000",
+                "seriesEndDt": "1668470400000",
+                "isTimeAnnounced": true
+              }
+            },
+            {
+              "matchInfo": {
+                "matchId": 43191,
+                "seriesId": 3961,
+                "seriesName": "ICC Mens T20 World Cup 2022",
+                "matchDesc": "42nd Match, Super 12 Group 2",
+                "matchFormat": "T20",
+                "startDate": "1667721600000",
+                "endDate": "1667734200000",
+                "state": "Upcoming",
+                "team1": {
+                  "teamId": 2,
+                  "teamName": "India",
+                  "teamSName": "IND",
+                  "imageId": 172115
+                },
+                "team2": {
+                  "teamId": 30,
+                  "teamName": "B1",
+                  "teamSName": "B1",
+                  "imageId": 174284
+                },
+                "venueInfo": {
+                  "id": 87,
+                  "ground": "Melbourne Cricket Ground",
+                  "city": "Melbourne",
+                  "timezone": "+11:00"
+                },
+                "seriesStartDt": "1665878400000",
+                "seriesEndDt": "1668470400000",
+                "isTimeAnnounced": true
+              }
+            }
+          ],
+          "seriesId": 3961
+        }
+      }
+    ],
+    "appIndex": {
+      "seoTitle": "India Cricket Team live scores, fixtures - Cricbuzz | Cricbuzz.com",
+      "webURL": "www.cricbuzz.com/cricket-team/"
+    }
+  }
