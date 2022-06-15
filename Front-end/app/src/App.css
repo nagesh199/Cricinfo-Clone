@@ -7,9 +7,17 @@ body {
   padding:15px;
   font:12px;
   font-family: " BentonSans,Arial,Noto Sans,sans-serif";
+  
 }
 
 .searchhover :hover { 
   background-color:lightblue;
 
+}
+a {
+  text-decoration:none;
+}
+#hoverdivhere :hover{
+background-color: lightblue;
+cursor:pointer;
 }

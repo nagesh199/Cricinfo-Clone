@@ -25,7 +25,7 @@ export const Home = () => {
   return (
     <Maindiv>
       {/* left part of home page */}
-       <div>
+       <div style={{width:"30%",marginLeft:"20px"}}>
           side part
           <div className= "Insidemaindiv" style={{width:"40%"}}>
             <img width="150"src="https://wassets.hscicdn.com/static/images/nlp-logo.svg" alt="ask a question" />
@@ -43,7 +43,7 @@ export const Home = () => {
             <p>Key Series</p>
            
             {data.against.map((item) =>(
-              <div  key ={ i++}> <p> <RiArrowRightSLine style={{color:" rgb(3,169,244)"}}/> {item.vs}</p></div>
+              <div  id="hoverdivhere" key ={ i++}> <p > <RiArrowRightSLine style={{color:" rgb(3,169,244)"}}/>  {item.vs}</p></div>
          
             ))}
             
@@ -53,51 +53,56 @@ export const Home = () => {
            <div  className="Insidemaindiv" style={{width:"55%"}}>
            <p>Quick Links</p>
             {data.links.map((item) =>(
-              <div  key ={ i++}> <p> <RiArrowRightSLine style={{color:" rgb(3,169,244)"}}/> {item.quick}</p></div>
+              <div id="hoverdivhere"  key ={ i++}> <p  > <RiArrowRightSLine style={{color:" rgb(3,169,244)"}}/>  {item.quick}</p></div>
          
             ))}
            </div>
            <br/>
-           <div className="Insidemaindiv" style={{width:"55%"}}>
+           <div  id="hoverdivhere" className="Insidemaindiv" style={{width:"55%"}}>
             <p>ESPNcricinfo Apps</p>
-            <p > <RiArrowRightSLine style={{color:" rgb(3,169,244)"}}/>App</p>
-            <p> <RiArrowRightSLine style={{color:" rgb(3,169,244)"}}/>iOS App</p>
+            <p  > <RiArrowRightSLine style={{color:" rgb(3,169,244)"}}/> App</p>
+            <p > <RiArrowRightSLine style={{color:" rgb(3,169,244)"}}/> iOS App</p>
            </div>
            <br/>
-           <div className="Insidemaindiv" style={{width:"55%"}}>
+           <div  id="hoverdivhere" className="Insidemaindiv" style={{width:"55%"}}>
             <p>Follow ESPNcricinfo</p>
-            <p > <RiArrowRightSLine style={{color:" rgb(3,169,244)"}}/>Instagram</p>
-            <p> <RiArrowRightSLine style={{color:" rgb(3,169,244)"}}/>Twitter</p>
-            <p> <RiArrowRightSLine style={{color:" rgb(3,169,244)"}}/>Facebook</p>
-            <p> <RiArrowRightSLine style={{color:" rgb(3,169,244)"}}/>YouTube</p>
+            <p> <a href="https://www.instagram.com/_abhinav_roy_/"> <RiArrowRightSLine style={{color:" rgb(3,169,244)"}}/> Instagram </a></p>
+            <p > <a href="https://twitter.com/espncricinfo"> <RiArrowRightSLine style={{color:" rgb(3,169,244)"}}/> Twitter</a></p>
+            <p  >  <RiArrowRightSLine style={{color:" rgb(3,169,244)"}}/> Facebook</p>
+            <p > <RiArrowRightSLine style={{color:" rgb(3,169,244)"}}/> YouTube</p>
            </div>
            <br/>
-           <div className="Insidemaindiv" style={{width:"55%"}}>
+           <div  id="hoverdivhere" className="Insidemaindiv" style={{width:"55%"}}>
             <p>ESPN Sites</p>
-            <p > <RiArrowRightSLine style={{color:" rgb(3,169,244)"}}/>The Cricket Monthly</p>
-            <p> <RiArrowRightSLine style={{color:" rgb(3,169,244)"}}/>ESPN</p>
+            <p  > <RiArrowRightSLine style={{color:" rgb(3,169,244)"}}/> The Cricket Monthly</p>
+            <p > <RiArrowRightSLine style={{color:" rgb(3,169,244)"}}/> ESPN</p>
            </div>
        </div>
         {/* middle part of the home page */}
        
-       <div>
+       <div  style={{width:"40%"}}>
        center part
        </div>
         {/* right part of the home page */}
-        <div>
-          <div></div>
+        <div  style={{width:"30%"}}>
+          <div  className= "Insidemaindiv">
+            {data.newsheadline.map((item) =>(
+              <div  id="hoverdivhere" key={i++}>
+                <p > <RiArrowRightSLine style={{color:" rgb(3,169,244)"}}/>  {item.headline}</p>
+              </div>
+            ))}
+          </div>
+          <br />
           <div>
             {data.rightside.map((item)=>(
             <div>
                  <img src={item.image} alt="img" />
-              <h3>{item.para}</h3>
+              <h4>{item.para}</h4>
             </div>
             ))}
           </div>
         </div>
-       <div>
-       right part
-       </div>
+     
     </Maindiv>
   )
 }
