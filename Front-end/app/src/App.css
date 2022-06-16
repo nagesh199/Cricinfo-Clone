@@ -9,6 +9,7 @@ body {
   font-family: " BentonSans,Arial,Noto Sans,sans-serif";
   --tw-text-opacity:1;
   line-height:inherit;
+  border-radius: 10px;
 }
 .Insidemaindivnight {
   background-color:rgb(29,30,31);
@@ -16,7 +17,7 @@ body {
   font:12px;
   font-family: " BentonSans,Arial,Noto Sans,sans-serif";
   color:white;
-  
+  border-radius: 10px;
 }
 
 .searchhover :hover { 
