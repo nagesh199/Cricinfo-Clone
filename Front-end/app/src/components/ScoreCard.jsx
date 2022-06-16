@@ -1,22 +1,27 @@
 import React from "react";
 import styles from "./ScoreCard.module.css"
 
-const ScoreCard = (props) => {
-    console.log(props)
+const ScoreCard = ({ category, live, result, team1, team1Img, team1Score, team2, team2Score, team2Img }) => {
+    //console.log(props)
     return (
-    //   { team1Img, live, category, team2Score}
-    // <div className="itemContainer">
-    //   <div className={styles.itemImg}>
-    //     <img src={team1Img} alt={live} />
-    //   </div>
-    //   <div className={styles.itemInfo}>
-    //     <p className={styles.brand}>{live}</p>
-    //     <p className={styles.title}>{category}</p>
-    //     <p className={styles.price}> {team2Score}</p>
-    //   </div>
-    // </div>
-    <div></div>
-    );
+            <div className={styles.itemContainer}>
+
+                <div className={styles.category}>
+                <div><p>{live}</p></div>
+                <div><p>{category}</p></div>
+                </div>
+
+                <div className={styles.team1}>
+                <div className={styles.team1Img}><img src={team1Img} alt="" /><p>{team1}</p><div><h4>{team1Score}</h4></div></div>
+                </div>
+
+                <div className={styles.team2}>
+                <div className={styles.team2Img}><img src={team2Img} alt="" /><p>{team2}</p><div><h4>{team2Score}</h4></div></div>
+                </div>
+
+                <div className={styles.result}><p>{result}</p></div>
+            </div>
+    )
 }
 
 export default ScoreCard;

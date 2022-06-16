@@ -1,18 +1,6 @@
 {
     "sliderData":[
-        {
-            "id":1,
-            "live": "LIVE •",
-            "category":"1st Semi Final • FC • Alur",
-            "team1Img": "https://img1.hscicdn.com/image/upload/f_auto,t_ds_square_w_160,q_50/lsci/db/PICTURES/CMS/313300/313313.logo.png",
-            "team2Img": "https://img1.hscicdn.com/image/upload/f_auto,t_ds_square_w_160,q_50/lsci/db/PICTURES/CMS/313200/313297.logo.png",
-            "team1": "MP",
-            "team2": "BENG",
-            "team1Score": "342",
-            "team2Score": "(16 ov) 54/2",
-            "result": "Day 2-Bengal trail by 286 runs"
-
-        },
+        
         {
             "id":2,
             "live": "RESULT •",
@@ -48,6 +36,19 @@
             "team1Score": "379",
             "team2Score": "(49 ov) 177/4",
             "result": "Day 2-Sri Lanka A trail by 202 runs."
+        },
+        {
+            "id":1,
+            "live": "LIVE •",
+            "category":"1st Semi Final • FC • Alur",
+            "team1Img": "https://img1.hscicdn.com/image/upload/f_auto,t_ds_square_w_160,q_50/lsci/db/PICTURES/CMS/313300/313313.logo.png",
+            "team2Img": "https://img1.hscicdn.com/image/upload/f_auto,t_ds_square_w_160,q_50/lsci/db/PICTURES/CMS/313200/313297.logo.png",
+            "team1": "MP",
+            "team2": "BENG",
+            "team1Score": "342/8",
+            "team2Score": "(16 ov) 54/2",
+            "result": "Day 2-Bengal trail by 286 runs"
+
         }
     ]
 }
