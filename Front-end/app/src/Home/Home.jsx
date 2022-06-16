@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useState } from 'react'
 import data from "./db.json"
 import { FaSearch } from 'react-icons/fa';
 import { RiArrowRightSLine } from "react-icons/ri";
@@ -18,16 +18,28 @@ color:rgb(3,169,244);
 font-family:BentonSans,Arial,Noto Sans,sans-serif
 
 `
-var i = 0;
-export const Home = () => {
- console.log(data)
- 
+  var i = 0;
+   export const Home = () => {
+  // console.log(data)
+  
+  // theme change function
+  const [theme,settheme] = useState(false)
+  
+  const handleTheme = () =>{
+    settheme(!theme)
+    console.log(theme)
+  }
+
   return (
-    <Maindiv>
+    <Maindiv  className={ theme ? "daytheme" : "nighttheme"}>
+    
+    
+
       {/* left part of home page */}
        <div style={{width:"30%",marginLeft:"20px"}}>
-          side part
-          <div className= "Insidemaindiv" style={{width:"40%"}}>
+       <button onClick ={handleTheme}>theme</button>
+        
+          <div className= { theme ?"Insidemaindivday" : "Insidemaindivnight"} style={{width:"40%"}}>
             <img width="150"src="https://wassets.hscicdn.com/static/images/nlp-logo.svg" alt="ask a question" />
              <p>Which spinner has taken the most wickets in an IPL season?</p>
              <br/>
@@ -39,7 +51,7 @@ export const Home = () => {
               </div>
           </div>
            <br/>
-           <div  className="Insidemaindiv" style={{width:"55%"}}>
+           <div className= { theme ?"Insidemaindivday" : "Insidemaindivnight"} style={{width:"55%"}}>
             <p>Key Series</p>
            
             {data.against.map((item) =>(
@@ -50,7 +62,7 @@ export const Home = () => {
            
            </div>
            <br/>
-           <div  className="Insidemaindiv" style={{width:"55%"}}>
+           <div  className= { theme ?"Insidemaindivday" : "Insidemaindivnight"} style={{width:"55%"}}>
            <p>Quick Links</p>
             {data.links.map((item) =>(
               <div id="hoverdivhere"  key ={ i++}> <p  > <RiArrowRightSLine style={{color:" rgb(3,169,244)"}}/>  {item.quick}</p></div>
@@ -58,21 +70,21 @@ export const Home = () => {
             ))}
            </div>
            <br/>
-           <div  id="hoverdivhere" className="Insidemaindiv" style={{width:"55%"}}>
+           <div  id="hoverdivhere" className= { theme ?"Insidemaindivday" : "Insidemaindivnight"} style={{width:"55%"}}>
             <p>ESPNcricinfo Apps</p>
             <p  > <RiArrowRightSLine style={{color:" rgb(3,169,244)"}}/> App</p>
             <p > <RiArrowRightSLine style={{color:" rgb(3,169,244)"}}/> iOS App</p>
            </div>
            <br/>
-           <div  id="hoverdivhere" className="Insidemaindiv" style={{width:"55%"}}>
+           <div  id="hoverdivhere" className= { theme ?"Insidemaindivday" : "Insidemaindivnight"} style={{width:"55%"}}>
             <p>Follow ESPNcricinfo</p>
-            <p> <a href="https://www.instagram.com/_abhinav_roy_/"> <RiArrowRightSLine style={{color:" rgb(3,169,244)"}}/> Instagram </a></p>
-            <p > <a href="https://twitter.com/espncricinfo"> <RiArrowRightSLine style={{color:" rgb(3,169,244)"}}/> Twitter</a></p>
+            <p> <a target="_blank" href="https://www.instagram.com/_abhinav_roy_/"> <RiArrowRightSLine style={{color:" rgb(3,169,244)"}}/> Instagram </a></p>
+            <p > <a   target="_blank" href="https://twitter.com/espncricinfo"> <RiArrowRightSLine style={{color:" rgb(3,169,244)"}}/> Twitter</a></p>
             <p  >  <RiArrowRightSLine style={{color:" rgb(3,169,244)"}}/> Facebook</p>
             <p > <RiArrowRightSLine style={{color:" rgb(3,169,244)"}}/> YouTube</p>
            </div>
            <br/>
-           <div  id="hoverdivhere" className="Insidemaindiv" style={{width:"55%"}}>
+           <div  id="hoverdivhere" className= { theme ?"Insidemaindivday" : "Insidemaindivnight"} style={{width:"55%"}}>
             <p>ESPN Sites</p>
             <p  > <RiArrowRightSLine style={{color:" rgb(3,169,244)"}}/> The Cricket Monthly</p>
             <p > <RiArrowRightSLine style={{color:" rgb(3,169,244)"}}/> ESPN</p>
@@ -84,8 +96,8 @@ export const Home = () => {
        center part
        </div>
         {/* right part of the home page */}
-        <div  style={{width:"30%"}}>
-          <div  className= "Insidemaindiv">
+        <div  style={{width:"25%"}}>
+          <div className= { theme ?"Insidemaindivday" : "Insidemaindivnight"}>
             {data.newsheadline.map((item) =>(
               <div  id="hoverdivhere" key={i++}>
                 <p > <RiArrowRightSLine style={{color:" rgb(3,169,244)"}}/>  {item.headline}</p>
@@ -95,8 +107,8 @@ export const Home = () => {
           <br />
           <div>
             {data.rightside.map((item)=>(
-            <div>
-                 <img src={item.image} alt="img" />
+            <div className= { theme ?"Insidemaindivday" : "Insidemaindivnight"}  key={i++}>
+                 <img style={{borderRadius:"15px"}} src={item.image} alt="img" />
               <h4>{item.para}</h4>
             </div>
             ))}

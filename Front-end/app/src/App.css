@@ -2,11 +2,20 @@ body {
   background-color: rgb(249,249,251);
 }
 
-.Insidemaindiv {
+.Insidemaindivday {
   background-color:white;
   padding:15px;
   font:12px;
   font-family: " BentonSans,Arial,Noto Sans,sans-serif";
+  --tw-text-opacity:1;
+  line-height:inherit;
+}
+.Insidemaindivnight {
+  background-color:rgb(29,30,31);
+  padding:15px;
+  font:12px;
+  font-family: " BentonSans,Arial,Noto Sans,sans-serif";
+  color:white;
   
 }
 
@@ -18,6 +27,18 @@ a {
   text-decoration:none;
 }
 #hoverdivhere :hover{
-background-color: lightblue;
+background-color: rgba(53,186,246,0.5);
 cursor:pointer;
+}
+
+.daytheme {
+  background-color: rgb(249,249,251);
+  
+}
+
+.nighttheme {
+  background-color: black;
+}
+p{
+  padding:5px;
 }
