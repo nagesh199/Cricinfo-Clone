@@ -9,7 +9,6 @@ import { Recent } from '../components/Series/recent'
 import { Result } from '../components/Series/result'
 export const Mainroutes = () => {
   const [theme,settheme] = useState(true)
-  
   const handleTheme = () =>{
     settheme(!theme)
     console.log(theme)
