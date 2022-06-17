@@ -6,45 +6,24 @@ import style from "styled-components";
 import HomeNews from "../../DATABASE/Teams/homepage.json";
 import { HomeBox } from "../../components/Teams/HomeBox";
 import styles from "../../CSS/Teams/homepage.module.css";
+import { Matches } from "../Teams/matches";
 const Maindiv = style.div`
- width:100%;
+  width:100%;
   display:flex;
   justify-content:space-around;
  `;
-const Searchdiv = style.div`
-display:flex;
-justify-content:space-around;
-border: 1px solid rgb(3,169,244);
-border-radius:100px;
-color:rgb(3,169,244);
-font-family:BentonSans,Arial,Noto Sans,sans-serif
-
-`;
-var i = 0;
 export const Home = ({ theme }) => {
+  const dataarr=data.leftData;
+  const Dataarr =data.rightData;
   const newsarr = HomeNews.HomeNews;
-  // console.log(data)
-
-  // theme change function
-  // const [theme,settheme] = useState(true)
-
-  // const handleTheme = () =>{
-  //   settheme(!theme)
-  //   console.log(theme)
-  // }
-
+  
   return (
     <Maindiv className={theme ? "daytheme" : "nighttheme"}>
     <div className={styles.home}>
-    
         {/* left part of home page */}
         <div className={styles.leftDiv}>
-          {/* <button onClick ={handleTheme}>theme</button> */}
-
-          <div
-            className={theme ? "Insidemaindivday" : "Insidemaindivnight"}
-            style={{ width: "40%" }}
-          >
+         
+          <div className={theme ? "Insidemaindivday" : "Insidemaindivnight"}>
             <img
               width="150"
               src="https://wassets.hscicdn.com/static/images/nlp-logo.svg"
@@ -52,124 +31,29 @@ export const Home = ({ theme }) => {
             />
             <p>Which spinner has taken the most wickets in an IPL season?</p>
             <br />
-            <div className="searchhover">
-              <Searchdiv>
+            <div className={styles.search}>
                 <p>
-                  {" "}
-                  <FaSearch />{" "}
+                  <FaSearch />
                 </p>
-                <h3>Ask a question</h3>
-              </Searchdiv>
+                <p>Ask a question</p>
             </div>
           </div>
-          <br />
           <div
-            className={theme ? "Insidemaindivday" : "Insidemaindivnight"}
-            style={{ width: "55%" }}
-          >
-            <p>Key Series</p>
-
-            {data.against.map((item) => (
-              <div id="hoverdivhere" key={i++}>
-                {" "}
-                <p>
-                  {" "}
-                  <RiArrowRightSLine
-                    style={{ color: " rgb(3,169,244)" }}
-                  />{" "}
-                  {item.vs}
-                </p>
-              </div>
-            ))}
-          </div>
-          <br />
-          <div
-            className={theme ? "Insidemaindivday" : "Insidemaindivnight"}
-            style={{ width: "55%" }}
-          >
-            <p>Quick Links</p>
-            {data.links.map((item) => (
-              <div id="hoverdivhere" key={i++}>
-                {" "}
-                <p>
-                  {" "}
-                  <RiArrowRightSLine
-                    style={{ color: " rgb(3,169,244)" }}
-                  />{" "}
-                  {item.quick}
-                </p>
-              </div>
-            ))}
-          </div>
-          <br />
-          <div
-            id="hoverdivhere"
-            className={theme ? "Insidemaindivday" : "Insidemaindivnight"}
-            style={{ width: "55%" }}
-          >
-            <p>ESPNcricinfo Apps</p>
-            <p>
-              {" "}
-              <RiArrowRightSLine style={{ color: " rgb(3,169,244)" }} /> App
-            </p>
-            <p>
-              {" "}
-              <RiArrowRightSLine style={{ color: " rgb(3,169,244)" }} /> iOS App
-            </p>
-          </div>
-          <br />
-          <div
-            id="hoverdivhere"
-            className={theme ? "Insidemaindivday" : "Insidemaindivnight"}
-            style={{ width: "55%" }}
-          >
-            <p>Follow ESPNcricinfo</p>
-            <p>
-              {" "}
-              <a target="blank" rel="noreferrer" href="https://www.instagram.com/_abhinav_roy_/">
-                {" "}
-                <RiArrowRightSLine style={{ color: " rgb(3,169,244)" }} />{" "}
-                Instagram{" "}
-              </a>
-            </p>
-            <p>
-              {" "}
-              <a target="_blank" rel="noreferrer" href="https://twitter.com/espncricinfo">
-                {" "}
-                <RiArrowRightSLine style={{ color: " rgb(3,169,244)" }} />{" "}
-                Twitter
-              </a>
-            </p>
-            <p>
-              {" "}
-              <RiArrowRightSLine style={{ color: " rgb(3,169,244)" }} />{" "}
-              Facebook
-            </p>
-            <p>
-              {" "}
-              <RiArrowRightSLine style={{ color: " rgb(3,169,244)" }} /> YouTube
-            </p>
-          </div>
-          <br />
-          <div
-            id="hoverdivhere"
-            className={theme ? "Insidemaindivday" : "Insidemaindivnight"}
-            style={{ width: "55%" }}
-          >
-            <p>ESPN Sites</p>
-            <p>
-              {" "}
-              <RiArrowRightSLine style={{ color: " rgb(3,169,244)" }} /> The
-              Cricket Monthly
-            </p>
-            <p>
-              {" "}
-              <RiArrowRightSLine style={{ color: " rgb(3,169,244)" }} /> ESPN
-            </p>
+            className={theme ? "Insidemaindivday" : "Insidemaindivnight"}>
+            {
+              dataarr.map((el,i)=>{
+                return <div key={i} className={styles.subBox}>
+                  <div>
+                  <p>{el.title}</p>
+                  </div>
+                  
+                  <Matches {...el}/>
+                </div>
+              })
+            }
           </div>
         </div>
         {/* middle part of the home page */}
-
         <div className={styles.middleDiv}>
           {newsarr.map((el, i) => {
             return (
@@ -179,8 +63,36 @@ export const Home = ({ theme }) => {
             );
           })}
         </div>
+        <div className={styles.rightDiv}>
+        <div className={theme ? "Insidemaindivday" : "Insidemaindivnight"}>
+          {
+            Dataarr.map((el,i)=>{
+              if(i===0){
+                return <div key={i} className={styles.subBox}>
+                  <div>
+                  <p>{el.title}</p>
+                  </div>
+                  <Matches {...el}/>
+                </div>
+              }
+              else{
+                return <div key={i}>
+                     {
+                      el.imageArr.map((el,i)=>{
+                        return <div>
+                          <img src={el.image} alt="" />
+                          <p>{el.para}</p>
+                        </div>
+                      })
+                     }
+                </div>
+              }
+            })
+          }
+          </div>
+        </div>
         {/* right part of the home page */}
-        <div className={styles.rightDiv} >
+        {/* <div className={styles.rightDiv} >
           <div className={theme ? "Insidemaindivday" : "Insidemaindivnight"}>
             {data.newsheadline.map((item) => (
               <div id="hoverdivhere" key={i++}>
@@ -210,7 +122,7 @@ export const Home = ({ theme }) => {
               </div>
             ))}
           </div>
-        </div>
+        </div> */}
         </div>
       </Maindiv>
 
