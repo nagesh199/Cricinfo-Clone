@@ -30,7 +30,7 @@ export const Mainroutes = () => {
     <Route path="/news/:id" element={<Individualdata/>}/>
       {/* <Route path="/livescores" element={<LiveScores/>}/> */}
    </Routes>
-   <Footer/>
+   <Footer theme={theme} />
     </div>
   )
 }

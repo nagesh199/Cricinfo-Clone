@@ -4,7 +4,22 @@
     /* gap:2vh; */
     background:#F8F6F7;
 }
-
+#day{
+    background-color:rgb(249,249,251);
+    color:black;
+}
+#night {
+    background-color:rgb(29,30,31);
+    color: white;
+}
+ div >#day1{
+    background-color:rgb(249,249,251);
+    color:black;
+}
+div > #night1 {
+    background-color:rgb(29,30,31);
+    color: white;
+}
 .footerInfo{
     display:grid;
     grid-template-columns:repeat(auto-fit,minmax(5rem, 1fr));
@@ -41,3 +56,6 @@
     margin-left: 30px;
 }
 
+a{
+   text-decoration:none;
+}
