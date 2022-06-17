@@ -1,7 +1,6 @@
 
 import data from "./db.json";
 import { FaSearch } from "react-icons/fa";
-import { RiArrowRightSLine } from "react-icons/ri";
 import style from "styled-components";
 import HomeNews from "../../DATABASE/Teams/homepage.json";
 import { HomeBox } from "../../components/Teams/HomeBox";
@@ -16,6 +15,7 @@ export const Home = ({ theme }) => {
   const dataarr=data.leftData;
   const Dataarr =data.rightData;
   const newsarr = HomeNews.HomeNews;
+  console.log(theme)
   
   return (
     <Maindiv className={theme ? "daytheme" : "nighttheme"}>
@@ -79,7 +79,7 @@ export const Home = ({ theme }) => {
                 return <div key={i}>
                      {
                       el.imageArr.map((el,i)=>{
-                        return <div>
+                        return <div className={styles.img} key={i}>
                           <img src={el.image} alt="" />
                           <p>{el.para}</p>
                         </div>
@@ -91,40 +91,7 @@ export const Home = ({ theme }) => {
           }
           </div>
         </div>
-        {/* right part of the home page */}
-        {/* <div className={styles.rightDiv} >
-          <div className={theme ? "Insidemaindivday" : "Insidemaindivnight"}>
-            {data.newsheadline.map((item) => (
-              <div id="hoverdivhere" key={i++}>
-                <p>
-                  {" "}
-                  <RiArrowRightSLine
-                    style={{ color: " rgb(3,169,244)" }}
-                  />{" "}
-                  {item.headline}
-                </p>
-              </div>
-            ))}
-          </div>
-          <br />
-          <div>
-            {data.rightside.map((item) => (
-              <div
-                className={theme ? "Insidemaindivday" : "Insidemaindivnight"}
-                key={i++}
-              >
-                <img
-                  style={{ borderRadius: "15px" }}
-                  src={item.image}
-                  alt="img"
-                />
-                <h4>{item.para}</h4>
-              </div>
-            ))}
-          </div>
-        </div> */}
         </div>
       </Maindiv>
-
   );
 };
