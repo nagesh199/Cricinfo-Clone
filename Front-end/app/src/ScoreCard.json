@@ -2,7 +2,7 @@
     "sliderData":[
         
         {
-            "id":2,
+            "id":1,
             "live": "RESULT •",
             "category":"3rd T20I •  Visakhapatnam",
             "team1Img": "https://img1.hscicdn.com/image/upload/f_auto,t_ds_square_w_160,q_50/lsci/db/PICTURES/CMS/313100/313128.logo.png",
@@ -14,7 +14,7 @@
             "result": "India won by 48 runs"
         },
         {
-            "id":4,
+            "id":2,
             "live": "LIVE •",
             "category":"1st Unofficial Test •  Hambantota",
             "team1Img": "https://img1.hscicdn.com/image/upload/f_auto,t_ds_square_w_160,q_50/lsci/db/PICTURES/CMS/340400/340493.png",
@@ -26,7 +26,7 @@
             "result": "Day 2-Sri Lanka A trail by 202 runs."
         },
         {
-            "id":1,
+            "id":3,
             "live": "LIVE •",
             "category":"1st Semi Final • FC • Alur",
             "team1Img": "https://img1.hscicdn.com/image/upload/f_auto,t_ds_square_w_160,q_50/lsci/db/PICTURES/CMS/313300/313313.logo.png",
@@ -40,7 +40,7 @@
         },
 
         {
-            "id":2,
+            "id":4,
             "live": "RESULT •",
             "category":"3rd T20I •  Visakhapatnam",
             "team1Img": "https://img1.hscicdn.com/image/upload/f_auto,t_ds_square_w_160,q_50/lsci/db/PICTURES/CMS/313100/313128.logo.png",
