@@ -1,0 +1,11 @@
+
+{
+    "teams":[
+        {
+            "teamId": 1,
+            "teamName": "India",
+            "teamSName": "IND",
+            "imageId": "https://img1.hscicdn.com/image/upload/f_auto,t_ds_square_w_160,q_50/lsci/db/PICTURES/CMS/313100/313128.logo.png"
+        }
+    ]
+}

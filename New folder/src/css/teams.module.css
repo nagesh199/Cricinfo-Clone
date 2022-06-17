@@ -1,0 +1,41 @@
+.container {
+    width: 90%;
+    margin: auto;
+    margin-top: 2%;
+    font-family: BentonSans-Bold, Arial, Noto Sans, sans-serif;
+    border-radius: 1% 1% 0% 0%;
+    padding-top: 1%;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px,
+      rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+  }
+  .container span {
+    padding-left: 2%;
+    font-weight: bold;
+  }
+  .mainDiv {
+    margin: auto;
+    margin-top: 2%;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+  }
+  .mainDiv > div {
+    display: flex;
+    align-items: center;
+    border: 1px solid #f0eded;
+    box-sizing: border-box;
+  }
+  .mainDiv > div > div {
+    width: 80%;
+    padding: 3% 4%;
+    font-weight: bold;
+    font-size: 18px;
+    display: flex;
+    align-items: center;
+  }
+  .mainDiv > div img {
+    width: 50px;
+  }
+  .mainDiv > div h3 {
+    width: 50px;
+  }
+  
