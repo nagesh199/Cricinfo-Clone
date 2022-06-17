@@ -1,18 +1,79 @@
-.home{
+.home {
     width: 90%;
     margin: auto;
     display: flex;
     justify-content: space-between;
+    margin-top: 5%;
 }
-.leftDiv{
-    border: 1px solid blue;
+
+.leftDiv {
     width: 20%;
 }
-.middleDiv{
-    width: 50%;
-    border: 1px solid salmon;
+.leftDiv>div:first-child {
+    border: 1px solid rgb(205, 203, 203);
+    border-radius: 20px;
+    text-align: center;
+    box-sizing: border-box;
+    padding: 5%;
+    font-size: 14px;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+    margin-bottom: 5%;
 }
-.rightDiv{
+.subBox{
+   margin-bottom: 5%;
+   width: 100%;
+   border-radius: 20px;
+   box-sizing: border-box;
+   padding: 5%;
+   box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+   font-size: 15px;
+}
+.subBox>div:first-child{
+    border-bottom: 1px solid rgb(195, 194, 194);
+ }
+ .subBox>div{
+   display: flex;
+   align-items: center;
+   margin-top:5%;
+ }
+ .subBox span{
+   margin-left: 5%;
+  }
+.search {
+    display: flex;
+    justify-content: center;
+    border: 1px solid rgb(3, 169, 244);
+    border-radius: 100px;
+    color: rgb(3, 169, 244);
+    font-family: BentonSans, Arial, Noto Sans, sans-serif;
+    font-weight: bold;
+}
+.search p {
+   margin-right: 5%;
+}
+.middleDiv {
+    width: 50%;
+    box-sizing: border-box;
+}
+.middleDiv >div img{
+    width: 100%;
+    border-radius: 20px;
+}
+.rightDiv {
     width: 25%;
-    border: 1px solid red;
+}
+.rightDiv >div img{
+   width: 100%;
+   border-radius: 20px;
+}
+.rightDiv>div>div{
+    box-sizing: border-box;
+    padding: 5%;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+    border-radius: 20px;
+    font-size: 14px;
+}
+.img{
+   border-bottom: 1px solid rgb(195, 194, 194);
+   margin-top: 5%;
 }
