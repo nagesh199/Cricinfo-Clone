@@ -4,7 +4,6 @@ body {
 
 .Insidemaindivday {
   background-color:white;
-  padding:15px;
   font:12px;
   font-family: " BentonSans,Arial,Noto Sans,sans-serif";
   --tw-text-opacity:1;
@@ -13,7 +12,6 @@ body {
 }
 .Insidemaindivnight {
   background-color:rgb(29,30,31);
-  padding:15px;
   font:12px;
   font-family: " BentonSans,Arial,Noto Sans,sans-serif";
   color:white;
@@ -22,7 +20,6 @@ body {
 
 .searchhover :hover { 
   background-color:lightblue;
-
 }
 a {
   text-decoration:none;
@@ -34,12 +31,8 @@ cursor:pointer;
 
 .daytheme {
   background-color: rgb(249,249,251);
-  
 }
 
 .nighttheme {
   background-color: black;
-}
-p{
-  padding:5px;
 }
