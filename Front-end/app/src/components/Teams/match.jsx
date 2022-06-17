@@ -1,6 +1,6 @@
 import React from 'react'
 import { Team } from './team'
-import styles from "../css/team.module.css"
+import styles from "../../CSS/Teams/team.module.css"
 export const  Match = ({matchDetailsMap}) => {
     console.log(matchDetailsMap.match)
   return (

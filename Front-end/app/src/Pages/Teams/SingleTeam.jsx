@@ -1,14 +1,14 @@
 import React from "react";
-import styles from "../css/team.module.css";
-import teams from "../../../../../New folder/src/data/teams.json";
+import styles from "../../CSS/Teams/team.module.css";
+import teams from "../../DATABASE/Teams/teams.json";
 import { useParams } from "react-router-dom";
-import teamMatchesData from "../../../../../New folder/src/data/schedules.json";
-import storyList from "../../../../../New folder/src/data/news.json";
-import { Match } from "../components/match";
-import { Team } from "../components/team";
-import { News } from "../components/News";
-import { Rank } from "../components/Rank";
-import ranking from "../../../../../New folder/src/data/ranking.json";
+import teamMatchesData from "../../DATABASE/Teams/schedules.json";
+import storyList from "../../DATABASE/Teams/news.json";
+import { Match } from "../../components/Teams/match";
+import { News } from "../../components/Teams/News";
+import { Rank } from "../../components/Teams/Rank";
+import { Team } from "../../components/Teams/team";
+import ranking from "../../DATABASE/Teams/ranking.json";
 
 export const SingleTeam = () => {
   let { team } = useParams();

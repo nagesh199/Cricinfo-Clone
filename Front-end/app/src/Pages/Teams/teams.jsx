@@ -1,6 +1,6 @@
-import { Team } from "../components/team";
-import list from "../../../../../New folder/src/data/db.json";
-import styles from "../css/teams.module.css";
+import { Team } from "../../components/Teams/team";
+import list from "../../DATABASE/Teams/db.json";
+import styles from "../../CSS/Teams/teams.module.css";
 import { useNavigate } from "react-router-dom";
 export const Teams = () => {
   let teamsarr = list.list;
