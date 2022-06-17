@@ -91,6 +91,7 @@ export const Current = ()=>{
                       <p>WICB 4-day</p>
                    </div>
             </div>
+            
         </div>
     )
 }

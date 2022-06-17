@@ -21,10 +21,15 @@
 .h3 {
     font-size:15px;
     color: #0c0400;
+    width: -moz-fit-content;
+    width: fit-content;
+    margin-left: 20px;
 }
 .International {
     color:#4a9ec9;
     margin-bottom: 50px;
+    width: -moz-fit-content;
+    width: fit-content
 }
 .International>p:hover {
     cursor: pointer;
@@ -32,3 +37,190 @@
 .left {
     margin-left: -250px;
 }
+.International>p{
+    width: -moz-fit-content;
+    width: fit-content;
+    margin-left: 20px;
+}
+.MainIndia {
+    display: flex;
+    margin: 50px;
+}
+.rightbox {
+    width :20%;
+    height:auto;
+    
+}
+.rightdiv {
+    display: flex;
+}
+.rightdiv>div:hover {
+    cursor: pointer;
+}
+.leftbox {
+    width:70%;
+    margin-left: 50px;
+    
+}
+.btn {
+    background-color: #03a9f4;
+    width:80px;
+    height: 30px;
+    margin-top:20px;
+    color: white;
+    border: 1px solid #03a9f4;
+    border-radius: 3px;
+    margin-left: 10px;
+}
+
+
+.jun {
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+}
+.back {
+    width: 600px;
+    height: 425px;
+    background-repeat: no-repeat;
+    background-size: 600px 400px;
+    background-image: url("https://img1.hscicdn.com/image/upload/f_auto,t_ds_wide_w_1200,q_60/lsci/db/PICTURES/CMS/341000/341004.6.jpg");
+    color: white;
+    transition: all 0.3s;
+    transform: scale(1);
+    border-radius: 3%;
+}
+.back:hover {
+    transform: scale(1.05);
+    
+}
+.about {
+    font-size: 15px;
+    width: -moz-fit-content;
+    width: fit-content;
+}
+.second {
+    width: 600px;
+    height: 425px;
+    background-repeat: no-repeat;
+    background-size: 600px 400px;
+    background-image: url("https://img1.hscicdn.com/image/upload/f_auto,t_ds_wide_w_1200,q_60/lsci/db/PICTURES/CMS/340800/340859.6.jpg");
+    color: white;
+    transition: all 0.3s;
+    transform: scale(1);
+    border-radius: 3%;
+}
+.second:hover {
+    transform: scale(1.05);
+}
+.about>p {
+    margin-top: -10px;
+    font-size: 10px;
+    margin-left: -50px;
+}
+.imgbottom {
+    width:600px; color:black;
+    margin-top: -50px;
+    background-color:white;
+    margin-bottom: -20px;
+    text-align: left;
+}
+.frist {
+    width: 600px;
+    height: 425px;
+    background-repeat: no-repeat;
+    background-size: 600px 400px;
+    background-image: url("https://img1.hscicdn.com/image/upload/f_auto,t_ds_wide_w_800,q_50/esci/media/motion/2022/0609/dm_220609_INET_CRIC_indvsa2022_time_out_t1-dm_non-branded_GLOBAL/dm_220609_INET_CRIC_indvsa2022_time_out_t1-dm_non-branded_GLOBAL.jpg");
+    color: white;
+    transition: all 0.3s;
+    transform: scale(1);
+    border-radius: 3%;
+}
+.frist:hover {
+    transform: scale(1.05);
+}
+.about>div {
+    display:flex;
+     justify-content:space-between;
+      width:600px;
+
+}
+.dussen {
+    padding-top: 20px;
+    display: flex;
+    gap:20px;
+    width: 600px;
+}
+.dussen>img{
+    width:400px;
+    height: 130px;
+    margin-top: 20px;
+    border-radius: 10px;
+}
+
+.fixture{
+
+    /* border:1px solid black; */
+    text-align: left;
+    margin-top: 20px;
+  
+    /* height: 100px; */
+
+}
+
+.fixture>p{
+    margin-top: -7px;
+}
+
+
+.fixture_1{
+
+    display: flex;
+    margin-top: -10px;
+    /* border:1px solid red; */
+
+}
+.fixture>p:nth-child(1){
+
+    font-weight: bold;
+    font-size: 10px;
+
+}
+.fixture>p:nth-child(2){
+
+   font-size: 10px;
+}
+.fixture_1>img{
+    padding-top:10px;
+    
+}
+
+.fixture_1>p:nth-child(2){
+    padding-left:10px;
+    font-weight: bold;
+    font-size: 12px;
+}
+.fixture_1>p:nth-child(3){
+    margin-left:100px;
+    font-weight: bold;
+    font-size: 12px;
+}
+.blackimgbottom {
+    width:600px; color:white;
+    margin-top: -50px;
+    background-color:black;
+    margin-bottom: -20px;
+    text-align: left;
+    height: 180px;
+}
+.slidediv {
+    width:200px;
+    height:180px; 
+    margin-right:10px;
+}
+.slidediv>img {
+    margin-bottom:-10px; 
+     height:100px ;
+     width:150px;
+     border-radius: 10px;
+}
+
