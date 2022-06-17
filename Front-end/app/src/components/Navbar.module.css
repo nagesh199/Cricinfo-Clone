@@ -125,7 +125,7 @@
   .dropdowncontent a:hover {background-color: #ddd;}
   
   /* Show the dropdown menu on hover */
-  .dropdown:hover .dropdowncontent {display:block; border-radius: 10px;}
+  .dropdown:hover .dropdowncontent {display:block; border-radius: 10px; margin-top: 18px;}
   
   /* Change the background color of the dropdown button when the dropdown content is shown */
   .dropdown:hover .dropbtn {background-color: rgb(50, 140, 249);}
