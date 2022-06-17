@@ -1,0 +1,194 @@
+.navbar {
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+}
+
+.navbar>div {
+  margin-left: 5%;
+  width: 60%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.mainDiv>div {
+  display: flex;
+  align-items: center;
+}
+
+.navbar>div>div {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.navbar>div span {
+  padding-left: 3%;
+  font-weight: bold;
+}
+
+.navbar>div img {
+  width: 50px;
+}
+
+.mainBox {
+  width: 90%;
+  margin: auto;
+  margin-top: 2%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.team>div {
+  display: flex;
+  align-items: center;
+}
+
+.team img {
+  width: 15%;
+}
+
+.matches {
+  width: 25%;
+  box-sizing: border-box;
+  box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+  border-radius: 20px;
+  padding: 3%;
+}
+
+.matches p {
+  font-size: 12px;
+}
+
+.matches>div:first-child {
+  display: flex;
+  align-items: center;
+  font-weight: bold;
+  border: 1px solid;
+  border-radius: 20px;
+  font-size: large;
+  justify-content: space-between;
+}
+
+.matches>div:first-child>div {
+  width: 50%;
+  padding: 2%;
+  border-radius: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.matches>div:first-child>div:hover {
+  background-color: #03a9f4;
+}
+
+.matchBox {
+  border-bottom: 1px solid rgb(230, 229, 229);
+}
+
+.news {
+  width: 45%;
+}
+
+.cover {
+ background-color: whitesmoke;
+  height: 450px;
+  border-radius: 2%;
+  background-image: url(https://img1.hscicdn.com/image/upload/f_auto,t_ds_wide_w_1200,q_60/lsci/db/PICTURES/CMS/340900/340999.6.jpg);
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.cover>div {
+  font-size: 15px;
+  height: 120px;
+  padding: 2%;
+  color: white;
+  margin-top: 55%;
+  background-image: linear-gradient(to top, black 50%, rgb(94, 91, 91));
+}
+
+.news>div {
+  width: 100%;
+  font-size: 12px;
+  display: flex;
+  justify-content: space-between;
+  border-radius: 20px;
+  margin-top: 5%;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+}
+
+.subnews>div {
+  width: 50%;
+  margin-right: 10px;
+}
+
+.subnews>div img {
+  width: 100%;
+  border-radius: 20px;
+}
+
+.ranking {
+  width: 25%;
+  margin-top: 20%;
+}
+
+.ranking>div {
+  margin-top: 5%;
+  box-sizing: border-box;
+  border-radius: 20px;
+  padding: 3% 0%;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+}
+.fst p {
+  font-size: 12px;
+}
+.fst {
+  border-bottom: 1px solid rgb(230, 228, 228);
+  padding-left: 5%;
+}
+.ranking>div>div:last-child {
+ text-align: center;
+ color: #03a9f4;
+}
+
+.option {
+  
+  box-sizing: border-box;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  border-bottom: 1px solid rgb(230, 228, 228);
+}
+.option>div {
+  padding: 3%;
+  border-bottom:3px solid transparent ;
+ }
+.option>div:hover {
+ color: #03a9f4;
+ border-color: #03a9f4 ;
+}
+.box>div{
+border: 1px solid;
+
+}
+.box>div>div img{
+  width: 100px;
+  border-radius: 50px;
+  margin-right: 10px;
+ }
+.box>div{
+  border: 1px solid rgb(218, 217, 217);
+  display:flex;
+  align-items: center;
+  box-sizing: border-box;
+  padding: 5%;
+}
+.box>div>div{
+  width: 50%;
+ }
+.box h2+div{
+  display: flex;
+  font-size: 10px;
+  justify-content: space-between;
+ }

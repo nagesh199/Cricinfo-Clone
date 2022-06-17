@@ -1,0 +1,150 @@
+{
+    "HomeNews":[{
+        "storyList": [
+          {
+            "story": {
+              "id": 122659,
+              "hline": "KL Rahul set to miss England tour, to go abroad for treatment",
+              "intro": "The current India vice-captain is set to miss the entire tour and go to Germany for his injury treatment",
+              "pubTime": "1655366052895",
+              "source": "Cricbuzz",
+              "storyType": "News",
+              "imageId": "https://i0.wp.com/www.socialnews.xyz/wp-content/uploads/2021/12/30/873153d224d64f42918a71685aa9ba29.jpg?w=777&crop=0,10,777px,437px",
+              "seoHeadline": "KL Rahul set to miss England tour, to go abroad for treatment",
+              "context": "Injury update",
+              "coverImage": {
+                "id": "236030",
+                "caption": "Rahul is set to go to Germany for treatment",
+                "source": "AFP"
+              }
+            }
+          },
+          {
+            "story": {
+              "id": 122627,
+              "hline": "Injured Rahul doubtful for Edgbaston Test",
+              "intro": " The India opener, who had to be withdrawn from the T20I series against South Africa because of a groin strain, is not certain for the Edgbaston Test",
+              "pubTime": "1655213949744",
+              "source": "Cricbuzz",
+              "storyType": "News",
+              "imageId": 235906,
+              "seoHeadline": "Injured KL Rahul doubtful for Edgbaston Test, India v England",
+              "context": "Injury worries",
+              "coverImage": {
+                "id": "235906",
+                "caption": " The India opener, who had to be withdrawn from the T20I series against South Africa because of a groin strain, is not certain for the Edgbaston Test",
+                "source": "Getty"
+              }
+            }
+          },
+          {
+            "story": {
+              "id": 122514,
+              "hline": "Physio Kamlesh Jain formally joins India support staff",
+              "intro": "It has been learnt that a part of the support staff, barring Dravid, will leave for England on June 16 for the yet to be completed fifth Test",
+              "pubTime": "1654540488559",
+              "source": "Cricbuzz",
+              "storyType": "News",
+              "imageId": 235427,
+              "seoHeadline": "Physio Kamlesh Jain formally joins India support staff",
+              "context": "India team news",
+              "coverImage": {
+                "id": "235427",
+                "caption": "Part of the support staff, barring Dravid, will leave for England on June 16",
+                "source": "BCCI"
+              }
+            }
+          },
+          {
+            "story": {
+              "id": 122327,
+              "hline": "Umran Malik, Arshdeep Singh picked for SA T20Is; Rahul to lead",
+              "intro": "Hardik Pandya, who returned to regular bowling duties in the IPL, is back in the T20I squad",
+              "pubTime": "1653221968626",
+              "source": "Cricbuzz",
+              "storyType": "News",
+              "imageId": 234537,
+              "seoHeadline": "Umran Malik, Arshdeep Singh earn maiden India call-up for South Africa T20Is",
+              "context": "India squads",
+              "coverImage": {
+                "id": "234537",
+                "caption": "Hardik returns to the India fold for the T20I series as well. ",
+                "source": "BCCI"
+              }
+            }
+          },
+          {
+            "story": {
+              "id": 122318,
+              "hline": "The Umran Malik dilemma for India selectors",
+              "intro": "The Chetan Sharma-led selection panel will meet virtually on Sunday (May 22) to pick the squads for the triple series of South Africa, Ireland and England, for both red-ball and white-ball matches",
+              "pubTime": "1653147070485",
+              "source": "Cricbuzz",
+              "storyType": "News",
+              "imageId": 234482,
+              "seoHeadline": "The Umran Malik dilemma for India selectors",
+              "context": "India cricket",
+              "coverImage": {
+                "id": "234482",
+                "caption": "Having impressed in the IPL with his whizzing pace - unseen in Indian cricket - Malik is seen as the next big thing",
+                "source": "BCCI/IPL"
+              }
+            }
+          },
+          {
+            "story": {
+              "id": 122259,
+              "hline": "India Test team to play warm-up match against Leicestershire",
+              "intro": "While the Indian T20I team will be playing Ireland on June 26 and 28, the Indian red-ball team will be involved in the first class game on those days in Leicester",
+              "pubTime": "1652782978016",
+              "source": "Cricbuzz",
+              "storyType": "News",
+              "imageId": 234100,
+              "seoHeadline": "India Test team to play warm-up match against Leicestershire",
+              "context": "India tour of England, 2022",
+              "coverImage": {
+                "id": "234100",
+                "caption": "The Indian Test team will play a warm-up fixture in Leicester",
+                "source": "Getty"
+              }
+            }
+          },
+          {
+            "story": {
+              "id": 122243,
+              "hline": "Rahane set to miss England tour; selectors to pick two squads",
+              "intro": "KKR batter has suffered a serious Grade III hamstring injury and will be out of action for at least four weeks\n",
+              "pubTime": "1652696127925",
+              "source": "Cricbuzz",
+              "storyType": "News",
+              "imageId": 234029,
+              "seoHeadline": "Rahane set to miss England tour; selectors set to pick two squads",
+              "context": "India Cricket News",
+              "coverImage": {
+                "id": "234029",
+                "caption": "Rahane has suffered a serious Grade III hamstring injury and will be out of action for at least four weeks.",
+                "source": "BCCI"
+              }
+            }
+          },
+          {
+            "story": {
+              "id": 119506,
+              "hline": "Fifth Test between England and India rescheduled to July 2022",
+              "intro": "The concluding Test match will now be played at Edgbaston instead of Manchester",
+              "pubTime": "1634904086207",
+              "source": "Cricbuzz",
+              "storyType": "News",
+              "imageId": 215877,
+              "seoHeadline": "Fifth Test between India and England rescheduled to July 2022",
+              "context": "India tour of England 2022",
+              "coverImage": {
+                "id": "215877",
+                "caption": "India will resume the Test series at 2-1",
+                "source": "Getty"
+              }
+            }
+          }
+        ]
+      }]
+}

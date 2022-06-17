@@ -1,0 +1,420 @@
+{
+    "teamMatchesData": [
+      {
+        "matchDetailsMap": {
+          "key": "South Africa tour of India, 2022",
+          "match": [
+            {
+              "matchInfo": {
+                "matchId": 38662,
+                "seriesId": 3697,
+                "seriesName": "South Africa tour of India, 2022",
+                "matchDesc": "4th T20I",
+                "matchFormat": "T20",
+                "startDate": "1655472600000",
+                "endDate": "1655485200000",
+                "state": "Upcoming",
+                "team1": {
+                  "teamId": 2,
+                  "teamName": "India",
+                  "teamSName": "IND",
+                  "imageId": "https://img1.hscicdn.com/image/upload/f_auto,t_ds_square_w_160,q_50/lsci/db/PICTURES/CMS/313100/313128.logo.png"
+                },
+                "team2": {
+                  "teamId": 11,
+                  "teamName": "South Africa",
+                  "teamSName": "RSA",
+                  "imageId": "https://img1.hscicdn.com/image/upload/f_auto,t_ds_square_w_160,q_50/lsci/db/PICTURES/CMS/313100/313125.logo.png"
+                },
+                "venueInfo": {
+                  "id": 290,
+                  "ground": "Saurashtra Cricket Association Stadium",
+                  "city": "Rajkot",
+                  "timezone": "+05:30"
+                },
+                "seriesStartDt": "1654732800000",
+                "seriesEndDt": "1655769600000",
+                "isTimeAnnounced": true
+              }
+            },
+            {
+              "matchInfo": {
+                "matchId": 38667,
+                "seriesId": 3697,
+                "seriesName": "South Africa tour of India, 2022",
+                "matchDesc": "5th T20I",
+                "matchFormat": "T20",
+                "startDate": "1655645400000",
+                "endDate": "1655658000000",
+                "state": "Upcoming",
+                "team1": {
+                  "teamId": 2,
+                  "teamName": "India",
+                  "teamSName": "IND",
+                  "imageId": "https://img1.hscicdn.com/image/upload/f_auto,t_ds_square_w_160,q_50/lsci/db/PICTURES/CMS/313100/313128.logo.png"
+                },
+                "team2": {
+                  "teamId": 11,
+                  "teamName": "South Africa",
+                  "teamSName": "RSA",
+                  "imageId": "https://img1.hscicdn.com/image/upload/f_auto,t_ds_square_w_160,q_50/lsci/db/PICTURES/CMS/313100/313125.logo.png"
+                },
+                "venueInfo": {
+                  "id": 27,
+                  "ground": "M.Chinnaswamy Stadium",
+                  "city": "Bengaluru",
+                  "timezone": "+05:30"
+                },
+                "seriesStartDt": "1654732800000",
+                "seriesEndDt": "1655769600000",
+                "isTimeAnnounced": true
+              }
+            }
+          ],
+          "seriesId": 3697
+        }
+      },
+      {
+        "matchDetailsMap": {
+          "key": "India tour of England, 2022",
+          "match": [
+            {
+              "matchInfo": {
+                "matchId": 48016,
+                "seriesId": 3636,
+                "seriesName": "India tour of England, 2022",
+                "matchDesc": "4-day Warm-up Match",
+                "matchFormat": "TEST",
+                "startDate": "1656064800000",
+                "endDate": "1656349200000",
+                "state": "Upcoming",
+                "team1": {
+                  "teamId": 145,
+                  "teamName": "Leicestershire",
+                  "teamSName": "LEIC",
+                  "imageId": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9c/Flag_of_Leicestershire.svg/1200px-Flag_of_Leicestershire.svg.png"
+                },
+                "team2": {
+                  "teamId": 2,
+                  "teamName": "India",
+                  "teamSName": "IND",
+                  "imageId": "https://img1.hscicdn.com/image/upload/f_auto,t_ds_square_w_160,q_50/lsci/db/PICTURES/CMS/313100/313128.logo.png"
+                },
+                "venueInfo": {
+                  "id": 222,
+                  "ground": "Grace Road",
+                  "city": "Leicester",
+                  "timezone": "+01:00"
+                },
+                "seriesStartDt": "1656028800000",
+                "seriesEndDt": "1658188800000",
+                "isTimeAnnounced": true
+              }
+            },
+            {
+              "matchInfo": {
+                "matchId": 41846,
+                "seriesId": 3636,
+                "seriesName": "India tour of England, 2022",
+                "matchDesc": "5th Test (Rescheduled match)",
+                "matchFormat": "TEST",
+                "startDate": "1656669600000",
+                "endDate": "1657040400000",
+                "state": "Upcoming",
+                "team1": {
+                  "teamId": 9,
+                  "teamName": "England",
+                  "teamSName": "ENG",
+                  "imageId": "https://img1.hscicdn.com/image/upload/f_auto,t_ds_square_w_160,q_50/lsci/db/PICTURES/CMS/313100/313114.logo.png"
+                },
+                "team2": {
+                  "teamId": 2,
+                  "teamName": "India",
+                  "teamSName": "IND",
+                  "imageId": "https://img1.hscicdn.com/image/upload/f_auto,t_ds_square_w_160,q_50/lsci/db/PICTURES/CMS/313100/313128.logo.png"
+                },
+                "venueInfo": {
+                  "id": 20,
+                  "ground": "Edgbaston",
+                  "city": "Birmingham",
+                  "timezone": "+01:00"
+                },
+                "seriesStartDt": "1656028800000",
+                "seriesEndDt": "1658188800000",
+                "isTimeAnnounced": true
+              }
+            },
+            {
+              "matchInfo": {
+                "matchId": 48023,
+                "seriesId": 3636,
+                "seriesName": "India tour of England, 2022",
+                "matchDesc": "1st T20 Warm-up Match",
+                "matchFormat": "T20",
+                "startDate": "1656696600000",
+                "endDate": "1656709200000",
+                "state": "Upcoming",
+                "team1": {
+                  "teamId": 144,
+                  "teamName": "Derbyshire",
+                  "teamSName": "DERBY",
+                  "imageId": "https://www.crwflags.com/fotw/images/g/gb-e-derbs.gif"
+                },
+                "team2": {
+                  "teamId": 2,
+                  "teamName": "India",
+                  "teamSName": "IND",
+                  "imageId": "https://img1.hscicdn.com/image/upload/f_auto,t_ds_square_w_160,q_50/lsci/db/PICTURES/CMS/313100/313128.logo.png"
+                },
+                "venueInfo": {
+                  "id": 226,
+                  "ground": "County Ground",
+                  "city": "Derby",
+                  "timezone": "+01:00"
+                },
+                "seriesStartDt": "1656028800000",
+                "seriesEndDt": "1658188800000",
+                "isTimeAnnounced": true
+              }
+            },
+            {
+              "matchInfo": {
+                "matchId": 48025,
+                "seriesId": 3636,
+                "seriesName": "India tour of England, 2022",
+                "matchDesc": "2nd T20 Warm-up Match",
+                "matchFormat": "T20",
+                "startDate": "1656855000000",
+                "endDate": "1656867600000",
+                "state": "Upcoming",
+                "team1": {
+                  "teamId": 142,
+                  "teamName": "Northamptonshire",
+                  "teamSName": "NHNTS",
+                  "imageId": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/35/Flag_of_Northamptonshire.svg/1200px-Flag_of_Northamptonshire.svg.png"
+                },
+                "team2": {
+                  "teamId": 2,
+                  "teamName": "India",
+                  "teamSName": "IND",
+                  "imageId": "https://img1.hscicdn.com/image/upload/f_auto,t_ds_square_w_160,q_50/lsci/db/PICTURES/CMS/313100/313128.logo.png"
+                },
+                "venueInfo": {
+                  "id": 119,
+                  "ground": "County Ground",
+                  "city": "Northampton",
+                  "timezone": "+01:00"
+                },
+                "seriesStartDt": "1656028800000",
+                "seriesEndDt": "1658188800000",
+                "isTimeAnnounced": true
+              }
+            },
+            {
+              "matchInfo": {
+                "matchId": 38301,
+                "seriesId": 3636,
+                "seriesName": "India tour of England, 2022",
+                "matchDesc": "1st T20I",
+                "matchFormat": "T20",
+                "startDate": "1657215000000",
+                "endDate": "1657227600000",
+                "state": "Upcoming",
+                "team1": {
+                  "teamId": 9,
+                  "teamName": "England",
+                  "teamSName": "ENG",
+                  "imageId": "https://img1.hscicdn.com/image/upload/f_auto,t_ds_square_w_160,q_50/lsci/db/PICTURES/CMS/313100/313114.logo.png"
+                },
+                "team2": {
+                  "teamId": 2,
+                  "teamName": "India",
+                  "teamSName": "IND",
+                  "imageId": "https://img1.hscicdn.com/image/upload/f_auto,t_ds_square_w_160,q_50/lsci/db/PICTURES/CMS/313100/313128.logo.png"
+                },
+                "venueInfo": {
+                  "id": 21,
+                  "ground": "The Rose Bowl",
+                  "city": "Southampton",
+                  "timezone": "+01:00"
+                },
+                "seriesStartDt": "1656028800000",
+                "seriesEndDt": "1658188800000",
+                "isTimeAnnounced": true
+              }
+            },
+            {
+              "matchInfo": {
+                "matchId": 38306,
+                "seriesId": 3636,
+                "seriesName": "India tour of England, 2022",
+                "matchDesc": "2nd T20I",
+                "matchFormat": "T20",
+                "startDate": "1657373400000",
+                "endDate": "1657386000000",
+                "state": "Upcoming",
+                "team1": {
+                  "teamId": 9,
+                  "teamName": "England",
+                  "teamSName": "ENG",
+                  "imageId": "https://img1.hscicdn.com/image/upload/f_auto,t_ds_square_w_160,q_50/lsci/db/PICTURES/CMS/313100/313114.logo.png"
+                },
+                "team2": {
+                  "teamId": 2,
+                  "teamName": "India",
+                  "teamSName": "IND",
+                  "imageId": "https://img1.hscicdn.com/image/upload/f_auto,t_ds_square_w_160,q_50/lsci/db/PICTURES/CMS/313100/313128.logo.png"
+                },
+                "venueInfo": {
+                  "id": 20,
+                  "ground": "Edgbaston",
+                  "city": "Birmingham",
+                  "timezone": "+01:00"
+                },
+                "seriesStartDt": "1656028800000",
+                "seriesEndDt": "1658188800000",
+                "isTimeAnnounced": true
+              }
+            },
+            {
+              "matchInfo": {
+                "matchId": 38311,
+                "seriesId": 3636,
+                "seriesName": "India tour of England, 2022",
+                "matchDesc": "3rd T20I",
+                "matchFormat": "T20",
+                "startDate": "1657474200000",
+                "endDate": "1657486800000",
+                "state": "Upcoming",
+                "team1": {
+                  "teamId": 9,
+                  "teamName": "England",
+                  "teamSName": "ENG",
+                  "imageId": "https://img1.hscicdn.com/image/upload/f_auto,t_ds_square_w_160,q_50/lsci/db/PICTURES/CMS/313100/313114.logo.png"
+                },
+                "team2": {
+                  "teamId": 2,
+                  "teamName": "India",
+                  "teamSName": "IND",
+                  "imageId": "https://img1.hscicdn.com/image/upload/f_auto,t_ds_square_w_160,q_50/lsci/db/PICTURES/CMS/313100/313128.logo.png"
+                },
+                "venueInfo": {
+                  "id": 18,
+                  "ground": "Trent Bridge",
+                  "city": "Nottingham",
+                  "timezone": "+01:00"
+                },
+                "seriesStartDt": "1656028800000",
+                "seriesEndDt": "1658188800000",
+                "isTimeAnnounced": true
+              }
+            },
+            {
+              "matchInfo": {
+                "matchId": 38312,
+                "seriesId": 3636,
+                "seriesName": "India tour of England, 2022",
+                "matchDesc": "1st ODI",
+                "matchFormat": "ODI",
+                "startDate": "1657620000000",
+                "endDate": "1657648800000",
+                "state": "Upcoming",
+                "team1": {
+                  "teamId": 9,
+                  "teamName": "England",
+                  "teamSName": "ENG",
+                  "imageId": "https://img1.hscicdn.com/image/upload/f_auto,t_ds_square_w_160,q_50/lsci/db/PICTURES/CMS/313100/313114.logo.png"
+                },
+                "team2": {
+                  "teamId": 2,
+                  "teamName": "India",
+                  "teamSName": "IND",
+                  "imageId": "https://img1.hscicdn.com/image/upload/f_auto,t_ds_square_w_160,q_50/lsci/db/PICTURES/CMS/313100/313128.logo.png"
+                },
+                "venueInfo": {
+                  "id": 12,
+                  "ground": "Kennington Oval",
+                  "city": "London",
+                  "timezone": "+01:00"
+                },
+                "seriesStartDt": "1656028800000",
+                "seriesEndDt": "1658188800000",
+                "isTimeAnnounced": true
+              }
+            },
+            {
+              "matchInfo": {
+                "matchId": 38317,
+                "seriesId": 3636,
+                "seriesName": "India tour of England, 2022",
+                "matchDesc": "2nd ODI",
+                "matchFormat": "ODI",
+                "startDate": "1657800000000",
+                "endDate": "1657828800000",
+                "state": "Upcoming",
+                "team1": {
+                  "teamId": 9,
+                  "teamName": "England",
+                  "teamSName": "ENG",
+                  "imageId": "https://img1.hscicdn.com/image/upload/f_auto,t_ds_square_w_160,q_50/lsci/db/PICTURES/CMS/313100/313114.logo.png"
+                },
+                "team2": {
+                  "teamId": 2,
+                  "teamName": "India",
+                  "teamSName": "IND",
+                  "imageId": "https://img1.hscicdn.com/image/upload/f_auto,t_ds_square_w_160,q_50/lsci/db/PICTURES/CMS/313100/313128.logo.png"
+                },
+                "venueInfo": {
+                  "id": 19,
+                  "ground": "Lord's",
+                  "city": "London",
+                  "timezone": "+01:00"
+                },
+                "seriesStartDt": "1656028800000",
+                "seriesEndDt": "1658188800000",
+                "isTimeAnnounced": true
+              }
+            },
+            {
+              "matchInfo": {
+                "matchId": 38321,
+                "seriesId": 3636,
+                "seriesName": "India tour of England, 2022",
+                "matchDesc": "3rd ODI",
+                "matchFormat": "ODI",
+                "startDate": "1658059200000",
+                "endDate": "1658088000000",
+                "state": "Upcoming",
+                "team1": {
+                  "teamId": 9,
+                  "teamName": "England",
+                  "teamSName": "ENG",
+                  "imageId": "https://img1.hscicdn.com/image/upload/f_auto,t_ds_square_w_160,q_50/lsci/db/PICTURES/CMS/313100/313114.logo.png"
+                },
+                "team2": {
+                  "teamId": 2,
+                  "teamName": "India",
+                  "teamSName": "IND",
+                  "imageId": "https://img1.hscicdn.com/image/upload/f_auto,t_ds_square_w_160,q_50/lsci/db/PICTURES/CMS/313100/313128.logo.png"
+                },
+                "venueInfo": {
+                  "id": 65,
+                  "ground": "Emirates Old Trafford",
+                  "city": "Manchester",
+                  "timezone": "+01:00"
+                },
+                "seriesStartDt": "1656028800000",
+                "seriesEndDt": "1658188800000",
+                "isTimeAnnounced": true
+              }
+            }
+          ],
+          "seriesId": 3636
+        }
+      }
+    ],
+    "appIndex": {
+      "seoTitle": "India Cricket Team live scores, fixtures - Cricbuzz | Cricbuzz.com",
+      "webURL": "www.cricbuzz.com/cricket-team/"
+    }
+  }
