@@ -1,0 +1,7 @@
+.main{
+    display: flex;
+    justify-content: center;
+    background-color: rgb(106, 172, 252);
+    padding-bottom: 40px;
+    padding-top: 30px;
+}

@@ -1,6 +1,8 @@
 
 import React, { useState } from 'react'
 import { Route, Routes } from 'react-router-dom'
+import Footer from '../components/header-footer/Footer'
+import Navbar from '../components/header-footer/Navbar'
 import { Home } from '../components/Home/Home'
 import { Current } from '../components/Series/current'
 import { Series } from '../components/Series/currentcricket'
@@ -18,6 +20,7 @@ export const Mainroutes = () => {
   return (
     <div>
        <button onClick ={handleTheme}>theme</button>
+       <Navbar/>
    <Routes>
     <Route path="/" element={<Home theme={theme} />}/>
     <Route path="/series/current" element={<Current/>}/>
@@ -26,6 +29,7 @@ export const Mainroutes = () => {
     <Route path="/series/recent" element={<Recent/>}/>
     <Route path="/series/result" element={<Result/>}/>
    </Routes>
+   <Footer/>
     </div>
   )
 }
