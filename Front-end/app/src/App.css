@@ -1,38 +1,45 @@
-.App {
-  text-align: center;
+body { 
+  background-color: rgb(249,249,251);
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.Insidemaindivday {
+  background-color:white;
+  padding:15px;
+  font:12px;
+  font-family: " BentonSans,Arial,Noto Sans,sans-serif";
+  --tw-text-opacity:1;
+  line-height:inherit;
+  border-radius: 10px;
+}
+.Insidemaindivnight {
+  background-color:rgb(29,30,31);
+  padding:15px;
+  font:12px;
+  font-family: " BentonSans,Arial,Noto Sans,sans-serif";
+  color:white;
+  border-radius: 10px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.searchhover :hover { 
+  background-color:lightblue;
+
+}
+a {
+  text-decoration:none;
+}
+#hoverdivhere :hover{
+background-color: rgba(53,186,246,0.5);
+cursor:pointer;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.daytheme {
+  background-color: rgb(249,249,251);
+  
 }
 
-.App-link {
-  color: #61dafb;
+.nighttheme {
+  background-color: black;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+p{
+  padding:5px;
 }

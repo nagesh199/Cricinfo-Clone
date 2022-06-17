@@ -1,0 +1,107 @@
+{
+    "against" :[
+    { "vs": "India v South Africa"},
+    {"vs":"England v New Zealand"},
+    {"vs":"Sri Lanka v Australia"},
+    {"vs":"Pakistan v West Indies"},
+    {"vs":"Zimbabwe v Afganistan"},
+    {"vs":"Netherlands v England"},
+    {"vs":"Ireland v India"},
+    {"vs":"Ranji Trophy"},
+    {"vs":"Vitality Blast"},
+    {"vs":"Country Div1"},
+    {"vs":"Country Div12"},
+    {"vs":"Women's Championship"},
+    {"vs":"World Test Championship"},
+    {"vs":"World Cup Super League"}
+   
+    ],
+    "links" :[
+        { "quick": "T20 Time Out"},
+        {"quick":"T20 Time Out Hindi"},
+        {"quick":"ICC Rankings"},
+        {"quick":"Fantasy Pick"},
+        {"quick":"Haan Ya Naa"}
+      
+        ],
+        "rightside": [
+            {
+                "id": 17,
+                "image": "https://tpc.googlesyndication.com/simgad/464404564373235981?"
+  
+              },
+              {
+                "id": 1,
+                "image": "https://img1.hscicdn.com/image/upload/f_auto,t_ds_wide_w_320/lsci/db/PICTURES/CMS/199000/199005.5.jpg",
+                "para": "On This Day: Birth of Alan Davidson"
+              },
+              {
+                "id": 2,
+                "image": "https://img1.hscicdn.com/image/upload/f_auto,t_ds_wide_w_320/lsci/db/PICTURES/CMS/340200/340244.png",
+                "para": "Quote Unquote: who's saying what?"
+              },
+              {
+                "id": 3,
+                "image": "https://img1.hscicdn.com/image/upload/f_auto,t_ds_wide_w_320/lsci/db/PICTURES/CMS/314400/314493.6.jpg",
+                "para": "T Natarajan, the miracle man of Chinnappampatti"
+              },
+              {
+                "id": 4,
+                "image": "https://img1.hscicdn.com/image/upload/f_auto,t_ds_wide_w_320/lsci/db/PICTURES/CMS/340800/340832.6.jpg",
+                "para": "The latest cricket photos"
+              },
+              {
+                "id": 5,
+                "image": "https://img1.hscicdn.com/image/upload/f_auto,t_ds_wide_w_320/lsci/db/PICTURES/CMS/331700/331725.6.jpg",
+                "para": "The rise of A-team cricket"
+              },
+              {
+                "id": 6,
+                "image": "https://cdn.flashtalking.com/xre/421/4214928/3872828/image/3872828.gif?495360564"
+              },
+              {
+                "id": 7,
+                "image": "https://img1.hscicdn.com/image/upload/f_auto,t_ds_wide_w_320/lsci/db/PICTURES/CMS/328000/328052.6.jpg",
+                "para": "Who does it best in women's cricket?"
+              },
+              {
+                "id": 8,
+                "image": "https://img1.hscicdn.com/image/upload/f_auto,t_ds_wide_w_320/lsci/db/PICTURES/CMS/335600/335634.jpg",
+                "para": "How the IPL franchises spent money in the auction"
+              },
+              {
+                "id": 9,
+                "image": "https://img1.hscicdn.com/image/upload/f_auto,t_ds_wide_w_320/lsci/db/PICTURES/CMS/340500/340515.6.jpg",
+                "para": "Records index: most runs,most wickets, and a lot mote"
+              },
+              {
+                "id": 10,
+                "image": "https://img1.hscicdn.com/image/upload/f_auto,t_ds_wide_w_320/lsci/db/PICTURES/CMS/263000/263043.jpg",
+                "para": "Blaster from the past"
+              },
+      
+              {
+                "id": 11,
+                "image": "https://img1.hscicdn.com/image/upload/f_auto,t_ds_wide_w_320/lsci/db/PICTURES/CMS/335100/335169.6.jpg",
+                "para": "Rankings: Who's leading in every format"
+              },
+              {
+                "id": 12,
+                "image": "https://tpc.googlesyndication.com/simgad/5163876710482171922?"
+              },
+              {
+                "id": 13,
+                "image": "https://img1.hscicdn.com/image/upload/f_auto,t_ds_wide_w_320/lsci/db/PICTURES/CMS/236100/236127.4.jpg",
+                "para": "Goodbye, Hollywood: a farewall to Warne"
+              }
+        ],
+        "newsheadline":[
+            {"headline": "Houghton appointed Zimbabwe coach"},
+            {"headline": "WI vs Ban: Injured Yasir Ali ruled out"},
+            {"headline": "Zim vs Afg: Noor bags four on debut"},
+            {"headline": "Ire vs SA: Clinical SA in unassailiable lead"},
+            {"headline": "SA's Matshikwe convicted in fixing case"},
+            {"headline": "Buzz: Lalit Modi's reaction to IPL billions"}
+        ]
+}  
+
