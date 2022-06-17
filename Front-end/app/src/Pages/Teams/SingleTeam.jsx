@@ -1,14 +1,14 @@
 import React from "react";
 import styles from "../css/team.module.css";
-import teams from "../data/teams.json";
+import teams from "../../../../../New folder/src/data/teams.json";
 import { useParams } from "react-router-dom";
-import teamMatchesData from "../data/schedules.json";
-import storyList from "../data/news.json";
+import teamMatchesData from "../../../../../New folder/src/data/schedules.json";
+import storyList from "../../../../../New folder/src/data/news.json";
 import { Match } from "../components/match";
 import { Team } from "../components/team";
 import { News } from "../components/News";
 import { Rank } from "../components/Rank";
-import ranking from "../data/ranking.json";
+import ranking from "../../../../../New folder/src/data/ranking.json";
 
 export const SingleTeam = () => {
   let { team } = useParams();

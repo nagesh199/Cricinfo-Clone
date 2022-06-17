@@ -1,5 +1,5 @@
 import { Team } from "../components/team";
-import list from "../data/db.json";
+import list from "../../../../../New folder/src/data/db.json";
 import styles from "../css/teams.module.css";
 import { useNavigate } from "react-router-dom";
 export const Teams = () => {
