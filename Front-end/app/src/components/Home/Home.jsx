@@ -8,7 +8,7 @@ import { HomeBox } from "../../components/Teams/HomeBox";
 import styles from "../../CSS/Teams/homepage.module.css";
 import { Matches } from "../Teams/matches";
 const Maindiv = style.div`
- width:100%;
+  width:100%;
   display:flex;
   justify-content:space-around;
  `;
@@ -64,6 +64,7 @@ export const Home = ({ theme }) => {
           })}
         </div>
         <div className={styles.rightDiv}>
+        <div className={theme ? "Insidemaindivday" : "Insidemaindivnight"}>
           {
             Dataarr.map((el,i)=>{
               if(i===0){
@@ -88,6 +89,7 @@ export const Home = ({ theme }) => {
               }
             })
           }
+          </div>
         </div>
         {/* right part of the home page */}
         {/* <div className={styles.rightDiv} >
