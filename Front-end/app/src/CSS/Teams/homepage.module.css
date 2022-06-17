@@ -5,6 +5,12 @@
     justify-content: space-between;
     margin-top: 5%;
 }
+.home img{
+    transition: transform 0.5s;
+}
+.home img:hover{
+    transform: scale(1.05) ;
+}
 
 .leftDiv {
     width: 20%;
@@ -55,7 +61,25 @@
     width: 50%;
     box-sizing: border-box;
 }
-.middleDiv >div img{
+.middleDiv>div{
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+    padding: 3%;
+    border-radius: 20px;
+    box-sizing: border-box;
+    margin-top: 5%;
+}
+.slider{
+   
+    display: flex;
+    justify-content: space-between;
+    font-size: 14px;
+    border-top: 1px solid rgb(217, 216, 216);
+}
+.slider>div{
+   width: 30%;
+   margin-top:3%;
+}
+.middleDiv>div img{
     width: 100%;
     border-radius: 20px;
 }

@@ -57,7 +57,7 @@ export const Home = ({ theme }) => {
         <div className={styles.middleDiv}>
           {newsarr.map((el, i) => {
             return (
-              <div key={i}>
+              <div  key={i}>
                 <HomeBox {...el} />
               </div>
             );
