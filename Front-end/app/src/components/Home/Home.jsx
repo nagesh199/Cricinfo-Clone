@@ -3,7 +3,8 @@ import data from "./db.json"
 import { FaSearch } from 'react-icons/fa';
 import { RiArrowRightSLine } from "react-icons/ri";
 import style from "styled-components"
-
+import HomeNews from "../../DATABASE/Teams/homepage.json"
+import { HomeBox } from '../../components/Teams/HomeBox';
  const Maindiv = style.div`
  width:100%;
   display:flex;
@@ -20,6 +21,7 @@ font-family:BentonSans,Arial,Noto Sans,sans-serif
 `
   var i = 0;
    export const Home = ({theme}) => {
+    const  newsarr=HomeNews.HomeNews;
   // console.log(data)
   
   // theme change function
@@ -93,7 +95,16 @@ font-family:BentonSans,Arial,Noto Sans,sans-serif
         {/* middle part of the home page */}
        
        <div  style={{width:"40%"}}>
-       center part
+       
+       <div>
+        {newsarr.map((el,i)=>{
+            return <div key={i}>
+            <HomeBox {...el} />
+            </div>
+        })}
+    </div>
+
+
        </div>
         {/* right part of the home page */}
         <div  style={{width:"25%"}}>

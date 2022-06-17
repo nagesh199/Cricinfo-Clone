@@ -1,5 +1,5 @@
 import React from 'react'
-import styles from "../css/"
+import styles from "../../CSS/Teams/homepage.module.css"
 export const HomeBox = ({storyList}) => {
    
   return (
