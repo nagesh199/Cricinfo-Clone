@@ -1,11 +1,11 @@
 import React from "react";
 import styles from "./ScoreCard.module.css"
 
-const ScoreCard = ({ category, live, result, team1, team1Img, team1Score, team2, team2Score, team2Img }) => {
-    //console.log(props)
+const ScoreCard = ({data}) => {
+    console.log(data)
     return (
             <div className={styles.itemContainer}>
-
+{/* 
                 <div className={styles.category}>
                 <div><p>{live}</p></div>
                 <div><p>{category}</p></div>
@@ -19,7 +19,7 @@ const ScoreCard = ({ category, live, result, team1, team1Img, team1Score, team2,
                 <div className={styles.team2Img}><img src={team2Img} alt="" /><p>{team2}</p><div><h4>{team2Score}</h4></div></div>
                 </div>
 
-                <div className={styles.result}><p>{result}</p></div>
+                <div className={styles.result}><p>{result}</p></div> */}
             </div>
     )
 }

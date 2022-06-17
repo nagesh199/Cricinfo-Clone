@@ -12,7 +12,7 @@ const Navbar = () => {
             <div className={styles.secondDiv}>
                 <div className={styles.contentDiv}>
                     <div className={styles.dropdown}>
-                       <p> <Link to="/" className={styles.dropbtn}>LiveScores</Link></p>
+                       <p> <Link to="/livescores" className={styles.dropbtn}>LiveScores</Link></p>
                     <div class={styles.dropdowncontent}>
                     <p> <Link to="/">Live Scores Home</Link></p>
                     <p> <Link to="/">Week view</Link></p>
@@ -56,7 +56,7 @@ const Navbar = () => {
                     </div>
 
                     <div className={styles.dropdown}>
-                    <p> <Link to="/" className={styles.dropbtn}>News</Link></p>
+                    <p> <Link to="/news" className={styles.dropbtn}>News</Link></p>
                     <div class={styles.dropdowncontent}>
                     <p>  <Link to="/">News Home</Link></p>
                     <p>  <Link to="/">Covid-19</Link></p>

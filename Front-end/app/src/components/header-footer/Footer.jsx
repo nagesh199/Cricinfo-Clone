@@ -38,7 +38,7 @@ const Footer = () => {
         </div>
         <div className={styles.infoItems}>
           <p>Follow ESPNcricinfo</p>
-          <a href="/">Instagram</a>
+          <a target="_blank" href="https://www.instagram.com/_abhinav_roy_/">Instagram</a>
           <a href="/">Twitter</a>
           <a href="/">Facebook</a>
           <a href="/">YouTube</a>
@@ -49,9 +49,9 @@ const Footer = () => {
           <a href="/">ESPN</a>
         </div>
       </div>
-      <div className={styles.copyright}>
+      {/* <div className={styles.copyright}>
          
-      </div>
+      </div> */}
     </div>
   );
 }
