@@ -1,5 +1,7 @@
 {
-    "against" :[
+   "leftData":[{
+    "title":"Key Series",
+    "list" :[
     { "vs": "India v South Africa"},
     {"vs":"England v New Zealand"},
     {"vs":"Sri Lanka v Australia"},
@@ -15,17 +17,38 @@
     {"vs":"World Test Championship"},
     {"vs":"World Cup Super League"}
    
-    ],
-    "links" :[
-        { "quick": "T20 Time Out"},
-        {"quick":"T20 Time Out Hindi"},
-        {"quick":"ICC Rankings"},
-        {"quick":"Fantasy Pick"},
-        {"quick":"Haan Ya Naa"}
-      
-        ],
-        "rightside": [
-            {
+    ]},{
+      "title":"Quick Links",
+    "list" :[
+        { "vs": "T20 Time Out"},
+        {"vs":"T20 Time Out Hindi"},
+        {"vs":"ICC Rankings"},
+        {"vs":"Fantasy Pick"},
+        {"vs":"Haan Ya Naa"}
+        ]},{
+          "title":"ESPNcricinfo Apps",
+          "list":[]
+        },{
+          "title":"Follow ESPNcricinfo",
+          "list":[]
+        },{
+          "title":"ESPN Sites",
+          "list":[]
+        }],
+
+        "rightData": [
+          {
+            "title":"News Headlines",
+            "list":[
+              {"headline": "Houghton appointed Zimbabwe coach"},
+              {"headline": "WI vs Ban: Injured Yasir Ali ruled out"},
+              {"headline": "Zim vs Afg: Noor bags four on debut"},
+              {"headline": "Ire vs SA: Clinical SA in unassailiable lead"},
+              {"headline": "SA's Matshikwe convicted in fixing case"},
+              {"headline": "Buzz: Lalit Modi's reaction to IPL billions"}
+          ]},
+          {
+            "imageArr":[ {
                 "id": 17,
                 "image": "https://tpc.googlesyndication.com/simgad/464404564373235981?"
   
@@ -94,14 +117,7 @@
                 "image": "https://img1.hscicdn.com/image/upload/f_auto,t_ds_wide_w_320/lsci/db/PICTURES/CMS/236100/236127.4.jpg",
                 "para": "Goodbye, Hollywood: a farewall to Warne"
               }
-        ],
-        "newsheadline":[
-            {"headline": "Houghton appointed Zimbabwe coach"},
-            {"headline": "WI vs Ban: Injured Yasir Ali ruled out"},
-            {"headline": "Zim vs Afg: Noor bags four on debut"},
-            {"headline": "Ire vs SA: Clinical SA in unassailiable lead"},
-            {"headline": "SA's Matshikwe convicted in fixing case"},
-            {"headline": "Buzz: Lalit Modi's reaction to IPL billions"}
-        ]
+        ]}
+          ]
 }  
 
