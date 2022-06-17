@@ -1,7 +1,7 @@
 import React, { useEffect,useState } from 'react'
 import { useParams } from 'react-router-dom'
 import { data } from './Main'
-import axios from "axios"
+// import axios from "axios"
 import styles from "../News/ind.module.css"
 // import "../News/ind.css"
 
@@ -11,15 +11,15 @@ const Individualdata=()=> {
     const {id}=useParams()
     
     const getdata=async()=>{
-        const temp=axios.get(`http://localhost:3030/${id}`)
-        var d=await temp
-        setData(d.data)
-        setArr(d.data.longdesc)
+        // const temp=axios.get(`http://localhost:3030/${id}`)
+        // var d=await temp
+        // setData(d.data)
+        // setArr(d.data.longdesc)
     }
-  useEffect(()=>{
-    getdata()
+  // useEffect(()=>{
+  //   getdata()
     
-  },[])
+  // },[])
   
     
   return (
