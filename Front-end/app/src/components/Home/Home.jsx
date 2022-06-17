@@ -19,16 +19,16 @@ font-family:BentonSans,Arial,Noto Sans,sans-serif
 
 `
   var i = 0;
-   export const Home = () => {
+   export const Home = ({theme}) => {
   // console.log(data)
   
   // theme change function
-  const [theme,settheme] = useState(true)
+  // const [theme,settheme] = useState(true)
   
-  const handleTheme = () =>{
-    settheme(!theme)
-    console.log(theme)
-  }
+  // const handleTheme = () =>{
+  //   settheme(!theme)
+  //   console.log(theme)
+  // }
 
   return (
     <Maindiv  className={ theme ? "daytheme" : "nighttheme"}>
@@ -37,7 +37,7 @@ font-family:BentonSans,Arial,Noto Sans,sans-serif
 
       {/* left part of home page */}
        <div style={{width:"30%",marginLeft:"20px"}}>
-       <button onClick ={handleTheme}>theme</button>
+       {/* <button onClick ={handleTheme}>theme</button> */}
         
           <div className= { theme ?"Insidemaindivday" : "Insidemaindivnight"} style={{width:"40%"}}>
             <img width="150"src="https://wassets.hscicdn.com/static/images/nlp-logo.svg" alt="ask a question" />
