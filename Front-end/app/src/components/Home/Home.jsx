@@ -63,6 +63,32 @@ export const Home = ({ theme }) => {
             );
           })}
         </div>
+        <div className={styles.rightDiv}>
+          {
+            Dataarr.map((el,i)=>{
+              if(i===0){
+                return <div key={i} className={styles.subBox}>
+                  <div>
+                  <p>{el.title}</p>
+                  </div>
+                  <Matches {...el}/>
+                </div>
+              }
+              else{
+                return <div key={i}>
+                     {
+                      el.imageArr.map((el,i)=>{
+                        return <div>
+                          <img src={el.image} alt="" />
+                          <p>{el.para}</p>
+                        </div>
+                      })
+                     }
+                </div>
+              }
+            })
+          }
+        </div>
         {/* right part of the home page */}
         {/* <div className={styles.rightDiv} >
           <div className={theme ? "Insidemaindivday" : "Insidemaindivnight"}>

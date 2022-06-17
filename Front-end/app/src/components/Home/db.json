@@ -40,12 +40,12 @@
           {
             "title":"News Headlines",
             "list":[
-              {"headline": "Houghton appointed Zimbabwe coach"},
-              {"headline": "WI vs Ban: Injured Yasir Ali ruled out"},
-              {"headline": "Zim vs Afg: Noor bags four on debut"},
-              {"headline": "Ire vs SA: Clinical SA in unassailiable lead"},
-              {"headline": "SA's Matshikwe convicted in fixing case"},
-              {"headline": "Buzz: Lalit Modi's reaction to IPL billions"}
+              {"vs": "Houghton appointed Zimbabwe coach"},
+              {"vs": "WI vs Ban: Injured Yasir Ali ruled out"},
+              {"vs": "Zim vs Afg: Noor bags four on debut"},
+              {"vs": "Ire vs SA: Clinical SA in unassailiable lead"},
+              {"vs": "SA's Matshikwe convicted in fixing case"},
+              {"vs": "Buzz: Lalit Modi's reaction to IPL billions"}
           ]},
           {
             "imageArr":[ {

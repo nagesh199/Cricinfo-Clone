@@ -3,6 +3,7 @@
     margin: auto;
     display: flex;
     justify-content: space-between;
+    margin-top: 5%;
 }
 
 .leftDiv {
@@ -54,8 +55,19 @@
     width: 50%;
     border: 1px solid salmon;
 }
-
+.middleDiv img{
+    width: 50%;
+}
 .rightDiv {
     width: 25%;
-    border: 1px solid red;
+}
+.rightDiv img{
+   width: 100%;
+   border-radius: 20px;
+}
+.rightDiv>div{
+    box-sizing: border-box;
+    padding: 5%;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+    border-radius: 20px;
 }
