@@ -25,7 +25,6 @@ export const Series = ()=>{
      }
     return (
         <div>
-            <h1>Current Series</h1>
             <div className={styles.head}>
                 <h4 className={styles.headh4}
                 onClick={handleCurrent}>Current Cricket</h4>

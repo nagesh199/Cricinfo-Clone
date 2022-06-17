@@ -1,14 +1,16 @@
+import { useNavigate } from "react-router-dom"
 import styles from "./series.module.css"
 
 export const Current = ()=>{
-  
+    const navigate = useNavigate()
+ 
     return (
         <div className={styles.currentMain}>
             <div className={styles.right}>
 
                  <h3 className={styles.h3}>INTERNATIONAL TOURS</h3>
                  <div className={styles.International}>
-                     <p>India v South Africa</p>
+                     <p onClick={()=>navigate("/series/india")}>India v South Africa</p>
                      <p>England v New Zealand</p>
                      <p>Sri Lanka v Australia</p>
                      <p>Netherlands v West Indies</p>
