@@ -1,7 +1,7 @@
 import React from "react";
 import styles from "../../CSS/Teams/team.module.css";
 import teams from "../../DATABASE/Teams/teams.json";
-import { useParams } from "react-router-dom";
+// import { useParams } from "react-router-dom";
 import teamMatchesData from "../../DATABASE/Teams/schedules.json";
 import storyList from "../../DATABASE/Teams/news.json";
 import { Match } from "../../components/Teams/match";
@@ -11,7 +11,7 @@ import { Team } from "../../components/Teams/team";
 import ranking from "../../DATABASE/Teams/ranking.json";
 
 export const SingleTeam = () => {
-  let { team } = useParams();
+  // let { team } = useParams();
   let schedulearr = teamMatchesData.teamMatchesData;
   let newsarr = storyList.storyList;
   let runsarr = ranking.RUNS.Test;
