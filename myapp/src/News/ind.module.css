@@ -1,0 +1,48 @@
+#mainbackground{
+    width: 100%;
+    height: auto;
+    background-color: black;
+    display: flex;
+    padding-bottom: 5%;
+}
+#submain{
+    padding: 5px;
+    padding-bottom:2%;
+    width: 55%;
+    margin-left: 10%;
+    background-color: #1d1e1f;
+    height: auto;
+    margin-top: 2%;
+    border-radius: 5%;
+     }
+
+     #trial{
+        margin-top: 40%;
+        width: 300px;
+        margin-left: 30%;
+        height: auto;
+        background-color: #1d1e1f;
+        border-radius: 5%;
+     }
+
+    .sidenews{
+       
+        display:flex;
+        
+        
+    }
+
+.Title{
+    color: #f6f7f8;
+    margin-left: 5%;
+    font-weight: bold;
+}
+
+.longdesc{
+    width: 70%;
+    margin: auto;
+    color: #f6f7f8;
+    font-size: 18px;
+    font-family:  Arial, sans-serif;
+    line-height: 35px;
+}

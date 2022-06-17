@@ -73,3 +73,11 @@
 
 
 /* ..................................................... */
+#trial{
+    margin-top: 40%;
+    width: 300px;
+    margin-left: 30%;
+    height: auto;
+    background-color: #1d1e1f;
+    border-radius: 5%;
+ }
