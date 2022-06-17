@@ -27,13 +27,19 @@
         {"vs":"Haan Ya Naa"}
         ]},{
           "title":"ESPNcricinfo Apps",
-          "list":[]
+          "list":[
+            {"vs":"Android App"},
+            {"vs":"iOS App"}]
         },{
           "title":"Follow ESPNcricinfo",
-          "list":[]
+          "list":[{"vs":"Instagram"},
+            {"vs":"Twitter"},
+            {"vs":"Facebook"},
+            {"vs":"YouTube"}]
         },{
           "title":"ESPN Sites",
-          "list":[]
+          "list":[{"vs":"  The Cricket Monthly"},
+            {"vs":"ESPN"}]
         }],
 
         "rightData": [
