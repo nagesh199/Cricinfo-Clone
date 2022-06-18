@@ -139,6 +139,22 @@
         }
       }]
     }, {
+      "storyList": [ {
+        "story": {
+          "id": 122679,
+          "hline": "Hazlewood is No. 1 T20I bowler; Kishan highest-rated India batter",
+          "intro": "The last Australia bowler to top the bowling charts was Bracken in 2008",
+          "pubTime": "1655473509523",
+          "source": {"img":"https://img1.hscicdn.com/image/upload/f_auto,t_ds_wide_w_1200,q_60/lsci/db/PICTURES/CMS/340800/340868.6.jpg",
+          "caption":"Root rises to No. 1 in Tests; Imam moves past Kohli to No. 2 in ODIs",
+          "subCaption":"Replaces Labuschagne at the top following his 176 in Trent Bridge"},
+          "storyType": "Statistics & Analysis",
+          "imageId": "https://img1.hscicdn.com/image/upload/f_auto,t_ds_wide_w_1200,q_60/lsci/db/PICTURES/CMS/329100/329131.6.jpg",
+          "context": "England tour of Netherlands, 2022",
+          "sublist": []
+        }
+      }]
+    },{
       "storyList": [{
         "story": {
           "id": 122685,
@@ -308,22 +324,6 @@
           "source": "Cricbuzz",
           "storyType": "Statistics & Analysis",
           "imageId": "https://img1.hscicdn.com/image/upload/f_auto,t_ds_wide_w_1200,q_60/lsci/db/PICTURES/CMS/294400/294434.6.jpg",
-          "context": "England tour of Netherlands, 2022",
-          "sublist": []
-        }
-      }]
-    },{
-      "storyList": [ {
-        "story": {
-          "id": 122679,
-          "hline": "Hazlewood is No. 1 T20I bowler; Kishan highest-rated India batter",
-          "intro": "The last Australia bowler to top the bowling charts was Bracken in 2008",
-          "pubTime": "1655473509523",
-          "source": {"img":"https://img1.hscicdn.com/image/upload/f_auto,t_ds_wide_w_1200,q_60/lsci/db/PICTURES/CMS/340800/340868.6.jpg",
-          "caption":"Root rises to No. 1 in Tests; Imam moves past Kohli to No. 2 in ODIs",
-          "subCaption":"Replaces Labuschagne at the top following his 176 in Trent Bridge"},
-          "storyType": "Statistics & Analysis",
-          "imageId": "https://img1.hscicdn.com/image/upload/f_auto,t_ds_wide_w_1200,q_60/lsci/db/PICTURES/CMS/329100/329131.6.jpg",
           "context": "England tour of Netherlands, 2022",
           "sublist": []
         }
