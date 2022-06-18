@@ -8,7 +8,7 @@ import { Rank } from "../../components/Teams/Rank";
 import { Team } from "../../components/Teams/team";
 import axios from "axios";
 
-export const SingleTeam = () => {
+export const SingleTeam = ({theme}) => {
   // let { team } = useParams();
  
   let teamarr = teams.teams;
@@ -33,9 +33,9 @@ const getData= async()=>{
   setWicket(ranking.data.WICKETS.Test)
 }
   return (
-    <div>
-      <div className={styles.navbar}>
-        <div>
+    <div id={theme ?styles.day : styles.night}>
+      <div id={theme ?styles.day : styles.night} className={styles.navbar}>
+        <div id={theme ?styles.day : styles.night}>
           {teamarr.map((el, i) => {
             return (
               <div className={styles.mainDiv} key={i}>

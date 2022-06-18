@@ -109,7 +109,7 @@ const Footer = ({ theme }) => {
           </a>
         </div>
       </div>
-      <div className={styles.copyright}>
+      <div id={theme ?styles.day : styles.night}  className={styles.copyright}>
         <div>
           Terms of Use | Privacy Policy | Interest-Based Ads | Addendum to the
           Global Privacy Policy | Feedback

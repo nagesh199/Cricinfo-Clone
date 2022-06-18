@@ -1,15 +1,15 @@
 import styles from "./series.module.css"
 import Carousel from 'carousel-react-rcdev'
-export const South = ()=>{
+export const South = ({theme})=>{
 
 
     return (
-        <div style={{marginLeft:"10px"}}>
+        <div id={theme ?styles.day : styles.night} style={{marginLeft:"10px"}}>
            
             <div className={styles.back}>
             
             </div>
-            <div className={styles.blackimgbottom}>
+            <div id={theme ?styles.day : styles.night} className={styles.blackimgbottom}>
                  <h1>Chahal finds success again by going back to his strengths</h1>
                  <p>"In the last game , I was bowling a lot of sliders. My strength is to turn the ball to get it to dip."</p>
             </div>
@@ -51,7 +51,7 @@ export const South = ()=>{
             </div>
             <div className={styles.second}>
             </div>
-            <div className={styles.imgbottom}>
+            <div id={theme ?styles.day : styles.night} className={styles.imgbottom}>
                  <h1>How Klaasen tamed a triky Cuttack pitch</h1>
                  <p>"He struggled at the start but went on to navigate his path smartly , writes Hemant Brar"</p>
             </div>
@@ -101,7 +101,7 @@ export const South = ()=>{
             </div>
             <div className={styles.frist}>
             </div>
-            <div className={styles.imgbottom}>
+            <div id={theme ?styles.day : styles.night} className={styles.imgbottom}>
                  <h1>Steyn:Miller now hits boundaries whenever he wants to</h1>
                  <p>Wasim Jaffer adds that the SA batter has become "absolutely brilliant" against spin</p>
             </div>

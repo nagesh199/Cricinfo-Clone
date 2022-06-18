@@ -24,7 +24,7 @@ export const Series = ({theme})=>{
         setRecent(false)
      }
     return (
-        <div  id={theme ?styles.day : styles.night}>
+        <div  id={theme ?styles.day : styles.night} >
             <div className={styles.head}>
                 <h4 className={styles.headh4}
                 onClick={handleCurrent}>Current Cricket</h4>
