@@ -1,11 +1,11 @@
-#mainbackground{
+.mainbackground{
     width: 100%;
     height: auto;
     background-color: black;
     display: flex;
     padding-bottom: 5%;
 }
-#submain{
+.submain{
     padding: 5px;
     padding-bottom:2%;
     width: 55%;
@@ -45,4 +45,26 @@
     font-size: 18px;
     font-family:  Arial, sans-serif;
     line-height: 35px;
+}
+#day{
+    background-color:rgb(249,249,251);
+    color:black;
+  }
+  #night {
+    background-color:rgb(29,30,31);
+    color: white;
+  }
+  #mainpageday{
+    width: 100%;
+    height: auto;
+   
+    display: flex;
+    /* grid-template-columns: repeat(2,1fr); */
+}
+#mainpagenight{
+    width: 100%;
+    height: auto;
+   background-color:black;
+    display: flex;
+    /* grid-template-columns: repeat(2,1fr); */
 }
