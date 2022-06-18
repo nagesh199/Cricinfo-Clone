@@ -2,6 +2,7 @@
   box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
 }
 
+
 .navbar>div {
   margin-left: 5%;
   width: 60%;
@@ -13,6 +14,12 @@
 .mainDiv>div {
   display: flex;
   align-items: center;
+}
+.mainDiv img{
+  transition: transform 0.5s;
+}
+.mainDiv img:hover{
+  transform: scale(1.05) ;
 }
 
 .navbar>div>div {

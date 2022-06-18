@@ -58,7 +58,7 @@ export const Home = ({ theme }) => {
           {newsarr.map((el, i) => {
             return (
               <div  key={i}>
-                <HomeBox {...el} />
+                <HomeBox theme={theme} {...el} />
               </div>
             );
           })}
