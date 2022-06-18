@@ -12,7 +12,7 @@ export const HomeBox = ({storyList,theme}) => {
              <p id={theme ?styles.day : styles.night}>{story.intro}</p>
             <div className={styles.slider}>
               {story.sublist.map(({story},i)=>{
-                return <div>
+                return <div key={i}>
                    <img src={story.imageId} alt="" />   
                    <p id={theme ?styles.day : styles.night}>{story.seoHeadline}</p>
                 </div>

@@ -1,23 +1,37 @@
-import React from "react";
+import React, { useEffect, useState } from "react";
 import styles from "../../CSS/Teams/team.module.css";
 import teams from "../../DATABASE/Teams/teams.json";
-// import { useParams } from "react-router-dom";
-import teamMatchesData from "../../DATABASE/Teams/schedules.json";
-import storyList from "../../DATABASE/Teams/news.json";
+
 import { Match } from "../../components/Teams/match";
 import { News } from "../../components/Teams/News";
 import { Rank } from "../../components/Teams/Rank";
 import { Team } from "../../components/Teams/team";
-import ranking from "../../DATABASE/Teams/ranking.json";
+import axios from "axios";
 
 export const SingleTeam = () => {
   // let { team } = useParams();
-  let schedulearr = teamMatchesData.teamMatchesData;
-  let newsarr = storyList.storyList;
-  let runsarr = ranking.RUNS.Test;
-  let Wicketsarr = ranking.WICKETS.Test;
-  console.log(newsarr);
+ 
   let teamarr = teams.teams;
+
+  useEffect(() => { 
+    getData();
+  },[])
+const [newsData,setNews]=useState([])
+const [scheduleData,setSchedule]=useState([])
+const [wicketData,setWicket]=useState([])
+const [runsData,setRuns]=useState([])
+
+
+const getData= async()=>{
+  const news= await axios.get("http://localhost:3030/teamsnews")
+  const schedule = await axios.get("http://localhost:3030/schedules")
+  const ranking = await axios.get("http://localhost:3030/ranking")
+ console.log(ranking.data.RUNS.Test)
+  setNews(news.data.storyList)
+  setSchedule(schedule.data.teamMatchesData)
+  setRuns(ranking.data.RUNS.Test)
+  setWicket(ranking.data.WICKETS.Test)
+}
   return (
     <div>
       <div className={styles.navbar}>
@@ -48,7 +62,7 @@ export const SingleTeam = () => {
             <div>Results</div>
           </div>
           <div>
-            {schedulearr.map((el, i) => {
+            {scheduleData.map((el, i) => {
               return (
                 <div key={i}>
                   <Match {...el} />
@@ -58,7 +72,7 @@ export const SingleTeam = () => {
           </div>
         </div>
         <div className={styles.news}>
-          {newsarr.map((el, i) => {
+          {newsData.map((el, i) => {
             if (i === 0) {
               return (
                 <div className={styles.cover}>
@@ -90,7 +104,7 @@ export const SingleTeam = () => {
               <div>FC</div>
             </div>
             <div className={styles.box}>
-              {runsarr.map((el, i) => {
+              {runsData.map((el, i) => {
                 return (
                   <div>
                     <Rank {...el} />
@@ -112,7 +126,7 @@ export const SingleTeam = () => {
               <div>FC</div>
             </div>
             <div className={styles.box}>
-              {Wicketsarr.map((el, i) => {
+              {wicketData.map((el, i) => {
                 return (
                   <div>
                     <Rank {...el} />

@@ -2,10 +2,12 @@
 import data from "./db.json";
 import { FaSearch } from "react-icons/fa";
 import style from "styled-components";
-import HomeNews from "../../DATABASE/Teams/homepage.json";
 import { HomeBox } from "../../components/Teams/HomeBox";
 import styles from "../../CSS/Teams/homepage.module.css";
 import { Matches } from "../Teams/matches";
+import { useEffect } from "react";
+import axios from "axios";
+import { useState } from "react";
 const Maindiv = style.div`
   width:100%;
   display:flex;
@@ -14,9 +16,18 @@ const Maindiv = style.div`
 export const Home = ({ theme }) => {
   const dataarr=data.leftData;
   const Dataarr =data.rightData;
-  const newsarr = HomeNews.HomeNews;
-  console.log(theme)
   
+  const [homeNews,setNews]=useState([])
+  useEffect(() => { 
+    getData();
+  },[])
+
+  const getData= async()=>{
+    const home= await axios.get("http://localhost:3030/homepage")
+   console.log(home.data)
+   setNews(home.data.HomeNews)
+  }
+
   return (
     <Maindiv className={theme ? "daytheme" : "nighttheme"}>
       <div className={styles.content}>
@@ -60,7 +71,7 @@ export const Home = ({ theme }) => {
         </div>
         {/* middle part of the home page */}
         <div className={styles.middleDiv}>
-          {newsarr.map((el, i) => {
+          {homeNews.map((el, i) => {
             return (
               <div  key={i}>
                 <HomeBox theme={theme} {...el} />

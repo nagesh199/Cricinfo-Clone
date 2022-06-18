@@ -49,12 +49,6 @@ app.get("/teamsnews",(req,res)=>{
   });
 
 })
-
-
-
-
-
-
 app.get("/ranking",(req,res)=>{
 
   fs.readFile('./jsonfiles/ranking.json', function(err, data) {
