@@ -1,7 +1,8 @@
 .NavContainer {
     display: flex;
     justify-content: space-around;
-    
+    position:sticky;
+    top:0;
     align-items: center;
     background-color: rgb(50, 140, 249);
     padding-top: 14px;
@@ -146,7 +147,9 @@
     display: block;
     border-radius: 10px;
 }
-
+.dropdowncontent a{
+    color: black;
+}
 /* Change the background color of the dropdown button when the dropdown content is shown */
 .dropdown:hover .dropbtn {
     background-color: rgb(50, 140, 249);
