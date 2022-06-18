@@ -1,8 +1,7 @@
 .NavContainer {
     display: flex;
     justify-content: space-around;
-    position:sticky;
-    top:0;
+   
     align-items: center;
     background-color: rgb(50, 140, 249);
     padding-top: 14px;
@@ -10,12 +9,9 @@
 
 }
 
-
-
 .ImgDiv {
     width: 15%;
     text-align: center;
-
 }
 
 .secondDiv {
