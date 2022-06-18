@@ -31,6 +31,7 @@ export const Mainroutes = () => {
       {/* <Route path="/livescores" element={<LiveScores/>}/> */}
       <Route path="/teams" element={<Teams/>}/>
    </Routes>
+   <br/>
    <Footer theme={theme} />
     </div>
   )
