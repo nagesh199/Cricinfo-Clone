@@ -3,13 +3,13 @@ import React from 'react'
 import Compo from './Compo'
 import axios from "axios"
 import { useEffect,useState } from 'react';
-import styles from "../News/main.module.css"
+// import styles from "../News/main.module.css"
 import "../News/main.css"
-function Main() {
+function Main({theme}) {
 
     var [data, setdata] = useState([])
     const getdata=()=>{
-        axios.get("http://localhost:3030").then(res=>setdata(res.data))
+        axios.get("http://localhost:3030/news").then(res=>setdata(res.data))
     }
     useEffect(() => {
       getdata()
@@ -17,11 +17,11 @@ function Main() {
   return (
 
     <>
-        <div id="mainpage">
-            <div className="newsapp">
+        <div id={theme ?"mainpageday" :"mainpagenight"}>
+            <div  id={theme ?"day" : "night"} className="newsapp">
                 <div><h1 style={{color:"white",marginLeft:"20px"}}>Latest News</h1></div>
                 <hr />
-                {data.map(elem=> <Compo {...elem}/>)}
+                {data.map(elem=> <Compo {...elem} theme={theme}/>)}
             </div>
             <div>
                 {/* ---------------------------------------------------- */}

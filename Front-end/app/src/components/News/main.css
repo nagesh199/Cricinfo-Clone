@@ -1,7 +1,14 @@
-#mainpage{
+#mainpageday{
     width: 100%;
     height: auto;
-    background-color: black;
+   
+    display: flex;
+    /* grid-template-columns: repeat(2,1fr); */
+}
+#mainpagenight{
+    width: 100%;
+    height: auto;
+   background-color:black;
     display: flex;
     /* grid-template-columns: repeat(2,1fr); */
 }
@@ -81,3 +88,11 @@
     background-color: #1d1e1f;
     border-radius: 5%;
  }
+ #day{
+    background-color:rgb(249,249,251);
+    color:black;
+  }
+  #night {
+    background-color:rgb(29,30,31);
+    color: white;
+  }
