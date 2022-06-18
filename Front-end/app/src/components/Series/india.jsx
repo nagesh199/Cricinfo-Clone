@@ -3,7 +3,7 @@ import { useState } from "react"
 import { Result } from "./result"
 import styles from "./series.module.css"
 import { South } from "./south"
-export const India = ()=>{
+export const India = ({theme})=>{
    const [reslt,setReslt] = useState(true);
    const [fix,setFix] = useState(false)
    const handleResulte = ()=>{
@@ -15,7 +15,8 @@ export const India = ()=>{
     setFix(false)
    }
     return (
-        <div className={styles.MainIndia}>
+        <div id={theme ?styles.day : styles.night} >
+        <div id={theme ?styles.day : styles.night} className={styles.MainIndia}>
             <div className={styles.rightbox}>
                 <div className={styles.rightdiv}>
                     <div onClick={handleFixture} className={styles.btn}>Fixtures</div>
@@ -23,15 +24,15 @@ export const India = ()=>{
                 </div>
                 { reslt ?
               <div>
-              <div className={styles.fixture}>
+              <div id={theme ?styles.day : styles.night} className={styles.fixture}>
                 
                 <p>TOMORROW, 7:00 PM</p>
                 <p>4th T201(N), Rajkot, june 17,2022, South Africa</p>
-                <div className={styles.fixture_1}>
+                <div id={theme ?styles.day : styles.night} className={styles.fixture_1}>
                     <img style={{width:"20px", height:"20px"}} src="https://cdn.britannica.com/97/1597-004-05816F4E/Flag-India.jpg" alt=""/>
                     <p>INDIA</p>
                 </div>
-                <div className={styles.fixture_1}>
+                <div id={theme ?styles.day : styles.night} className={styles.fixture_1}>
                     <img style={{width:"20px", height:"20px"}}  src="https://media.istockphoto.com/vectors/south-african-national-flag-official-flag-of-south-africa-accurate-vector-id936590950?k=20&m=936590950&s=612x612&w=0&h=sHQSrucjiXFnllQ0_Ena0Mv3EE2arpUBLXVEiV2w4BY=" alt=""/>
                     <p>SA</p>
                 </div>
@@ -57,13 +58,14 @@ export const India = ()=>{
               </div>
               :
               <div>
-                <Result/>
+                <Result theme={theme}/>
               </div>
              } 
             </div>
             <div className={styles.leftbox}>
-                 <South/>
+                 <South theme={theme}/>
             </div>
+        </div>
         </div>
     )
 }

@@ -83,6 +83,7 @@
 .middleDiv {
     width: 50%;
     box-sizing: border-box;
+    
 }
 
 .middleDiv>div {
@@ -91,6 +92,7 @@
     border-radius: 20px;
     box-sizing: border-box;
     margin-top: 5%;
+    border: 1px solid rgb(152, 152, 152);
 }
 
 .slider {

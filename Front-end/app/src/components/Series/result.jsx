@@ -1,5 +1,5 @@
 import styles from "./series.module.css"
-export const Result = ()=>{
+export const Result = ({theme})=>{
     return (
         <div>
              <div className={styles.fixture}>

@@ -26,6 +26,7 @@ export const Mainroutes = () => {
    <Routes>
     <Route path="/" element={<Home theme={theme} />}/>
     <Route path="/series" element={<Series theme={theme}/>}/>
+    <Route path="/series/india" element={<India theme={theme}/>}/>
     <Route path ="/news" element={<Main theme={theme}/>}/>
     <Route path="/news/:id" element={<Individualdata theme={theme}/>}/>
       {/* <Route path="/livescores" element={<LiveScores/>}/> */}
