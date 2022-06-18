@@ -83,6 +83,12 @@ app.get("/news/:id",(req,res)=>{
         res.end(JSON.stringify(elem))
     }
   })
+<<<<<<< Updated upstream
+=======
+
+ 
+
+>>>>>>> Stashed changes
 })
 
 

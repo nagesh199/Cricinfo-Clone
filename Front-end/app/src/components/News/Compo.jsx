@@ -7,7 +7,7 @@ function Compo({id,image,Title,shortdec,time,theme}) {
   const navigate=useNavigate()
   return (
     <>  
-         <div className='Container' onClick={()=>navigate(`news/${id}`)}>
+         <div className='Container' onClick={()=>navigate(`/news/${id}`)}>
                     <div  id={theme ?"day" : "night"} className="image">
                         <img className='imgclass' src={image} alt="" />
                     </div>
