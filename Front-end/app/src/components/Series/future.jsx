@@ -1,11 +1,11 @@
 import styles from "./series.module.css"
 
-export const Future = ()=>{
+export const Future = ({theme})=>{
   
     return (
-        <div className={styles.currentMain}>
+        <div  id={theme ?styles.day : styles.night} className={styles.currentMain}>
             <div>
-               <h3 className={styles.h3}>INTERNATIONAL TOURS</h3>
+               <h3 id={theme ?styles.day : styles.night} className={styles.h3}>INTERNATIONAL TOURS</h3>
                  <div className={styles.International}>
                      <p>India tour of England, Jul 2022</p>
                      <p>India tour of West Indies, Jul 2022</p>
@@ -28,7 +28,7 @@ export const Future = ()=>{
                      <p>South Africa tour of Australia, Dec 2022</p>
               </div>
 
-              <h3 className={styles.h3}>INTERNATIONAL TOURNAMENTS</h3>
+              <h3 id={theme ?styles.day : styles.night} className={styles.h3}>INTERNATIONAL TOURNAMENTS</h3>
                  <div className={styles.International}>
                       <p>ICC Men's T20 World Cup</p>
                  </div>

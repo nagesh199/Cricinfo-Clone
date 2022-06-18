@@ -2,7 +2,7 @@ import { Team } from "../../components/Teams/team";
 import list from "../../DATABASE/Teams/db.json";
 import styles from "../../CSS/Teams/teams.module.css";
 import { useNavigate } from "react-router-dom";
-export const Teams = () => {
+export const Teams = ({theme}) => {
   let teamsarr = list.list;
   let womenarr = list.womenlist;
   let iplarr = list.ipllist;
@@ -14,13 +14,13 @@ export const Teams = () => {
 
   }
   return (
-    <div>
-      <div className={styles.container}>
+    <div id={theme ?styles.day : styles.night}>
+      <div  className={styles.container}>
         <span>POPULAR INTERNATIONAL TEAMS</span>
         <div className={styles.mainDiv}>
           {teamsarr.map((el, i) => {
             return (
-              <div key={i} onClick={()=>handleClick(el)}>
+              <div id={theme ?styles.day : styles.night} key={i} onClick={()=>handleClick(el)}>
                 <Team {...el} />
               </div>
             );
