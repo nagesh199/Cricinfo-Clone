@@ -122,13 +122,13 @@
     z-index: 1;
     text-align: left;
     box-sizing: border-box;
-    padding: 10% 20%;
+    
 }
 
 /* Links inside the dropdown */
 .dropdowncontent span{
     color: black;
-    padding: 2% 5%;
+    padding: 5% 5%;
     text-decoration: none;
     display: block;
 }
