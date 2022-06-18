@@ -1,0 +1,85 @@
+{
+    "RUNS": {
+        "Test": [{
+            "imageId":"https://img1.hscicdn.com/image/upload/f_auto,t_h_100_2x/lsci/db/PICTURES/CMS/304200/304221.png",
+            "player":"Rishabh Pant",
+            "style":"lbh",
+            "runs":562,
+            "Innings":18,
+            "Average":33.05
+        },{
+            "imageId":"https://img1.hscicdn.com/image/upload/f_auto,t_h_100_2x/lsci/db/PICTURES/CMS/289000/289002.1.jpg",
+            "player":"Virat Kohli",
+            "style":"rhb",
+            "runs":553,
+            "Innings":18,
+            "Average":30.72
+
+        },{
+            "imageId":"https://img1.hscicdn.com/image/upload/f_auto,t_h_100_2x/lsci/db/PICTURES/CMS/304200/304207.png",
+            "player":"KL Rahul",
+            "style":"rhb",
+            "runs":541,
+            "Innings":14,
+            "Average":38.64
+
+        }],
+        "ODI": [{
+            "imageId":"",
+            "player":"",
+            "style":"",
+            "runs":0,
+            "Innings":0,
+            "Average":0
+
+        },{
+            "imageId":"",
+            "player":"",
+            "style":"",
+            "runs":0,
+            "Innings":0,
+            "Average":0
+
+        },{
+            "imageId":"",
+            "player":"",
+            "style":"",
+            "runs":0,
+            "Innings":0,
+            "Average":0
+
+        }],
+        "T20": [{}],
+        "FC": [{}]
+    },
+    "WICKETS": {
+        "Test": [{
+            "imageId":"https://img1.hscicdn.com/image/upload/f_auto,t_h_100_2x/lsci/db/PICTURES/CMS/302300/302376.jpg",
+            "player":"Jasprit Bumrah",
+            "style":"rf",
+            "runs":40,
+            "Innings":19,
+            "Average":20.95
+
+        },{
+            "imageId":"https://img1.hscicdn.com/image/upload/f_auto,t_h_100_2x/lsci/db/PICTURES/CMS/304200/304210.png",
+            "player":"Mohammed Shami",
+            "style":"rf",
+            "runs":34,
+            "Innings":17,
+            "Average": 24.20
+
+        },{
+            "imageId":"https://img1.hscicdn.com/image/upload/f_auto,t_h_100_2x/lsci/db/PICTURES/CMS/302300/302395.jpg",
+            "player":"Ravichandran Ashwin",
+            "style":"ob",
+            "runs":33,
+            "Innings":16,
+            "Average":17.18
+
+        }],
+        "ODI": [{}],
+        "T20": [{}],
+        "FC": [{}]
+    }
+}

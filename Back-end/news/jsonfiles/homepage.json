@@ -1,0 +1,333 @@
+{
+  "HomeNews": [{
+      "storyList": [{
+        "story": {
+          "id": 1,
+          "hline": "KL Rahul set to miss England tour, to go abroad for treatment",
+          "intro": "The current India vice-captain is set to miss the entire tour and go to Germany for his injury treatment",
+          "pubTime": "1655366052895",
+          "source": "Cricbuzz",
+          "storyType": "News",
+          "imageId": "https://i0.wp.com/www.socialnews.xyz/wp-content/uploads/2021/12/30/873153d224d64f42918a71685aa9ba29.jpg?w=777&crop=0,10,777px,437px",
+          "seoHeadline": "KL Rahul set to miss England tour, to go abroad for treatment",
+          "context": "Injury update",
+          "sublist": [{
+              "story": {
+                "id": 1.1,
+                "hline": "Injured Rahul doubtful for Edgbaston Test",
+                "intro": " The India opener, who had to be withdrawn from the T20I series against South Africa because of a groin strain, is not certain for the Edgbaston Test",
+                "pubTime": "1655213949744",
+                "source": "Cricbuzz",
+                "storyType": "News",
+                "imageId": "https://st3.cricketcountry.com/wp-content/uploads/2022/06/FotoJet-2022-06-15T084711.269.jpg",
+                "seoHeadline": "Injured KL Rahul doubtful for Edgbaston Test, India v England",
+                "context": "Injury worries",
+                "coverImage": {
+                  "id": "235906",
+                  "caption": " The India opener, who had to be withdrawn from the T20I series against South Africa because of a groin strain, is not certain for the Edgbaston Test",
+                  "source": "Getty"
+                }
+              }
+            },
+            {
+              "story": {
+                "id": 1.2,
+                "hline": "Physio Kamlesh Jain formally joins India support staff",
+                "intro": "It has been learnt that a part of the support staff, barring Dravid, will leave for England on June 16 for the yet to be completed fifth Test",
+                "pubTime": "1654540488559",
+                "source": "Cricbuzz",
+                "storyType": "News",
+                "imageId": "https://m.cricbuzz.com/a/img/v1/600x400/i1/c235427/part-of-the-support-staff-barring-dravid-will-leave-for-england-on-june-16.jpg",
+                "seoHeadline": "Physio Kamlesh Jain formally joins India support staff",
+                "context": "India team news",
+                "coverImage": {
+                  "id": "235427",
+                  "caption": "Part of the support staff, barring Dravid, will leave for England on June 16",
+                  "source": "BCCI"
+                }
+              }
+            },
+            {
+              "story": {
+                "id": 1.3,
+                "hline": "Umran Malik, Arshdeep Singh picked for SA T20Is; Rahul to lead",
+                "intro": "Hardik Pandya, who returned to regular bowling duties in the IPL, is back in the T20I squad",
+                "pubTime": "1653221968626",
+                "source": "Cricbuzz",
+                "storyType": "News",
+                "imageId": "https://assets.thehansindia.com/h-upload/2022/05/22/1293599-umran.webp",
+                "seoHeadline": "Umran Malik, Arshdeep Singh earn maiden India call-up for South Africa T20Is",
+                "context": "India squads",
+                "coverImage": {
+                  "id": "234537",
+                  "caption": "Hardik returns to the India fold for the T20I series as well. ",
+                  "source": "BCCI"
+                }
+              }
+            }
+          ]
+        }
+      }]
+    },
+    {
+      "storyList": [{
+        "story": {
+          "id": 122318,
+          "hline": "The Umran Malik dilemma for India selectors",
+          "intro": "The Chetan Sharma-led selection panel will meet virtually on Sunday (May 22) to pick the squads for the triple series of South Africa, Ireland and England, for both red-ball and white-ball matches",
+          "pubTime": "1653147070485",
+          "source": "Cricbuzz",
+          "storyType": "News",
+          "imageId": "https://m.cricbuzz.com/a/img/v1/600x400/i1/c234482/having-impressed-in-the-ipl-with-his-whizzing-pace-unseen-in-indian-cricket-malik-is-seen-as-the-next-big-thing.jpg",
+          "seoHeadline": "The Umran Malik dilemma for India selectors",
+          "context": "India cricket",
+          "sublist": [{
+              "story": {
+                "id": 122259,
+                "hline": "India Test team to play warm-up match against Leicestershire",
+                "intro": "While the Indian T20I team will be playing Ireland on June 26 and 28, the Indian red-ball team will be involved in the first class game on those days in Leicester",
+                "pubTime": "1652782978016",
+                "source": "Cricbuzz",
+                "storyType": "News",
+                "imageId": "https://circleofcricket.com/post_image/post_image_d8560b5.jpg",
+                "seoHeadline": "India Test team to play warm-up match against Leicestershire",
+                "context": "India tour of England, 2022",
+                "coverImage": {
+                  "id": "234100",
+                  "caption": "The Indian Test team will play a warm-up fixture in Leicester",
+                  "source": "Getty"
+                }
+              }
+            },
+            {
+              "story": {
+                "id": 122243,
+                "hline": "Rahane set to miss England tour; selectors to pick two squads",
+                "intro": "KKR batter has suffered a serious Grade III hamstring injury and will be out of action for at least four weeks\n",
+                "pubTime": "1652696127925",
+                "source": "Cricbuzz",
+                "storyType": "News",
+                "imageId": "https://c.ndtvimg.com/2021-12/iclu1sp_ajinkya-rahane-afp_625x300_01_December_21.jpg?im=FaceCrop,algorithm=dnn,width=1200,height=675?im=FitAndFill=(800,400)",
+                "seoHeadline": "Rahane set to miss England tour; selectors set to pick two squads",
+                "context": "India Cricket News",
+                "coverImage": {
+                  "id": "234029",
+                  "caption": "Rahane has suffered a serious Grade III hamstring injury and will be out of action for at least four weeks.",
+                  "source": "BCCI"
+                }
+              }
+            },
+            {
+              "story": {
+                "id": 119506,
+                "hline": "Fifth Test between England and India rescheduled to July 2022",
+                "intro": "The concluding Test match will now be played at Edgbaston instead of Manchester",
+                "pubTime": "1634904086207",
+                "source": "Cricbuzz",
+                "storyType": "News",
+                "imageId": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQYWhOcC7aNl4TgrGCDyszOEyjk5Lz57EymGw&usqp=CAU",
+                "seoHeadline": "Fifth Test between India and England rescheduled to July 2022",
+                "context": "India tour of England 2022",
+                "coverImage": {
+                  "id": "215877",
+                  "caption": "India will resume the Test series at 2-1",
+                  "source": "Getty"
+                }
+              }
+            }
+          ]
+        }
+      }]
+    }, {
+      "storyList": [ {
+        "story": {
+          "id": 122679,
+          "hline": "Hazlewood is No. 1 T20I bowler; Kishan highest-rated India batter",
+          "intro": "The last Australia bowler to top the bowling charts was Bracken in 2008",
+          "pubTime": "1655473509523",
+          "source": {"img":"https://img1.hscicdn.com/image/upload/f_auto,t_ds_wide_w_1200,q_60/lsci/db/PICTURES/CMS/340800/340868.6.jpg",
+          "caption":"Root rises to No. 1 in Tests; Imam moves past Kohli to No. 2 in ODIs",
+          "subCaption":"Replaces Labuschagne at the top following his 176 in Trent Bridge"},
+          "storyType": "Statistics & Analysis",
+          "imageId": "https://img1.hscicdn.com/image/upload/f_auto,t_ds_wide_w_1200,q_60/lsci/db/PICTURES/CMS/329100/329131.6.jpg",
+          "context": "England tour of Netherlands, 2022",
+          "sublist": []
+        }
+      }]
+    },{
+      "storyList": [{
+        "story": {
+          "id": 122685,
+          "hline": "Resurgent India rain on South Africa's parade",
+          "intro": "South Africa have squandered their two chances to clinch the series as India fight back",
+          "pubTime": "1655489131580",
+          "source": "Cricbuzz",
+          "storyType": "Match Features",
+          "imageId": "https://getsarkarinaukari.co.in/wp-content/uploads/2022/06/1655436477_photo.jpg",
+          "seoHeadline": "Resurgent India rain on South Africa's parade",
+          "context": "South Africa tour of India, 2022",
+          "sublist": [ {
+            "story": {
+              "id": 122677,
+              "hline": "Live Cricket Score - India vs South Africa, 4th T20I",
+              "intro": "Catch all the live updates of India vs South Africa, 4th T20I, Rajkot",
+              "pubTime": "1655470397507",
+              "source": "Cricbuzz",
+              "storyType": "Live Blogs",
+              "imageId": "https://images.firstpost.com/wp-content/uploads/2022/06/IND-vs-SA-4th-t20I.jpg",
+              "seoHeadline": "Live Cricket Score - India vs South Africa, 4th T20I",
+              "context": "South Africa tour of India, 2022",
+              "coverImage": {
+                "id": "236103",
+                "caption": "DK was in sublime touch tonight.",
+                "source": "BCCI"
+              }
+            }
+          }, {
+            "story": {
+              "id": 122683,
+              "hline": "Dinesh Karthik dazzles as India force series decider",
+              "intro": "South Africa were bowled out for just 87 in the run chase of 170 as India levelled the series",
+              "pubTime": "1655487379507",
+              "source": "Cricbuzz",
+              "storyType": "Reports",
+              "imageId": "https://m.cricbuzz.com/a/img/v1/600x400/i1/c236128/dinesh-karthik-registered-his-maiden-t20i-fifty.jpg",
+              "seoHeadline": "Dinesh Karthik dazzles as India force series decider",
+              "context": "South Africa tour of India, 2022",
+              "coverImage": {
+                "id": "236128",
+                "caption": "Dinesh Karthik registered his maiden T20I fifty",
+                "source": "BCCI"
+              }
+            }
+          }, {
+            "story": {
+              "id": 122680,
+              "hline": "Mumbai, Madhya Pradesh in control going into final day",
+              "intro": "Yashasvi Jaiswal scored 181, his second hundred of the match and joined an elite group of Mumbai batters",
+              "pubTime": "1655474002612",
+              "source": "Cricbuzz",
+              "storyType": "Reports",
+              "imageId": "https://m.cricbuzz.com/a/img/v1/300x200/i1/c213160/yashasvi-jaiswal-scored-181-his-second-hundred-of-the-match-and-joined-an-elite-group-of-mumbai-batters.jpg",
+              "seoHeadline": "Mumbai, Madhya Pradesh in control going into final day",
+              "context": "Ranji Trophy knockouts",
+              "coverImage": {
+                "id": "236122",
+                "caption": "Yashasvi Jaiswal scored 181, his second hundred of the match and joined an elite group of Mumbai batters (Pic courtesy: Yashasvi Jaiswal)",
+                "source": "BCCI"
+              }
+            }
+          }]
+        }
+      }]
+    },
+    {
+      "storyList": [ {
+        "story": {
+          "id": 122679,
+          "hline": "Stats: England now have top three totals in ODIs",
+          "intro": "All the major records broken by England against Netherlands in the first ODI in Amsteleevn when they posted 498",
+          "pubTime": "1655473509523",
+          "source": "Cricbuzz",
+          "storyType": "Statistics & Analysis",
+          "imageId": "https://m.cricbuzz.com/a/img/v1/600x400/i1/c236079/england-now-occupy-the-top-three-positions-for-highest-innings-totals-in-odis.jpg",
+          "seoHeadline": "Stats: England now have top three totals in ODIs",
+          "context": "England tour of Netherlands, 2022",
+          "sublist": [{
+            "story": {
+              "id": 122684,
+              "hline": "Buttler, Salt and Malan tons flatten Netherlands ",
+              "intro": "England recorded the highest ever ODI sore of 498 and defended it to pickup a thumping 232-run win in the three-match series opener ",
+              "pubTime": "1655487565511",
+              "source": "Cricbuzz",
+              "storyType": "Reports",
+              "imageId": "https://www.cricbuzz.com/a/img/v1/595x396/i1/c236131/livingstone-added-unbeaten-66.jpg",
+              "seoHeadline": "Buttler, Salt and Malan tons flatten Netherlands",
+              "context": "England tour of Netherlands, 2022",
+              "coverImage": {
+                "id": "236130",
+                "caption": "Salt and Malan laid a solid platform with their centuries. ",
+                "source": "Getty"
+              }
+            }
+          }, {
+            "story": {
+              "id": 122683,
+              "seoHeadline":"Netherlands vs England, 1st ODI: England Hit World Record 498/4 To Thrash Netherlands",
+              "intro": "South Africa were bowled out for just 87 in the run chase of 170 as India levelled the series",
+              "pubTime": "1655487379507",
+              "source": "Cricbuzz",
+              "storyType": "Reports",
+              "imageId": "https://c.ndtvimg.com/2022-06/fgijj6l8_jos-buttler-806_625x300_17_June_22.jpg",
+              "context": "South Africa tour of India, 2022",
+              "coverImage": {
+                "id": "236128",
+                "caption": "Dinesh Karthik registered his maiden T20I fifty",
+                "source": "BCCI"
+              }
+            }
+          }, {
+            "story": {
+              "id": 122680,
+              "hline": "Mumbai, Madhya Pradesh in control going into final day",
+              "intro": "Yashasvi Jaiswal scored 181, his second hundred of the match and joined an elite group of Mumbai batters",
+              "pubTime": "1655474002612",
+              "source": "Cricbuzz",
+              "storyType": "Reports",
+              "imageId": "https://cricketaddictor.com/wp-content/uploads/2022/06/TR-England-498-vs-Netherlands.png",
+              "seoHeadline": "NED vs ENG: Twitter Erupts As Jos Buttler, Liam Livingstone's Fireworks Helps England Set World Record",
+              "context": "Ranji Trophy knockouts",
+              "coverImage": {
+                "id": "236122",
+                "caption": "Yashasvi Jaiswal scored 181, his second hundred of the match and joined an elite group of Mumbai batters (Pic courtesy: Yashasvi Jaiswal)",
+                "source": "BCCI"
+              }
+            }
+          }]
+        }
+      }]
+    }, {
+      "storyList": [ {
+        "story": {
+          "id": 122679,
+          "hline": "Starc won't risk Test chances by making quick return",
+          "intro": "The fast bowler with a finger injury wants to play in the ongoing ODI series, but not at the cost of his Test place",
+          "pubTime": "1655473509523",
+          "source": "Cricbuzz",
+          "storyType": "Statistics & Analysis",
+          "imageId": "https://img1.hscicdn.com/image/upload/f_auto,t_ds_wide_w_1200,q_60/lsci/db/PICTURES/CMS/340500/340516.6.jpg",
+          "context": "England tour of Netherlands, 2022",
+          "sublist": []
+        }
+      }]
+    },{
+      "storyList": [ {
+        "story": {
+          "id": 122679,
+          "hline": "William Porterfield announces international retirement",
+          "intro": "His exit follows that of seamer Peter Chase who hung up his boots last week",
+          "pubTime": "1655473509523",
+          "source": "Cricbuzz",
+          "storyType": "Statistics & Analysis",
+          "imageId": "https://img1.hscicdn.com/image/upload/f_auto,t_ds_wide_w_1200,q_60/lsci/db/PICTURES/CMS/327000/327061.6.jpg",
+          "context": "England tour of Netherlands, 2022",
+          "sublist": []
+        }
+      }]
+    },{
+      "storyList": [ {
+        "story": {
+          "id": 122679,
+          "hline": "Daren Sammy appointed head coach of St Lucia Kings",
+          "intro": "He takes over the role from Andy Flower, who was at the helm for two years",
+          "pubTime": "1655473509523",
+          "source": "Cricbuzz",
+          "storyType": "Statistics & Analysis",
+          "imageId": "https://img1.hscicdn.com/image/upload/f_auto,t_ds_wide_w_1200,q_60/lsci/db/PICTURES/CMS/294400/294434.6.jpg",
+          "context": "England tour of Netherlands, 2022",
+          "sublist": []
+        }
+      }]
+    }
+  ]
+}

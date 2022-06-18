@@ -1,0 +1,213 @@
+{
+    "list": [
+      {
+        "teamId": 1,
+        "teamName": "India",
+        "teamSName": "IND",
+        "imageId": "https://img1.hscicdn.com/image/upload/f_auto,t_ds_square_w_160,q_50/lsci/db/PICTURES/CMS/313100/313128.logo.png"
+      },
+      {
+        "teamId": 2,
+        "teamName": "Ireland",
+        "teamSName": "IRE",
+        "imageId": "https://img1.hscicdn.com/image/upload/f_auto,t_ds_square_w_160,q_50/lsci/db/PICTURES/CMS/313100/313149.logo.png"
+      },
+      {
+        "teamId": 3,
+        "teamName": "Pakistan",
+        "teamSName": "PAK",
+        "imageId": "https://img1.hscicdn.com/image/upload/f_auto,t_ds_square_w_160,q_50/lsci/db/PICTURES/CMS/313100/313129.logo.png"
+      },
+      {
+        "teamId": 4,
+        "teamName": "Australia",
+        "teamSName": "AUS",
+        "imageId": "https://img1.hscicdn.com/image/upload/f_auto,t_ds_square_w_160,q_50/lsci/db/PICTURES/CMS/340400/340493.png"
+      },
+      {
+        "teamId": 5,
+        "teamName": "Sri Lanka",
+        "teamSName": "SL",
+        "imageId": "https://img1.hscicdn.com/image/upload/f_auto,t_ds_square_w_160,q_50/lsci/db/PICTURES/CMS/340000/340047.png"
+      },
+      {
+        "teamId": 6,
+        "teamName": "Bangladesh",
+        "teamSName": "BAN",
+        "imageId": "https://img1.hscicdn.com/image/upload/f_auto,t_ds_square_w_160,q_50/lsci/db/PICTURES/CMS/313100/313145.logo.png"
+      },
+      {
+        "teamId": 7,
+        "teamName": "England",
+        "teamSName": "ENG",
+        "imageId": "https://img1.hscicdn.com/image/upload/f_auto,t_ds_square_w_160,q_50/lsci/db/PICTURES/CMS/313100/313114.logo.png"
+      },
+      {
+        "teamId": 8,
+        "teamName": "West Indies",
+        "teamSName": "WI",
+        "imageId": "https://img1.hscicdn.com/image/upload/f_auto,t_ds_square_w_160,q_50/lsci/db/PICTURES/CMS/317600/317615.png"
+      },
+      {
+        "teamId": 9,
+        "teamName": "South Africa",
+        "teamSName": "RSA",
+        "imageId": "https://img1.hscicdn.com/image/upload/f_auto,t_ds_square_w_160,q_50/lsci/db/PICTURES/CMS/313100/313125.logo.png"
+      },
+      {
+        "teamId": 10,
+        "teamName": "Zimbabwe",
+        "teamSName": "ZIM",
+        "imageId": "https://img1.hscicdn.com/image/upload/f_auto,t_ds_square_w_160,q_50/lsci/db/PICTURES/CMS/340500/340503.png"
+      },
+      {
+        "teamId": 11,
+        "teamName": "New Zealand",
+        "teamSName": "NZ",
+        "imageId": "https://img1.hscicdn.com/image/upload/f_auto,t_ds_square_w_160,q_50/lsci/db/PICTURES/CMS/340500/340505.png"
+      },
+      {
+        "teamId": 12,
+        "teamName": "Afghanistan",
+        "teamSName": "AFG",
+        "imageId": "https://img1.hscicdn.com/image/upload/f_auto,t_ds_square_w_160,q_50/lsci/db/PICTURES/CMS/321000/321005.png"
+      },
+      {
+        "teamId": 13,
+        "teamName": "United Arab Emirates",
+        "teamSName": "UAE",
+        "imageId": "https://img1.hscicdn.com/image/upload/f_auto,t_ds_square_w_160,q_50/lsci/db/PICTURES/CMS/313100/313147.logo.png"
+      },
+      {
+        "teamId": 14,
+        "teamName": "Scotland",
+        "teamSName": "SCO",
+        "imageId": "https://img1.hscicdn.com/image/upload/f_auto,t_ds_square_w_160,q_50/lsci/db/PICTURES/CMS/313100/313150.logo.png"
+      }
+    ],
+    "womenlist": [
+      {
+        "teamId": 1,
+        "teamName": "India Women",
+        "teamSName": "IND",
+        "imageId": "https://img1.hscicdn.com/image/upload/f_auto,t_ds_square_w_160,q_50/lsci/db/PICTURES/CMS/313100/313128.logo.png"
+      },
+      {
+        "teamId": 2,
+        "teamName": "Pakistan Women",
+        "teamSName": "PAK",
+        "imageId": "https://img1.hscicdn.com/image/upload/f_auto,t_ds_square_w_160,q_50/lsci/db/PICTURES/CMS/313100/313129.logo.png"
+      },
+      {
+        "teamId": 3,
+        "teamName": "Australia Women",
+        "teamSName": "AUS",
+        "imageId": "https://img1.hscicdn.com/image/upload/f_auto,t_ds_square_w_160,q_50/lsci/db/PICTURES/CMS/340400/340493.png"
+      },
+      {
+        "teamId": 4,
+        "teamName": "Sri Lanka Women",
+        "teamSName": "SL",
+        "imageId": "https://img1.hscicdn.com/image/upload/f_auto,t_ds_square_w_160,q_50/lsci/db/PICTURES/CMS/340000/340047.png"
+      },
+      {
+        "teamId": 5,
+        "teamName": "Bangladesh Women",
+        "teamSName": "BAN",
+        "imageId": "https://img1.hscicdn.com/image/upload/f_auto,t_ds_square_w_160,q_50/lsci/db/PICTURES/CMS/313100/313145.logo.png"
+      },
+      {
+        "teamId": 6,
+        "teamName": "England Women",
+        "teamSName": "ENG",
+        "imageId": "https://img1.hscicdn.com/image/upload/f_auto,t_ds_square_w_160,q_50/lsci/db/PICTURES/CMS/313100/313114.logo.png"
+      },
+      {
+        "teamId": 7,
+        "teamName": "West Indies Women",
+        "teamSName": "WI",
+        "imageId": "https://img1.hscicdn.com/image/upload/f_auto,t_ds_square_w_160,q_50/lsci/db/PICTURES/CMS/317600/317615.png"
+      },
+      {
+        "teamId": 8,
+        "teamName": "South Africa Women",
+        "teamSName": "RSA",
+        "imageId": "https://img1.hscicdn.com/image/upload/f_auto,t_ds_square_w_160,q_50/lsci/db/PICTURES/CMS/313100/313125.logo.png"
+      },
+      {
+        "teamId": 9,
+        "teamName": "New Zealand Women",
+        "teamSName": "NZ",
+        "imageId": "https://img1.hscicdn.com/image/upload/f_auto,t_ds_square_w_160,q_50/lsci/db/PICTURES/CMS/340500/340505.png"
+      },
+      {
+        "teamId": 10,
+        "teamName": "Thailand Women",
+        "teamSName": "AFG",
+        "imageId": "https://img1.hscicdn.com/image/upload/f_auto,t_ds_square_w_160,q_50/lsci/db/PICTURES/CMS/313400/313402.logo.png"
+      }
+    ],
+    "ipllist": [
+      {
+        "teamId": 1,
+        "teamName": "Mumbai Indians",
+        "teamSName": "MI",
+        "imageId": "https://img1.hscicdn.com/image/upload/f_auto,t_ds_square_w_160,q_50/lsci/db/PICTURES/CMS/317900/317995.png"
+      },
+      {
+        "teamId": 2,
+        "teamName": "Delhi Capitals",
+        "teamSName": "DC",
+        "imageId": "https://img1.hscicdn.com/image/upload/f_auto,t_ds_square_w_160,q_50/lsci/db/PICTURES/CMS/313400/313422.logo.png"
+      },
+      {
+        "teamId": 3,
+        "teamName": "Chennai Super Kings",
+        "teamSName": "CSK",
+        "imageId": "https://img1.hscicdn.com/image/upload/f_auto,t_ds_square_w_160,q_50/lsci/db/PICTURES/CMS/313400/313421.logo.png"
+      },
+      {
+        "teamId": 4,
+        "teamName": "Punjab Kings",
+        "teamSName": "PBKS",
+        "imageId": "https://img1.hscicdn.com/image/upload/f_auto,t_ds_square_w_160,q_50/lsci/db/PICTURES/CMS/317000/317003.png"
+      },
+      {
+        "teamId": 5,
+        "teamName": "Kolkata Knight Riders",
+        "teamSName": "KKR",
+        "imageId": "https://img1.hscicdn.com/image/upload/f_auto,t_ds_square_w_160,q_50/lsci/db/PICTURES/CMS/313400/313419.logo.png"
+      },
+      {
+        "teamId": 6,
+        "teamName": "Royal Challengers Bangalore",
+        "teamSName": "RCB",
+        "imageId": "https://img1.hscicdn.com/image/upload/f_auto,t_ds_square_w_160,q_50/lsci/db/PICTURES/CMS/313400/313418.logo.png"
+      },
+      {
+        "teamId": 7,
+        "teamName": "Rajasthan Royals",
+        "teamSName": "RR",
+        "imageId": "https://img1.hscicdn.com/image/upload/f_auto,t_ds_square_w_160,q_50/lsci/db/PICTURES/CMS/313400/313423.logo.png"
+      },
+      {
+        "teamId": 8,
+        "teamName": "Sunrisers Hyderabad",
+        "teamSName": "SRH",
+        "imageId": "https://img1.hscicdn.com/image/upload/f_auto,t_ds_square_w_160,q_50/lsci/db/PICTURES/CMS/313400/313480.logo.png"
+      },
+      {
+        "teamId": 9,
+        "teamName": "Lucknow Super Giants",
+        "teamSName": "LSG",
+        "imageId": "https://img1.hscicdn.com/image/upload/f_auto,t_ds_square_w_160,q_50/lsci/db/PICTURES/CMS/333800/333885.png"
+      },
+      {
+        "teamId": 10,
+        "teamName": "Gujarat Titans",
+        "teamSName": "GT",
+        "imageId": "https://img1.hscicdn.com/image/upload/f_auto,t_ds_square_w_160,q_50/lsci/db/PICTURES/CMS/334700/334707.png"
+      }
+    ]
+  }
+  
