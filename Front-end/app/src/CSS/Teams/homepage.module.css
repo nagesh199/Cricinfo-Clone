@@ -117,3 +117,11 @@
     width: 48%;
 
 }
+#day{
+    background-color:rgb(249,249,251);
+    color:black;
+  }
+  #night {
+    /* background-color:rgb(29,30,31); */
+    color: white;
+  }
