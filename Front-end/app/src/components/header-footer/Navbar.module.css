@@ -116,31 +116,32 @@
 .dropdowncontent {
     display: none;
     position: absolute;
-    background-color: #f1f1f1;
+    background-color: white;
     min-width: 260px;
     box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
     z-index: 1;
     text-align: left;
+    box-sizing: border-box;
+    padding: 10% 0%;
 }
 
 /* Links inside the dropdown */
-.dropdowncontent Link {
+.dropdowncontent span{
     color: black;
-    padding: 12px 16px;
+    padding: 2% 5%;
     text-decoration: none;
     display: block;
 }
 
 /* Change color of dropdown links on hover */
-.dropdowncontent Link:hover {
-    background-color: #ddd;
+.dropdowncontent span:hover {
+    background-color: lightskyblue;
 }
 
 /* Show the dropdown menu on hover */
 .dropdown:hover .dropdowncontent {
     display: block;
     border-radius: 10px;
-    margin-top: 1px;
 }
 
 /* Change the background color of the dropdown button when the dropdown content is shown */
