@@ -19,7 +19,12 @@ export const Home = ({ theme }) => {
   
   return (
     <Maindiv className={theme ? "daytheme" : "nighttheme"}>
+      <div className={styles.content}>
+      <div>
+        <img src="https://tpc.googlesyndication.com/simgad/7204186807382043569?" alt="" />
+      </div>
     <div className={styles.home}>
+      
         {/* left part of home page */}
         <div className={styles.leftDiv}>
          
@@ -90,6 +95,7 @@ export const Home = ({ theme }) => {
             })
           }
           </div>
+        </div>
         </div>
         </div>
       </Maindiv>
