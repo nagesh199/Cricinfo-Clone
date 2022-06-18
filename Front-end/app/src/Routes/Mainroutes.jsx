@@ -20,15 +20,16 @@ export const Mainroutes = () => {
 
   return (
     <div>
-       <button onClick ={handleTheme}>theme</button>
+    
        <Header/>
-       <Navbar/>
+       <Navbar   but = {handleTheme} />
    <Routes>
     <Route path="/" element={<Home theme={theme} />}/>
     <Route path="/series" element={<Series/>}/>
     <Route path ="/news" element={<Main/>}/>
     <Route path="/news/:id" element={<Individualdata/>}/>
       {/* <Route path="/livescores" element={<LiveScores/>}/> */}
+      <Route path="/teams" element={<Teams/>}/>
    </Routes>
    <Footer theme={theme} />
     </div>

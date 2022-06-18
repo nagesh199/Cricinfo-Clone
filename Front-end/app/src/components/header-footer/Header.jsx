@@ -12,7 +12,7 @@ import ScoreCard from "./ScoreCard";
         <div className={styles.main}>
 
          
-        { Data.sliderData.map((item) => {  <ScoreCard key={item.id} data = {item} />})}
+        { Data.sliderData.map((item) => {  <ScoreCard key={item.id} {...item} />})}
 
        
         
