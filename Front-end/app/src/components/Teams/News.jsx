@@ -1,7 +1,6 @@
 import React from 'react'
 
 export const News = ({context,hline,intro,imageId}) => {
-    console.log(context)
   return (
     <>
       <div>
