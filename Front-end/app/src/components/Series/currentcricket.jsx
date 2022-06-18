@@ -4,7 +4,7 @@ import { Future } from "./future"
 import { Recent } from "./recent"
 import styles from "./series.module.css"
 
-export const Series = ()=>{
+export const Series = ({theme})=>{
    const [future, setFuture] = useState(false)
    const [recent,setRecent] = useState(false);
    const [current,setCurrent] = useState(true);
@@ -24,7 +24,7 @@ export const Series = ()=>{
         setRecent(false)
      }
     return (
-        <div>
+        <div  id={theme ?styles.day : styles.night}>
             <div className={styles.head}>
                 <h4 className={styles.headh4}
                 onClick={handleCurrent}>Current Cricket</h4>
@@ -36,7 +36,7 @@ export const Series = ()=>{
                  onClick={handleRecent}>Recently Concluded</h4>
             </div>
             <div>
-                { future ? <div><Future/></div> : recent ?<div><Recent/></div> : current ? <div><Current/></div>:<div></div>}
+                { future ? <div><Future theme={theme}/></div> : recent ?<div><Recent theme={theme}/></div> : current ? <div><Current theme={theme}/></div>:<div></div>}
                 
             </div>
         </div>

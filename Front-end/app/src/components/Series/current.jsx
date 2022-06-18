@@ -1,14 +1,14 @@
 import { useNavigate } from "react-router-dom"
 import styles from "./series.module.css"
 
-export const Current = ()=>{
+export const Current = ({theme})=>{
     const navigate = useNavigate()
  
     return (
-        <div className={styles.currentMain}>
+        <div  id={theme ?styles.day : styles.night} className={styles.currentMain}>
             <div className={styles.right}>
 
-                 <h3 className={styles.h3}>INTERNATIONAL TOURS</h3>
+                 <h3 id={theme ?styles.day : styles.night} className={styles.h3}>INTERNATIONAL TOURS</h3>
                  <div className={styles.International}>
                      <p onClick={()=>navigate("/series/india")}>India v South Africa</p>
                      <p>England v New Zealand</p>
@@ -22,7 +22,7 @@ export const Current = ()=>{
                      <p>Ireland v India</p>
                  </div>
 
-                 <h3 className={styles.h3}>INTERNATIONAL TOURNAMENTS</h3>
+                 <h3  id={theme ?styles.day : styles.night} className={styles.h3}>INTERNATIONAL TOURNAMENTS</h3>
                  <div className={styles.International}>
                       <p>CWC Challenge Group B</p>
                  </div>
@@ -30,7 +30,7 @@ export const Current = ()=>{
             <hr/>
             <div className={styles.left}>
 
-                <h3 className={styles.h3}>ICC TOURNAMENTS</h3>
+                <h3  id={theme ?styles.day : styles.night} className={styles.h3}>ICC TOURNAMENTS</h3>
                   <div className={styles.International}>
                       <p>ICC Women's Championship</p>
                       <p>Men's Cricket World Cup League 2</p>
@@ -40,12 +40,12 @@ export const Current = ()=>{
                       <p>ICC World Test Championship</p>
                   </div>
 
-                  <h3 className={styles.h3}>T20/T10 TOURNAMENTS</h3>
+                  <h3  id={theme ?styles.day : styles.night} className={styles.h3}>T20/T10 TOURNAMENTS</h3>
                    <div className={styles.International}>
                       <p>Vitality Blast</p>
                    </div>
 
-                  <h3 className={styles.h3}>ASSOCIATE CRICKET</h3>
+                  <h3  id={theme ?styles.day : styles.night} className={styles.h3}>ASSOCIATE CRICKET</h3>
                   <div className={styles.International}>
                       <p>Austria v Hungary</p>
                       <p>Sofia T20</p>
@@ -53,12 +53,12 @@ export const Current = ()=>{
                       <p>Bulgaria v Serbia</p>
                   </div>
 
-                  <h3 className={styles.h3}>AFGHANISTAN DOMESTIC</h3>
+                  <h3  id={theme ?styles.day : styles.night} className={styles.h3}>AFGHANISTAN DOMESTIC</h3>
                    <div className={styles.International}>
                       <p>3-day Provincial</p>
                    </div>
 
-                   <h3 className={styles.h3}>ENGLAND DOMESTIC</h3>
+                   <h3  id={theme ?styles.day : styles.night} className={styles.h3}>ENGLAND DOMESTIC</h3>
                   <div className={styles.International}>
                       <p>County Div1</p>
                       <p>County Div2</p>
@@ -69,7 +69,7 @@ export const Current = ()=>{
                       <p>RHF Cup</p>
                   </div>
 
-                  <h3 className={styles.h3}>INDIA DOMESTIC</h3>
+                  <h3  id={theme ?styles.day : styles.night} className={styles.h3}>INDIA DOMESTIC</h3>
                   <div className={styles.International}>
                       <p>IPL</p>
                       <p>Ranji Trophy</p>
@@ -77,18 +77,18 @@ export const Current = ()=>{
                       <p>SMA Trophy</p>
                   </div>
 
-                  <h3 className={styles.h3}>IRELAND DOMESTIC</h3>
+                  <h3  id={theme ?styles.day : styles.night} className={styles.h3}>IRELAND DOMESTIC</h3>
                    <div className={styles.International}>
                       <p>INTER PRO T20</p>
                       <p>INTER PRO 1-Day</p>
                    </div>
 
-                   <h3 className={styles.h3}>SRI LANKA DOMESTIC</h3>
+                   <h3  id={theme ?styles.day : styles.night} className={styles.h3}>SRI LANKA DOMESTIC</h3>
                    <div className={styles.International}>
                       <p>Major Clubs T20</p>
                    </div>
 
-                   <h3 className={styles.h3}>WEST INDIES DOMESTIC</h3>
+                   <h3  id={theme ?styles.day : styles.night} className={styles.h3}>WEST INDIES DOMESTIC</h3>
                    <div className={styles.International}>
                       <p>WICB 4-day</p>
                    </div>

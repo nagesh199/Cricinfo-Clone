@@ -1,12 +1,12 @@
 
 import styles from "./series.module.css"
-export const Recent = ()=>{
+export const Recent = ({theme})=>{
 
     return (
-     <div className={styles.currentMain}>
-        <div className={styles.right}>
+     <div  id={theme ?styles.day : styles.night} className={styles.currentMain}>
+        <div  className={styles.right}>
 
-           <h3 className={styles.h3}>INTERNATIONAL TOURS</h3>
+           <h3 id={theme ?styles.day : styles.night} className={styles.h3}>INTERNATIONAL TOURS</h3>
            <div className={styles.International}>
              <p>Pakistan v West Indies</p>
              <p>Namibia v Hong Kong</p>
@@ -24,7 +24,7 @@ export const Recent = ()=>{
              <p>IND-W in New Zealand</p>
            </div>
 
-           <h3 className={styles.h3}>T20 TOURNAMENTS</h3>
+           <h3 id={theme ?styles.day : styles.night} className={styles.h3}>T20 TOURNAMENTS</h3>
            <div className={styles.International}>
               <p>PSL 2021</p>
            </div>
@@ -33,7 +33,7 @@ export const Recent = ()=>{
        <hr/>
       <div className={styles.left}>
 
-      <h3 className={styles.h3}>ASSOCIATE CRICKET</h3>
+      <h3 id={theme ?styles.day : styles.night} className={styles.h3}>ASSOCIATE CRICKET</h3>
       <div className={styles.International}>
          <p>Namibia v Uganda</p>
          <p>Uganda Tri Series</p>
