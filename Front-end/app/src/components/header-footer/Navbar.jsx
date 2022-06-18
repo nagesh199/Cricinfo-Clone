@@ -74,27 +74,27 @@ const Navbar = ({but}) => {
                     <div className={styles.dropdown}>
                        <p> <Link to="/livescores" className={styles.dropbtn}>LiveScores</Link></p>
                     <div class={styles.dropdowncontent}>
-                    <p> <Link to="/">Live Scores Home</Link></p>
-                    <p> <Link to="/">Week view</Link></p>
-                    <p> <Link to="/">Season view</Link></p>
-                    <p> <Link to="/">Live Scores Home</Link></p>
-                    <p> <Link to="/">International calender</Link></p>
-                      <p>  <Link to="/">Desktop Scoreboard</Link></p>
+                    <span> <Link to="/">Live Scores Home</Link></span>
+                    <span> <Link to="/">Week view</Link></span>
+                    <span> <Link to="/">Season view</Link></span>
+                    <span> <Link to="/">Live Scores Home</Link></span>
+                    <span> <Link to="/">International calender</Link></span>
+                    <span>  <Link to="/">Desktop Scoreboard</Link></span>
                     </div>
                     </div>
 
                     <div className={styles.dropdown}>
                     <p> <Link to="/series" className={styles.dropbtn}>Series</Link></p>
                     <div class={styles.dropdowncontent}>
-                    <p> <Link to="/">India v South Africa</Link></p>
-                    <p>  <Link to="/">IND-W in Sri Lanka</Link></p>
-                    <p>   <Link to="/">Sri Lanka v Australia</Link></p>
-                    <p>  <Link to="/">Netherlands v England</Link></p>
-                    <p>  <Link to="/">SA-W in Ireland</Link></p>
-                    <p>   <Link to="/">Country Div1</Link></p>
-                    <p>  <Link to="/">Test Championship</Link></p>
-                    <p>  <Link to="/">CWC Super League</Link></p>
-                    <p>  <Link to="/">-Archives-</Link></p>
+                    <span> <Link to="/">India v South Africa</Link></span>
+                    <span>  <Link to="/">IND-W in Sri Lanka</Link></span>
+                    <span>   <Link to="/">Sri Lanka v Australia</Link></span>
+                    <span>  <Link to="/">Netherlands v England</Link></span>
+                    <span>  <Link to="/">SA-W in Ireland</Link></span>
+                    <span>   <Link to="/">Country Div1</Link></span>
+                    <span>  <Link to="/">Test Championship</Link></span>
+                    <span>  <Link to="/">CWC Super League</Link></span>
+                    <span>  <Link to="/">-Archives-</Link></span>
                     </div>
                     </div>
 
@@ -102,27 +102,27 @@ const Navbar = ({but}) => {
                     <div className={styles.dropdown}>
                     <p><Link to="/teams" className={styles.dropbtn}>Teams</Link></p>
                     <div class={styles.dropdowncontent}>
-                    <p> <Link to="/">Australia</Link></p>
-                    <p> <Link to="/">Bangladesh</Link></p>
-                    <p> <Link to="/">England</Link></p>
-                    <p> <Link to="/">India</Link></p>
-                    <p> <Link to="/">New Zealand</Link></p>
-                    <p>  <Link to="/">Pakistan</Link></p>
-                    <p>  <Link to="/">South Africa</Link></p>
-                    <p> <Link to="/">Sri Lanka</Link></p>
-                    <p> <Link to="/">West Indies</Link></p>
-                    <p> <Link to="/">Zimbabwe</Link></p>
+                    <span> <Link to="/">Australia</Link></span>
+                    <span> <Link to="/">Bangladesh</Link></span>
+                    <span> <Link to="/">England</Link></span>
+                    <span> <Link to="/">India</Link></span>
+                    <span> <Link to="/">New Zealand</Link></span>
+                    <span>  <Link to="/">Pakistan</Link></span>
+                    <span>  <Link to="/">South Africa</Link></span>
+                    <span> <Link to="/">Sri Lanka</Link></span>
+                    <span> <Link to="/">West Indies</Link></span>
+                    <span> <Link to="/">Zimbabwe</Link></span>
                     </div>
                     </div>
 
                     <div className={styles.dropdown}>
                     <p> <Link to="/news" className={styles.dropbtn}>News</Link></p>
                     <div class={styles.dropdowncontent}>
-                    <p>  <Link to="/">News Home</Link></p>
-                    <p>  <Link to="/">Covid-19</Link></p>
-                    <p> <Link to="/">Ball-tampering</Link></p>
-                    <p> <Link to="/">Technology in cricket</Link></p>
-                    <p> <Link to="/">Racism</Link></p>
+                    <span>  <Link to="/">News Home</Link></span>
+                    <span>  <Link to="/">Covid-19</Link></span>
+                    <span> <Link to="/">Ball-tampering</Link></span>
+                    <span> <Link to="/">Technology in cricket</Link></span>
+                    <span> <Link to="/">Racism</Link></span>
                         
                     </div>
                     </div>
@@ -131,10 +131,10 @@ const Navbar = ({but}) => {
                     <div className={styles.dropdown}>
                     <p> <Link to="/" className={styles.dropbtn}>Features</Link></p>
                     <div class={styles.dropdowncontent}>
-                    <p>   <Link to="/">Features Home</Link></p>
-                    <p>  <Link to="/">Writers</Link></p>
-                    <p>  <Link to="/">Photo galleries</Link></p>
-                    <p>  <Link to="/">The Cricket Monthly</Link></p>
+                    <span>   <Link to="/">Features Home</Link></span>
+                    <span>  <Link to="/">Writers</Link></span>
+                    <span>  <Link to="/">Photo galleries</Link></span>
+                    <span>  <Link to="/">The Cricket Monthly</Link></span>
                     </div>
                     </div>
 
@@ -142,14 +142,14 @@ const Navbar = ({but}) => {
                     <div className={styles.dropdown}>
                     <p> <Link to="/" className={styles.dropbtn}>Videos</Link></p>
                     <div class={styles.dropdowncontent}>
-                    <p> <Link to="/">Videos Home</Link></p>
-                    <p>  <Link to="/">T20 Time Out Hindi</Link></p>
-                    <p>  <Link to="/">Haan Ya Naa</Link></p>
-                    <p>  <Link to="/">Polite Enquiries</Link></p>
-                    <p>  <Link to="/">Newsroom</Link></p>
-                    <p>  <Link to="/">News and Analysis</Link></p>
-                    <p>  <Link to="/">Features</Link></p>
-                    <p>  <Link to="/">YouTube</Link></p>
+                    <span> <Link to="/">Videos Home</Link></span>
+                    <span>  <Link to="/">T20 Time Out Hindi</Link></span>
+                    <span>  <Link to="/">Haan Ya Naa</Link></span>
+                    <span>  <Link to="/">Polite Enquiries</Link></span>
+                    <span>  <Link to="/">Newsroom</Link></span>
+                    <span>  <Link to="/">News and Analysis</Link></span>
+                    <span>  <Link to="/">Features</Link></span>
+                    <span>  <Link to="/">YouTube</Link></span>
                     </div>
                     </div>
 
@@ -157,12 +157,12 @@ const Navbar = ({but}) => {
                     <div className={styles.dropdown}>
                     <p> <Link to="/" className={styles.dropbtn}>Stats</Link></p>
                     <div class={styles.dropdowncontent}>
-                    <p>   <Link to="/">Stats Home</Link></p>
-                    <p>  <Link to="/">IPL 2022</Link></p>
-                    <p>  <Link to="/">SuperStats</Link></p>
-                    <p>  <Link to="/">All records</Link></p>
-                    <p>  <Link to="/">Grounds</Link></p>
-                    <p>  <Link to="/">AskCricinfo</Link></p>
+                    <span>   <Link to="/">Stats Home</Link></span>
+                    <span>  <Link to="/">IPL 2022</Link></span>
+                    <span>  <Link to="/">SuperStats</Link></span>
+                    <span>  <Link to="/">All records</Link></span>
+                    <span>  <Link to="/">Grounds</Link></span>
+                    <span>  <Link to="/">AskCricinfo</Link></span>
                     </div>
                     </div>
 
@@ -174,12 +174,12 @@ const Navbar = ({but}) => {
                     <div className={styles.dropdown}>
                     <p><Link to="/" className={styles.dropbtn}>EditionIn</Link></p>
                     <div class={styles.dropdowncontent}>
-                    <p><Link to="/">Africa</Link></p>
-                    <p> <Link to="/">Bangladesh</Link></p>
-                    <p> <Link to="/">India-Hindi</Link></p>
-                    <p> <Link to="/">Pakistan</Link></p>
-                    <p>  <Link to="/">United Kingdom</Link></p>
-                    <p>  <Link to="/">Global</Link></p>
+                    <span><Link to="/">Africa</Link></span>
+                    <span> <Link to="/">Bangladesh</Link></span>
+                    <span> <Link to="/">India-Hindi</Link></span>
+                    <span> <Link to="/">Pakistan</Link></span>
+                    <span>  <Link to="/">United Kingdom</Link></span>
+                    <span>  <Link to="/">Global</Link></span>
                     </div>
                     </div>
                    
