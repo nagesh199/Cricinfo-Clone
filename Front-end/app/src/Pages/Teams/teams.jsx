@@ -1,5 +1,5 @@
 import { Team } from "../../components/Teams/team";
-import list from "../../DATABASE/Teams/db.json";
+
 import styles from "../../CSS/Teams/teams.module.css";
 import { useNavigate } from "react-router-dom";
 import axios from "axios"
