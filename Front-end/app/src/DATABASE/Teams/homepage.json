@@ -1,149 +1,145 @@
 {
-    "HomeNews":[{
-        "storyList": [
-          {
-            "story": {
-              "id": 122659,
-              "hline": "KL Rahul set to miss England tour, to go abroad for treatment",
-              "intro": "The current India vice-captain is set to miss the entire tour and go to Germany for his injury treatment",
-              "pubTime": "1655366052895",
-              "source": "Cricbuzz",
-              "storyType": "News",
-              "imageId": "https://i0.wp.com/www.socialnews.xyz/wp-content/uploads/2021/12/30/873153d224d64f42918a71685aa9ba29.jpg?w=777&crop=0,10,777px,437px",
-              "seoHeadline": "KL Rahul set to miss England tour, to go abroad for treatment",
-              "context": "Injury update",
-             "sublist":[{
-            "story": {
-              "id": 122627,
-              "hline": "Injured Rahul doubtful for Edgbaston Test",
-              "intro": " The India opener, who had to be withdrawn from the T20I series against South Africa because of a groin strain, is not certain for the Edgbaston Test",
-              "pubTime": "1655213949744",
-              "source": "Cricbuzz",
-              "storyType": "News",
-              "imageId": "https://st3.cricketcountry.com/wp-content/uploads/2022/06/FotoJet-2022-06-15T084711.269.jpg",
-              "seoHeadline": "Injured KL Rahul doubtful for Edgbaston Test, India v England",
-              "context": "Injury worries",
-              "coverImage": {
-                "id": "235906",
-                "caption": " The India opener, who had to be withdrawn from the T20I series against South Africa because of a groin strain, is not certain for the Edgbaston Test",
-                "source": "Getty"
+  "HomeNews": [{
+      "storyList": [{
+        "story": {
+          "id": 122659,
+          "hline": "KL Rahul set to miss England tour, to go abroad for treatment",
+          "intro": "The current India vice-captain is set to miss the entire tour and go to Germany for his injury treatment",
+          "pubTime": "1655366052895",
+          "source": "Cricbuzz",
+          "storyType": "News",
+          "imageId": "https://i0.wp.com/www.socialnews.xyz/wp-content/uploads/2021/12/30/873153d224d64f42918a71685aa9ba29.jpg?w=777&crop=0,10,777px,437px",
+          "seoHeadline": "KL Rahul set to miss England tour, to go abroad for treatment",
+          "context": "Injury update",
+          "sublist": [{
+              "story": {
+                "id": 122627,
+                "hline": "Injured Rahul doubtful for Edgbaston Test",
+                "intro": " The India opener, who had to be withdrawn from the T20I series against South Africa because of a groin strain, is not certain for the Edgbaston Test",
+                "pubTime": "1655213949744",
+                "source": "Cricbuzz",
+                "storyType": "News",
+                "imageId": "https://st3.cricketcountry.com/wp-content/uploads/2022/06/FotoJet-2022-06-15T084711.269.jpg",
+                "seoHeadline": "Injured KL Rahul doubtful for Edgbaston Test, India v England",
+                "context": "Injury worries",
+                "coverImage": {
+                  "id": "235906",
+                  "caption": " The India opener, who had to be withdrawn from the T20I series against South Africa because of a groin strain, is not certain for the Edgbaston Test",
+                  "source": "Getty"
+                }
+              }
+            },
+            {
+              "story": {
+                "id": 122514,
+                "hline": "Physio Kamlesh Jain formally joins India support staff",
+                "intro": "It has been learnt that a part of the support staff, barring Dravid, will leave for England on June 16 for the yet to be completed fifth Test",
+                "pubTime": "1654540488559",
+                "source": "Cricbuzz",
+                "storyType": "News",
+                "imageId": "https://m.cricbuzz.com/a/img/v1/600x400/i1/c235427/part-of-the-support-staff-barring-dravid-will-leave-for-england-on-june-16.jpg",
+                "seoHeadline": "Physio Kamlesh Jain formally joins India support staff",
+                "context": "India team news",
+                "coverImage": {
+                  "id": "235427",
+                  "caption": "Part of the support staff, barring Dravid, will leave for England on June 16",
+                  "source": "BCCI"
+                }
+              }
+            },
+            {
+              "story": {
+                "id": 122327,
+                "hline": "Umran Malik, Arshdeep Singh picked for SA T20Is; Rahul to lead",
+                "intro": "Hardik Pandya, who returned to regular bowling duties in the IPL, is back in the T20I squad",
+                "pubTime": "1653221968626",
+                "source": "Cricbuzz",
+                "storyType": "News",
+                "imageId": "https://assets.thehansindia.com/h-upload/2022/05/22/1293599-umran.webp",
+                "seoHeadline": "Umran Malik, Arshdeep Singh earn maiden India call-up for South Africa T20Is",
+                "context": "India squads",
+                "coverImage": {
+                  "id": "234537",
+                  "caption": "Hardik returns to the India fold for the T20I series as well. ",
+                  "source": "BCCI"
+                }
               }
             }
-          },
-          {
-            "story": {
-              "id": 122514,
-              "hline": "Physio Kamlesh Jain formally joins India support staff",
-              "intro": "It has been learnt that a part of the support staff, barring Dravid, will leave for England on June 16 for the yet to be completed fifth Test",
-              "pubTime": "1654540488559",
-              "source": "Cricbuzz",
-              "storyType": "News",
-              "imageId": "https://m.cricbuzz.com/a/img/v1/600x400/i1/c235427/part-of-the-support-staff-barring-dravid-will-leave-for-england-on-june-16.jpg",
-              "seoHeadline": "Physio Kamlesh Jain formally joins India support staff",
-              "context": "India team news",
-              "coverImage": {
-                "id": "235427",
-                "caption": "Part of the support staff, barring Dravid, will leave for England on June 16",
-                "source": "BCCI"
-              }
-            }
-          },
-          {
-            "story": {
-              "id": 122327,
-              "hline": "Umran Malik, Arshdeep Singh picked for SA T20Is; Rahul to lead",
-              "intro": "Hardik Pandya, who returned to regular bowling duties in the IPL, is back in the T20I squad",
-              "pubTime": "1653221968626",
-              "source": "Cricbuzz",
-              "storyType": "News",
-              "imageId": "https://assets.thehansindia.com/h-upload/2022/05/22/1293599-umran.webp",
-              "seoHeadline": "Umran Malik, Arshdeep Singh earn maiden India call-up for South Africa T20Is",
-              "context": "India squads",
-              "coverImage": {
-                "id": "234537",
-                "caption": "Hardik returns to the India fold for the T20I series as well. ",
-                "source": "BCCI"
-              }
-            }
-          }
-        ]
-            }
-          }
-        ]
+          ]
+        }
+      }]
     },
     {
-        "storyList":[
-          {
-            "story": {
-              "id": 122318,
-              "hline": "The Umran Malik dilemma for India selectors",
-              "intro": "The Chetan Sharma-led selection panel will meet virtually on Sunday (May 22) to pick the squads for the triple series of South Africa, Ireland and England, for both red-ball and white-ball matches",
-              "pubTime": "1653147070485",
-              "source": "Cricbuzz",
-              "storyType": "News",
-              "imageId": "https://m.cricbuzz.com/a/img/v1/600x400/i1/c234482/having-impressed-in-the-ipl-with-his-whizzing-pace-unseen-in-indian-cricket-malik-is-seen-as-the-next-big-thing.jpg",
-              "seoHeadline": "The Umran Malik dilemma for India selectors",
-              "context": "India cricket",
-              "sublist":[
-                {
-                  "story": {
-                    "id": 122259,
-                    "hline": "India Test team to play warm-up match against Leicestershire",
-                    "intro": "While the Indian T20I team will be playing Ireland on June 26 and 28, the Indian red-ball team will be involved in the first class game on those days in Leicester",
-                    "pubTime": "1652782978016",
-                    "source": "Cricbuzz",
-                    "storyType": "News",
-                    "imageId": "https://circleofcricket.com/post_image/post_image_d8560b5.jpg",
-                    "seoHeadline": "India Test team to play warm-up match against Leicestershire",
-                    "context": "India tour of England, 2022",
-                    "coverImage": {
-                      "id": "234100",
-                      "caption": "The Indian Test team will play a warm-up fixture in Leicester",
-                      "source": "Getty"
-                    }
-                  }
-                },
-                {
-                  "story": {
-                    "id": 122243,
-                    "hline": "Rahane set to miss England tour; selectors to pick two squads",
-                    "intro": "KKR batter has suffered a serious Grade III hamstring injury and will be out of action for at least four weeks\n",
-                    "pubTime": "1652696127925",
-                    "source": "Cricbuzz",
-                    "storyType": "News",
-                    "imageId": "https://c.ndtvimg.com/2021-12/iclu1sp_ajinkya-rahane-afp_625x300_01_December_21.jpg?im=FaceCrop,algorithm=dnn,width=1200,height=675?im=FitAndFill=(800,400)",
-                    "seoHeadline": "Rahane set to miss England tour; selectors set to pick two squads",
-                    "context": "India Cricket News",
-                    "coverImage": {
-                      "id": "234029",
-                      "caption": "Rahane has suffered a serious Grade III hamstring injury and will be out of action for at least four weeks.",
-                      "source": "BCCI"
-                    }
-                  }
-                },
-                {
-                  "story": {
-                    "id": 119506,
-                    "hline": "Fifth Test between England and India rescheduled to July 2022",
-                    "intro": "The concluding Test match will now be played at Edgbaston instead of Manchester",
-                    "pubTime": "1634904086207",
-                    "source": "Cricbuzz",
-                    "storyType": "News",
-                    "imageId": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQYWhOcC7aNl4TgrGCDyszOEyjk5Lz57EymGw&usqp=CAU",
-                    "seoHeadline": "Fifth Test between India and England rescheduled to July 2022",
-                    "context": "India tour of England 2022",
-                    "coverImage": {
-                      "id": "215877",
-                      "caption": "India will resume the Test series at 2-1",
-                      "source": "Getty"
-                    }
-                  }
+      "storyList": [{
+        "story": {
+          "id": 122318,
+          "hline": "The Umran Malik dilemma for India selectors",
+          "intro": "The Chetan Sharma-led selection panel will meet virtually on Sunday (May 22) to pick the squads for the triple series of South Africa, Ireland and England, for both red-ball and white-ball matches",
+          "pubTime": "1653147070485",
+          "source": "Cricbuzz",
+          "storyType": "News",
+          "imageId": "https://m.cricbuzz.com/a/img/v1/600x400/i1/c234482/having-impressed-in-the-ipl-with-his-whizzing-pace-unseen-in-indian-cricket-malik-is-seen-as-the-next-big-thing.jpg",
+          "seoHeadline": "The Umran Malik dilemma for India selectors",
+          "context": "India cricket",
+          "sublist": [{
+              "story": {
+                "id": 122259,
+                "hline": "India Test team to play warm-up match against Leicestershire",
+                "intro": "While the Indian T20I team will be playing Ireland on June 26 and 28, the Indian red-ball team will be involved in the first class game on those days in Leicester",
+                "pubTime": "1652782978016",
+                "source": "Cricbuzz",
+                "storyType": "News",
+                "imageId": "https://circleofcricket.com/post_image/post_image_d8560b5.jpg",
+                "seoHeadline": "India Test team to play warm-up match against Leicestershire",
+                "context": "India tour of England, 2022",
+                "coverImage": {
+                  "id": "234100",
+                  "caption": "The Indian Test team will play a warm-up fixture in Leicester",
+                  "source": "Getty"
                 }
-              ]
+              }
+            },
+            {
+              "story": {
+                "id": 122243,
+                "hline": "Rahane set to miss England tour; selectors to pick two squads",
+                "intro": "KKR batter has suffered a serious Grade III hamstring injury and will be out of action for at least four weeks\n",
+                "pubTime": "1652696127925",
+                "source": "Cricbuzz",
+                "storyType": "News",
+                "imageId": "https://c.ndtvimg.com/2021-12/iclu1sp_ajinkya-rahane-afp_625x300_01_December_21.jpg?im=FaceCrop,algorithm=dnn,width=1200,height=675?im=FitAndFill=(800,400)",
+                "seoHeadline": "Rahane set to miss England tour; selectors set to pick two squads",
+                "context": "India Cricket News",
+                "coverImage": {
+                  "id": "234029",
+                  "caption": "Rahane has suffered a serious Grade III hamstring injury and will be out of action for at least four weeks.",
+                  "source": "BCCI"
+                }
+              }
+            },
+            {
+              "story": {
+                "id": 119506,
+                "hline": "Fifth Test between England and India rescheduled to July 2022",
+                "intro": "The concluding Test match will now be played at Edgbaston instead of Manchester",
+                "pubTime": "1634904086207",
+                "source": "Cricbuzz",
+                "storyType": "News",
+                "imageId": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQYWhOcC7aNl4TgrGCDyszOEyjk5Lz57EymGw&usqp=CAU",
+                "seoHeadline": "Fifth Test between India and England rescheduled to July 2022",
+                "context": "India tour of England 2022",
+                "coverImage": {
+                  "id": "215877",
+                  "caption": "India will resume the Test series at 2-1",
+                  "source": "Getty"
+                }
+              }
             }
-          }
-        ]
-      },{"storyList":[{
+          ]
+        }
+      }]
+    }, {
+      "storyList": [{
         "story": {
           "id": 122685,
           "hline": "Resurgent India rain on South Africa's parade",
@@ -154,7 +150,74 @@
           "imageId": "https://getsarkarinaukari.co.in/wp-content/uploads/2022/06/1655436477_photo.jpg",
           "seoHeadline": "Resurgent India rain on South Africa's parade",
           "context": "South Africa tour of India, 2022",
-          "sublist":[{
+          "sublist": [ {
+            "story": {
+              "id": 122677,
+              "hline": "Live Cricket Score - India vs South Africa, 4th T20I",
+              "intro": "Catch all the live updates of India vs South Africa, 4th T20I, Rajkot",
+              "pubTime": "1655470397507",
+              "source": "Cricbuzz",
+              "storyType": "Live Blogs",
+              "imageId": "https://images.firstpost.com/wp-content/uploads/2022/06/IND-vs-SA-4th-t20I.jpg",
+              "seoHeadline": "Live Cricket Score - India vs South Africa, 4th T20I",
+              "context": "South Africa tour of India, 2022",
+              "coverImage": {
+                "id": "236103",
+                "caption": "DK was in sublime touch tonight.",
+                "source": "BCCI"
+              }
+            }
+          }, {
+            "story": {
+              "id": 122683,
+              "hline": "Dinesh Karthik dazzles as India force series decider",
+              "intro": "South Africa were bowled out for just 87 in the run chase of 170 as India levelled the series",
+              "pubTime": "1655487379507",
+              "source": "Cricbuzz",
+              "storyType": "Reports",
+              "imageId": "https://m.cricbuzz.com/a/img/v1/600x400/i1/c236128/dinesh-karthik-registered-his-maiden-t20i-fifty.jpg",
+              "seoHeadline": "Dinesh Karthik dazzles as India force series decider",
+              "context": "South Africa tour of India, 2022",
+              "coverImage": {
+                "id": "236128",
+                "caption": "Dinesh Karthik registered his maiden T20I fifty",
+                "source": "BCCI"
+              }
+            }
+          }, {
+            "story": {
+              "id": 122680,
+              "hline": "Mumbai, Madhya Pradesh in control going into final day",
+              "intro": "Yashasvi Jaiswal scored 181, his second hundred of the match and joined an elite group of Mumbai batters",
+              "pubTime": "1655474002612",
+              "source": "Cricbuzz",
+              "storyType": "Reports",
+              "imageId": "https://m.cricbuzz.com/a/img/v1/300x200/i1/c213160/yashasvi-jaiswal-scored-181-his-second-hundred-of-the-match-and-joined-an-elite-group-of-mumbai-batters.jpg",
+              "seoHeadline": "Mumbai, Madhya Pradesh in control going into final day",
+              "context": "Ranji Trophy knockouts",
+              "coverImage": {
+                "id": "236122",
+                "caption": "Yashasvi Jaiswal scored 181, his second hundred of the match and joined an elite group of Mumbai batters (Pic courtesy: Yashasvi Jaiswal)",
+                "source": "BCCI"
+              }
+            }
+          }]
+        }
+      }]
+    },
+    {
+      "storyList": [ {
+        "story": {
+          "id": 122679,
+          "hline": "Stats: England now have top three totals in ODIs",
+          "intro": "All the major records broken by England against Netherlands in the first ODI in Amsteleevn when they posted 498",
+          "pubTime": "1655473509523",
+          "source": "Cricbuzz",
+          "storyType": "Statistics & Analysis",
+          "imageId": "https://m.cricbuzz.com/a/img/v1/600x400/i1/c236079/england-now-occupy-the-top-three-positions-for-highest-innings-totals-in-odis.jpg",
+          "seoHeadline": "Stats: England now have top three totals in ODIs",
+          "context": "England tour of Netherlands, 2022",
+          "sublist": [{
             "story": {
               "id": 122684,
               "hline": "Buttler, Salt and Malan tons flatten Netherlands ",
@@ -170,14 +233,16 @@
                 "caption": "Salt and Malan laid a solid platform with their centuries. ",
                 "source": "Getty"
               }
-            }},{"story": {
+            }
+          }, {
+            "story": {
               "id": 122683,
               "hline": "Dinesh Karthik dazzles as India force series decider",
               "intro": "South Africa were bowled out for just 87 in the run chase of 170 as India levelled the series",
               "pubTime": "1655487379507",
               "source": "Cricbuzz",
               "storyType": "Reports",
-              "imageId": 236128,
+              "imageId": "https://m.cricbuzz.com/a/img/v1/600x400/i1/c236128/dinesh-karthik-registered-his-maiden-t20i-fifty.jpg",
               "seoHeadline": "Dinesh Karthik dazzles as India force series decider",
               "context": "South Africa tour of India, 2022",
               "coverImage": {
@@ -185,14 +250,16 @@
                 "caption": "Dinesh Karthik registered his maiden T20I fifty",
                 "source": "BCCI"
               }
-            }}, {"story": {
+            }
+          }, {
+            "story": {
               "id": 122680,
               "hline": "Mumbai, Madhya Pradesh in control going into final day",
               "intro": "Yashasvi Jaiswal scored 181, his second hundred of the match and joined an elite group of Mumbai batters",
               "pubTime": "1655474002612",
               "source": "Cricbuzz",
               "storyType": "Reports",
-              "imageId": "https://www.cricbuzz.com/a/img/v1/595x396/i1/c236131/livingstone-added-unbeaten-66.jpg",
+              "imageId": "https://m.cricbuzz.com/a/img/v1/300x200/i1/c213160/yashasvi-jaiswal-scored-181-his-second-hundred-of-the-match-and-joined-an-elite-group-of-mumbai-batters.jpg",
               "seoHeadline": "Mumbai, Madhya Pradesh in control going into final day",
               "context": "Ranji Trophy knockouts",
               "coverImage": {
@@ -201,9 +268,9 @@
                 "source": "BCCI"
               }
             }
-          }
-          ]
+          }]
         }
-      }]}]
+      }]
+    }
+  ]
 }
-
