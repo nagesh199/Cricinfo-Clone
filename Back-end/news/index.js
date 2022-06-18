@@ -89,9 +89,6 @@ app.get("/news/:id",(req,res)=>{
         res.end(JSON.stringify(elem))
     }
   })
-
-  res.end("end")
-
 })
 
 
