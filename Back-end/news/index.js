@@ -85,7 +85,8 @@ app.get("/news/:id",(req,res)=>{
   })
 })
 
+const PORT = process.env.PORT || 3030
 
-app.listen(3030,()=>{
+app.listen(PORT,()=>{
     console.log("server started at 3030")
 })

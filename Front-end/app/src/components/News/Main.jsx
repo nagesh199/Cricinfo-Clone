@@ -25,7 +25,15 @@ function Main({theme}) {
             </div>
             <div>
                 {/* ---------------------------------------------------- */}
+               
+               <img src="https://tpc.googlesyndication.com/simgad/10921045685882734973" style={{marginTop:"50px"}} alt="" srcset="" />
+               
+              
              
+
+             <div style={{marginTop:"200px"}}>
+              <img src="https://tpc.googlesyndication.com/simgad/7638344253131718272" alt="" />
+             </div>
 
             </div>
 

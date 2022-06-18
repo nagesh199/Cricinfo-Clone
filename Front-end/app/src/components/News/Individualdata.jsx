@@ -24,7 +24,7 @@ const Individualdata=({theme})=> {
     
   return (
     <>
-    <h1>checking</h1>
+    
     <div  id={theme ? styles.day : styles.night} className={styles.mainbackground}>
         <div  id={theme ? styles.day : styles.night} className={styles.submain}>
             <div  id={theme ? styles.day : styles.night}>
@@ -91,6 +91,8 @@ const Individualdata=({theme})=> {
             </div>
 
                 <div  id={theme ? styles.day : styles.night} style={{borderRadius:"5%",width:"300px",backgroundColor:"#1d1e1f",height:"400px",marginTop:"50%",marginLeft:"30%"}}>
+
+                  <img src="https://s0.2mdn.net/simgad/13402271787841810265" alt="" srcset="" />
 
                 </div>
          </div>
