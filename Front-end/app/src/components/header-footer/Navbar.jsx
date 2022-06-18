@@ -168,9 +168,10 @@ const Navbar = ({but}) => {
 
                 </div>
                 <div className={styles.searchDiv}>
+                  
                     <img src="https://wassets.hscicdn.com/static/images/fantasy-home.png" alt="" />
                     <Link to="/">Fantasy</Link>
-
+                    
                     <div className={styles.dropdown}>
                     <p><Link to="/" className={styles.dropbtn}>EditionIn</Link></p>
                     <div class={styles.dropdowncontent}>
