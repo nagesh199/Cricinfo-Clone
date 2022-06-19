@@ -23,7 +23,7 @@ export const Home = ({ theme }) => {
   },[])
 
   const getData= async()=>{
-    const home= await axios.get("http://localhost:3030/homepage")
+    const home= await axios.get("https://espncricinfo-clone.herokuapp.com/homepage")
    console.log(home.data)
    setNews(home.data.HomeNews)
   }

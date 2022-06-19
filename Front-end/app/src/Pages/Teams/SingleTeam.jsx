@@ -23,9 +23,9 @@ const [runsData,setRuns]=useState([])
 
 
 const getData= async()=>{
-  const news= await axios.get("http://localhost:3030/teamsnews")
-  const schedule = await axios.get("http://localhost:3030/schedules")
-  const ranking = await axios.get("http://localhost:3030/ranking")
+  const news= await axios.get("https://espncricinfo-clone.herokuapp.com/teamsnews")
+  const schedule = await axios.get("https://espncricinfo-clone.herokuapp.com/schedules")
+  const ranking = await axios.get("https://espncricinfo-clone.herokuapp.com/ranking")
  console.log(ranking.data.RUNS.Test)
   setNews(news.data.storyList)
   setSchedule(schedule.data.teamMatchesData)

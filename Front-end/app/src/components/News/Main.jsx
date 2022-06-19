@@ -9,7 +9,7 @@ function Main({theme}) {
 
     var [data, setdata] = useState([])
     const getdata=()=>{
-        axios.get("http://localhost:3030/news").then(res=>setdata(res.data))
+        axios.get("https://espncricinfo-clone.herokuapp.com/news").then(res=>setdata(res.data))
     }
     useEffect(() => {
       getdata()
