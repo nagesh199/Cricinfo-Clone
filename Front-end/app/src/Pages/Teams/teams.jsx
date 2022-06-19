@@ -19,7 +19,7 @@ const [womenData,setwData]=useState([])
   navigate(`/teams/${el.teamName}`)
   }
 const getData= async()=>{
-  const res= await axios.get("http://localhost:3030/teams")
+  const res= await axios.get("https://espncricinfo-clone.herokuapp.com/teams")
   console.log(res.data.ipllist)
   setipl(res.data.ipllist)
   setTeam(res.data.list)
