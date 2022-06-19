@@ -10,7 +10,7 @@ app.use(express.json());
 
 app.use(cors())
 
-app.use(express.static(path.join(__dirname, 'Front-end/app/build')));
+app.use(express.static(path.join(__dirname, '/public')));
 
 app.get("/teams",(req,res)=>{
  
