@@ -10,7 +10,7 @@ app.use(express.json());
 
 app.use(cors())
 
-app.use(express.static(path.join(__dirname, 'client/build')));
+app.use(express.static(path.join(__dirname, 'Front-end/app/build')));
 
 app.get("/teams",(req,res)=>{
  
@@ -70,7 +70,7 @@ app.get("/news/:id",(req,res)=>{
   })
 })
 
-//Route setupapp.get('/', (req, res) => {    res.send('root route');})
+
 
 const PORT = process.env.PORT || 3030
 
