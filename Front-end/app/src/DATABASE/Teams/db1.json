@@ -1,0 +1,151 @@
+{
+  "db": [
+    {
+      "id": 1,
+
+      "imageURL1": "https://img1.hscicdn.com/image/upload/f_auto,t_ds_wide_w_480/lsci/db/PICTURES/CMS/336700/336743.6.jpg",
+      "heading1": "Disney Star and Viacom 18 share the spoils in 6 billion-dollar-plus IPL rights deal",
+      "paragraph1": "Time Internet also gets share of global media rights as IPL's per-game valuation rises to second behind only NFL",
+      "para1": "FAQs:All you need to know about the e-auction"
+    },
+
+    {
+      "id": 2,
+      "imageURL2": "https://img1.hscicdn.com/image/upload/f_auto,t_ds_wide_w_720/lsci/db/PICTURES/CMS/339900/339914.6.jpg",
+      "heading2": "196%,2,$950m-the key numbers from a record-breaking IPL rights auction",
+      "para2": "A mind-blogging surge in the value of digital rights included"
+    },
+    {
+      "id": 3,
+      "para3": "'Two-and-a-half-month IPL window' from next FTP-Jay Shah'"
+    },
+
+    {
+      "id": 4,
+      "heading4": "INDIA VS SOUTH AFRICA",
+      "para41": "3rd T20I,VISHAKHAPATNAM",
+      "para42": "RESULT",
+      "para43": "India",
+      "para44": "South Africa",
+      "runs4": "179/5",
+      "score4": "(19.1/20 ov. T:180) 131",
+      "para45": "India won by 48 runs"
+    },
+    {
+      "id": "5",
+      "imageURL5": "https://img1.hscicdn.com/image/upload/f_auto,t_ds_wide_w_720/lsci/db/PICTURES/CMS/341000/341004.6.jpg",
+      "heading5": "Chahal finds success again by going back to his strengths",
+      "para5": "In the last game,i was bowling a lot of sliders.My strength is to turn the ball,to get it to dip"
+    },
+    {
+      "id": "6",
+      "imageURL6": "https://img1.hscicdn.com/image/upload/f_auto,t_ds_square_w_400/esci/media/motion/2022/0614/dm_220614_INET_CRIC_indvsa2022_time_out_chahal_non-branded_GLOBAL/dm_220614_INET_CRIC_indvsa2022_time_out_chahal_non-branded_GLOBAL.jpg",
+      "heading6": "Jaffer:Wristspinners need to be brave and chahal was",
+      "para6": "More revs on the ball a feature of Chahal's match-winning 3 for 20 against South Africa"
+    },
+    {
+      "id": "7",
+      "imageURL7": "https://img1.hscicdn.com/image/upload/f_auto,t_ds_wide_w_240/esci/media/motion/2022/0615/dm_220615_indvssa_interview_nonbranded_ruturajpcv3/dm_220615_indvssa_interview_nonbranded_ruturajpcv3.jpg",
+      "heading7": "Harshal,Chahal ensure India stay alive in the series",
+      "para7": "Fifties from Gaikwad and kisan also paly in the dismanting of south Africa",
+      "para71": "Hindi coverage",
+      "para72": "Steyn:Gaikwad bats just like KL Rahul"
+    },
+    {
+      "id": 8,
+      "heading8": "ENGLAND VS NEW ZEALAND",
+      "para81": "2ND TEST.TRENT BRIDGE",
+      "para82": "RESULT",
+      "para83": "NZ",
+      "para84": "ENG",
+      "runs8": "553 & 284",
+      "score8": "(T:299) 539 & 299/5",
+      "para85": "England won by 5 wickets "
+    },
+    {
+      "id": "9",
+      "imageURL9": "https://img1.hscicdn.com/image/upload/f_auto,t_ds_wide_w_400/lsci/db/PICTURES/CMS/340900/340995.6.jpg",
+      "heading9": "Bairstow blitz,Stokes fashion record chase at Trent Bridge",
+      "para9": "Red-ball cricket meets white-ball cricket as England hunt down 299"
+    },
+    {
+      "id": 10,
+      "imageURL10": "https://img1.hscicdn.com/image/upload/f_auto,t_ds_square_w_400/lsci/db/PICTURES/CMS/340900/340992.10.jpg",
+      "heading10": "Bairstow:'It was do or die,so you've got to do",
+      "para101": "post-tea onslaught fuelled by 'cheese and ham toastile and a cup of cofee",
+      "para102": "England lose two WTC points for over rate ",
+      "para103": "Stats-Rapid ton,record chase",
+      "para104": "Stokes charges up his learning curve",
+      "para105": "Mitchell unfazed by dip in fortune after 190"
+    },
+    {
+      "id": 11,
+      "heading11": "SRI LANKA VS AUSTRALIA",
+      "para111": "ONE_DAY SERIES",
+      "para112": "RESULT",
+      "para113": "SL",
+      "para114": "AUS",
+      "runs11": "300/7",
+      "score11": "(42.3/44 ov. T:282) 282/8",
+      "para115": "Austraila won by 2 wickets (with 9 balls remaining) (D/L method "
+    },
+    {
+      "id": "12",
+      "imageURL12": "https://img1.hscicdn.com/image/upload/f_auto,t_ds_wide_w_400/lsci/db/PICTURES/CMS/341000/341014.6.jpg",
+      "heading12": "Maxwell's brilliance takes Austraila to narrow victory",
+      "para12": "A limping Hasaranga took four wickets after a sparkling innings",
+      "para116": "Labuschagne among players to watch"
+    },
+    {
+      "id": 13,
+      "heading13": "ASK STEVEN",
+      "para13": "STATS AND TRIVIA Q&A",
+      "imageURL13": "https://img1.hscicdn.com/image/upload/f_auto,t_ds_wide_w_400/lsci/db/PICTURES/CMS/125600/125637.3.jpg",
+      "para132": "What's the lowest all-out Test total that included a 200-run partnership?",
+      "para133": "And what's the lowest score a batter has a player-of-the-Match award for?"
+    },
+    {
+      "id": 14,
+      "heading14": "SOUTH AFRICA TOUR OF IRELAND",
+      "para141": "2ND WOMEN'S ODI,DUBLIN",
+      "para142": "RESULT",
+      "para143": "IRE-W",
+      "para144": "SA-W",
+      "runs14": "213/8",
+      "score14": "(38.4/50 ov. T:214) 217/1",
+      "para145": "SA Women won by 9 wickets (with 68 balls remaining)"
+    },
+    {
+      "id": "15",
+      "imageURL15": "https://img1.hscicdn.com/image/upload/f_auto,t_ds_wide_w_400/lsci/db/PICTURES/CMS/341000/341017.6.jpg",
+      "heading15": "Ismail,Steyn and Goodall help SA take unassailable lead",
+      "para15": "Ireland captain Gaby Lewis' half-century went in vain"
+    },
+    {
+      "id": "16",
+      "heading16": "CORRUPTION IN CRICKET",
+      "imageURL16": "https://img1.hscicdn.com/image/upload/f_auto,t_ds_wide_w_400/lsci/db/PICTURES/CMS/340900/340933.6.jpg",
+      "para16": "Pumelela Matshikwe convicted in 2015 Ram Slam fixing case",
+      "para161": "Former South African bowler becomes second player after Gulam Bodi to be convicted"
+    },
+    {
+      "id": 17,
+      "heading": "PAKISTAN VS WEST INDIES",
+      "para1": "3RD ODI,MULTAN"
+    },
+    {
+      "id": "18",
+      "imageURL": "https://img1.hscicdn.com/image/upload/f_auto,t_ds_wide_w_400/lsci/db/PICTURES/CMS/340700/340705.6.jpg",
+
+      "heading": "Babar:Pakistan 'are playing proactive",
+      "para": " People said we couldn't chase 350,We did [against Australia], and our bowling also defended totals"
+    },
+    {
+      "id": "19",
+      "imageURL": "https://img1.hscicdn.com/image/upload/f_auto,t_ds_wide_w_400/lsci/db/PICTURES/CMS/340700/340772.6.jpg",
+      "heading": "Fernando:Cricket cannot solve SRi Lanka's massive problems,but at least it can be a distraction ",
+
+      "para": "For once,the sport is not the primary unifying agent in a country now wracked by economic and political crisis"
+    }
+  ]
+}
