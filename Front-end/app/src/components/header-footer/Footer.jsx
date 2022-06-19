@@ -85,7 +85,7 @@ const Footer = ({ theme }) => {
           <a
             id={theme ? styles.day1 : styles.night1}
             target="_blank"
-            href="https://www.instagram.com/_abhinav_roy_/"
+            href="https://www.instagram.com/_abhinav_roy_/" rel="noreferrer"
           >
             Instagram
           </a>
