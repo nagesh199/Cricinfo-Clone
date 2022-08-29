@@ -11,7 +11,7 @@ const Individualdata=({theme})=> {
     const {id}=useParams()
     
     const getdata=async()=>{
-        const temp=axios.get(`https://espncricinfo-clone.herokuapp.com/news/${id}`)
+        const temp=axios.get(`https://espncricinfo-clone.herokuapp.com/news${id}`)
         var d=await temp
         setData(d.data)
         setArr(d.data.longdesc)
