@@ -241,3 +241,30 @@
     background-color:rgb(29,30,31);
     color: white;
   }
+
+  @media screen and (min-device-width: 100px) and (max-device-width: 600px) { 
+   
+    .MainIndia {
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+    }
+    .rightbox {
+        width :20%;
+        height:auto;
+        margin: auto;
+    }
+    .leftbox {
+        width:70%;
+        margin: auto;
+    /* margin-left: 50px; */
+        
+    }
+    .currentMain {
+        width:70%;
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+        background-color: #ffffff;
+        margin-left: 10px;
+        position:relative;
+    }
+}
