@@ -1,37 +1,3 @@
-body { 
-  background-color: rgb(249,249,251);
-}
-.Insidemaindivday {
-  background-color:white;
-  font:12px;
-  font-family: " BentonSans,Arial,Noto Sans,sans-serif";
-  --tw-text-opacity:1;
-  line-height:inherit;
-  border-radius: 10px;
-}
-.Insidemaindivnight {
-  background-color:rgb(29,30,31);
-  font:12px;
-  font-family: " BentonSans,Arial,Noto Sans,sans-serif";
-  color:white;
-  border-radius: 10px;
-}
-
-.searchhover :hover { 
-  background-color:lightblue;
-}
-a {
-  text-decoration:none;
-}
-#hoverdivhere :hover{
-background-color: rgba(53,186,246,0.5);
-cursor:pointer;
-}
-
-.daytheme {
-  background-color: rgb(249,249,251);
-}
-
-.nighttheme {
-  background-color: black;
+.App {
+  width: 99.vw;
 }

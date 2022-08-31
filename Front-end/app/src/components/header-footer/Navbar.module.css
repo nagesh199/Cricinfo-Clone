@@ -1,7 +1,6 @@
 .NavContainer {
     display: flex;
-    justify-content: space-around;
-   
+    width: 98.9vw;
     align-items: center;
     background-color: rgb(50, 140, 249);
     padding-top: 14px;
@@ -10,12 +9,12 @@
 }
 
 .ImgDiv {
-    width: 15%;
+    width: 14vw;
     text-align: center;
 }
 
 .secondDiv {
-   
+    width: 12vw;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -28,7 +27,6 @@
 }
 
 .contentDiv {
-  
     text-align: center;
     display: flex;
     justify-content: space-between;
@@ -38,14 +36,14 @@
 
 
 .searchDiv {
-    width: 20%;
     display: flex;
-    margin-left: 30px;
+    margin-left: 3vw;
     align-items: center;
 }
 .searchDiv a {
     color: white;
     text-decoration: none;
+    font-size: 1.2vw;
  }
 
 .searchDiv>img {
@@ -74,23 +72,16 @@
 .themeicon {
     display: flex;
     align-items: center;
-    width: 240px;
-    height: 40px;
-    margin-left: 20px;
+    margin-left: 2vw;
 
 }
 
-.themeicon>img {
-    width: 15%;
-    height: 55%;
-    background-color: #ddd;
-    border-radius: 50%;
-}
 
 .themeicon>input {
-    height: 22px;
+    height: 3vh;
+    width: 12vw;
     border-radius: 8px;
-    margin-left: 20px;
+    margin-left: 1vw;
     border: none;
 }
 
@@ -149,4 +140,8 @@
 /* Change the background color of the dropdown button when the dropdown content is shown */
 .dropdown:hover .dropbtn {
     background-color: rgb(50, 140, 249);
+}
+
+.dropdown > p {
+    font-size: 1.2vw;
 }
